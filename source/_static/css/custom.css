@@ -1,0 +1,17 @@
+/* Custom CSS for MTDataPro Documentation */
+.logo {
+    height: 50px;
+}
+.version {
+    color: #2980B9;
+    font-weight: bold;
+}
+.admonition-note {
+    border-left-color: #3498db;
+}
+.admonition-warning {
+    border-left-color: #f39c12;
+}
+.admonition-tip {
+    border-left-color: #27ae60;
+}

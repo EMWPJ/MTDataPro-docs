@@ -1,0 +1,5 @@
+@ECHO OFF
+SPHINXBUILD = sphinx-build
+SOURCEDIR = source
+BUILDDIR = _build
+%SPHINXBUILD% -b html %SOURCEDIR% %BUILDDIR%\html
