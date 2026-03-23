@@ -11,15 +11,24 @@ extensions = [
     'myst_parser',
     'sphinx.ext.intersphinx',
     'sphinx.ext.viewcode',
-    'sphinx.ext.mathjax',
     'sphinx_copybutton',
     'sphinx_sitemap',
     'sphinx_design',
     'sphinxcontrib.mermaid',
 ]
 
-# 禁用 myst_parser 的 math 扩展，交给 sphinx.mathjax 处理
-myst_disable_extensions = ['amsmath', 'dollarmath']
+# 启用 myst_parser 的 math 扩展
+myst_enable_extensions = [
+    'amsmath',
+    'dollarmath',
+    'colon_fence',
+    'deflist',
+    'html_admonition',
+    'html_image',
+    'linkify',
+    'substitution',
+    'tasklist',
+]
 
 # Mermaid 配置
 mermaid_version = '10.6.1'
@@ -43,21 +52,13 @@ html_theme_options = {
 
 html_static_path = ['_static']
 html_css_files = ['css/custom.css']
+html_js_files = ['mathjax-init.js']
 
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
 }
 
-myst_enable_extensions = [
-    'colon_fence',
-    'deflist',
-    'html_admonition',
-    'html_image',
-    'linkify',
-    'substitution',
-    'tasklist',
-]
 myst_heading_anchors = 3
 myst_url_schemes = ('http', 'https', 'mailto')
 myst_fence_as_directive = ['mermaid']
