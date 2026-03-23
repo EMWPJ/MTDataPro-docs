@@ -1,6 +1,6 @@
-project = 'MTDataPro'
-copyright = '2026, EMWPJ'
-author = 'EMWPJ'
+project = 'MTDataPro 中文手册'
+copyright = '2026, MTDataPro 开发团队'
+author = 'MTDataPro 开发团队'
 version = '1.9'
 release = '1.9.4'
 language = 'zh_CN'
@@ -11,11 +11,9 @@ extensions = [
     'myst_parser',
     'sphinx.ext.intersphinx',
     'sphinx.ext.viewcode',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon',
-    'sphinx.ext.coverage',
     'sphinx_copybutton',
     'sphinx_sitemap',
+    'sphinx_design',
 ]
 
 templates_path = ['_templates']
@@ -26,12 +24,13 @@ html_theme_options = {
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
-    'style_nav_header_gradient': '#2980B9',
+    'style_nav_header_background': '#2980B9',
     'collapse_navigation': False,
     'sticky_navigation': True,
     'navigation_depth': 4,
     'includehidden': True,
     'titles_only': False,
+    'flyout_display': 'hidden',
 }
 
 html_static_path = ['_static']
@@ -49,13 +48,38 @@ myst_enable_extensions = [
     'html_admonition',
     'html_image',
     'linkify',
-    ' substitution',
+    'substitution',
     'tasklist',
+    'dollarmath',
 ]
 myst_heading_anchors = 3
+myst_url_schemes = ('http', 'https', 'mailto')
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None),
 }
 
-sitemap_urls = ['https://mtdp.example.com/docs/']
+sitemap_url_scheme = 'https://mtdp-china.org/docs/{lang}'
+
+# 国际化
+locale_dirs = ['locale/']
+gettext_compact = False
+
+# HTML 输出选项
+html_title = 'MTDataPro 中文手册'
+html_short_title = 'MTDataPro'
+html_favicon = '_static/favicon.ico'
+html_last_updated_fmt = '%Y 年 %m 月 %d 日'
+html_show_sourcelink = True
+html_show_sphinx = True
+html_show_copyright = True
+
+# 侧边栏配置
+html_sidebars = {
+    '**': [
+        'sidebar/brand.html',
+        'sidebar/search.html',
+        'sidebar/scroll.html',
+        'sidebar/ethical-ads.html',
+    ]
+}

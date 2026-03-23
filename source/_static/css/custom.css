@@ -1,17 +1,132 @@
 /* Custom CSS for MTDataPro Documentation */
-.logo {
-    height: 50px;
+
+/* 首页标题样式 */
+.wy-body-for-nav .wy-banner {
+    background: linear-gradient(135deg, #2980B9 0%, #3498db 100%);
+    padding: 2em;
+    text-align: center;
 }
+
+.wy-banner h1 {
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.wy-banner p {
+    color: rgba(255,255,255,0.9);
+    font-size: 1.2em;
+}
+
+/* Logo 样式 */
+.logo {
+    height: 60px;
+    margin: 10px 0;
+}
+
+/* 版本徽章 */
 .version {
     color: #2980B9;
     font-weight: bold;
 }
+
+/* 快速链接卡片 */
+.toctree-wrapper .grid {
+    margin: 1.5em 0;
+}
+
+/* 代码块样式 */
+.highlight {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin: 1em 0;
+}
+
+/* 表格样式 */
+.wy-table-responsive table {
+    margin: 1em 0;
+}
+
+.wy-table-responsive th {
+    background-color: #2980B9;
+    color: white;
+}
+
+/* 提示框样式 */
 .admonition-note {
     border-left-color: #3498db;
 }
+
+.admonition-note .admonition-title {
+    background-color: #3498db;
+}
+
 .admonition-warning {
     border-left-color: #f39c12;
 }
+
+.admonition-warning .admonition-title {
+    background-color: #f39c12;
+}
+
 .admonition-tip {
     border-left-color: #27ae60;
+}
+
+.admonition-tip .admonition-title {
+    background-color: #27ae60;
+}
+
+/* 侧边栏样式 */
+.wy-nav-side {
+    background-color: #343131;
+}
+
+.wy-nav-content {
+    max-width: 1000px;
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    padding: 1.5em;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e1e4e5;
+    margin-top: 2em;
+}
+
+/* 流程图样式 */
+.mermaid {
+    text-align: center;
+    margin: 1.5em 0;
+    background-color: #f8f9fa;
+    padding: 1em;
+    border-radius: 4px;
+}
+
+/* 首页网格卡片样式 */
+.sd-card {
+    border: 1px solid #e1e4e5;
+    border-radius: 4px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.sd-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
+}
+
+.sd-card-title {
+    font-weight: bold;
+    color: #2980B9;
+}
+
+/* 搜索框样式 */
+.wy-side-nav-search {
+    background-color: #2980B9;
+}
+
+/* 面包屑导航 */
+.wy-breadcrumbs {
+    margin-bottom: 1em;
 }
