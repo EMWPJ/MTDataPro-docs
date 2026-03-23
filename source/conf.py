@@ -18,6 +18,9 @@ extensions = [
     'sphinxcontrib.mermaid',
 ]
 
+# 禁用 myst_parser 的 math 扩展，交给 sphinx.mathjax 处理
+myst_disable_extensions = ['amsmath', 'dollarmath']
+
 # Mermaid 配置
 mermaid_version = '10.6.1'
 mermaid_init_js = 'mermaid.initialize({startOnLoad:true,theme:"neutral"});'
@@ -47,7 +50,6 @@ source_suffix = {
 }
 
 myst_enable_extensions = [
-    'amsmath',
     'colon_fence',
     'deflist',
     'html_admonition',
@@ -55,7 +57,6 @@ myst_enable_extensions = [
     'linkify',
     'substitution',
     'tasklist',
-    'dollarmath',
 ]
 myst_heading_anchors = 3
 myst_url_schemes = ('http', 'https', 'mailto')
