@@ -169,7 +169,7 @@ $$\mathbf{E} = \mathbf{Z} \cdot \mathbf{H} \tag{2.2}$$
 
 因为地下结构可能沿不同方向有不同电阻率（各向异性），所以阻抗是一个**2×2张量**：
 
-$$\begin{bmatrix} E_x \\ E_y \end{bmatrix} = \begin{bmatrix} Z_{xx} & Z_{xy} \\ Z_{yx} & Z_{yy} \end{bmatrix} \begin{bmatrix} H_x \\ H_y \end{bmatrix}\qquad\text{(2.3)}$$
+$$\begin{pmatrix} E_x \\ E_y \end{pmatrix} = \begin{pmatrix} Z_{xx} & Z_{xy} \\ Z_{yx} & Z_{yy} \end{pmatrix} \begin{pmatrix} H_x \\ H_y \end{pmatrix}\qquad\text{(2.3)}$$
 
 #### 视电阻率与相位
 
