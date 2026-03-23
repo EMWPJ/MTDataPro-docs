@@ -69,6 +69,49 @@ intersphinx_mapping = {
 
 sitemap_url_scheme = 'https://mtdp-china.org/docs/{lang}'
 
+templates_path = ['_templates']
+
+html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'logo_only': False,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'style_nav_header_background': '#2980B9',
+    'collapse_navigation': False,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False,
+    'flyout_display': 'hidden',
+}
+
+html_static_path = ['_static']
+html_css_files = ['css/custom.css']
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
+
+myst_enable_extensions = [
+    'colon_fence',
+    'deflist',
+    'html_admonition',
+    'html_image',
+    'linkify',
+    'substitution',
+    'tasklist',
+]
+myst_heading_anchors = 3
+myst_url_schemes = ('http', 'https', 'mailto')
+myst_fence_as_directive = ['mermaid']
+
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3', None),
+}
+
+sitemap_url_scheme = 'https://mtdp-china.org/docs/{lang}'
+
 # HTML 输出选项
 html_title = 'MTDataPro 中文手册'
 html_short_title = 'MTDataPro'
@@ -85,4 +128,18 @@ html_sidebars = {
         'sidebar/scroll.html',
         'sidebar/ethical-ads.html',
     ]
+}
+
+# MathJax 配置
+mathjax3_config = {
+    "options": {
+        "processHtmlClass": "math",
+    },
+    "tex2jax": {
+        "inlineMath": [["$", "$"], ["\\(", "\\)"]],
+        "displayMath": [["$$", "$$"], ["\\[", "\\]"]],
+    },
+    "startup": {
+        "pageReady": "MathJax.startup.promise.then(() => MathJax.typesetPromise())"
+    }
 }
