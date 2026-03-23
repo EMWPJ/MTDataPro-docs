@@ -61,14 +61,9 @@ intersphinx_mapping = {
 
 sitemap_url_scheme = 'https://mtdp-china.org/docs/{lang}'
 
-# 国际化
-locale_dirs = ['locale/']
-gettext_compact = False
-
 # HTML 输出选项
 html_title = 'MTDataPro 中文手册'
 html_short_title = 'MTDataPro'
-html_favicon = '_static/favicon.ico'
 html_last_updated_fmt = '%Y 年 %m 月 %d 日'
 html_show_sourcelink = True
 html_show_sphinx = True
