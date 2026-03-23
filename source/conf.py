@@ -22,6 +22,21 @@ extensions = [
 mermaid_version = '10.6.1'
 mermaid_init_js = 'mermaid.initialize({startOnLoad:true,theme:"neutral"});'
 
+# MathJax 配置
+mathjax3_config = {
+    "options": {
+        "enableMenu": False,
+        "processHtmlClass": "math|tex2jax_process|mathjax_process|output_area",
+    },
+    "tex2jax": {
+        "inlineMath": [["$", "$"], ["\\(", "\\)"]],
+        "displayMath": [["$$", "$$"], ["\\[", "\\]"]],
+    },
+    "startup": {
+        "ready": "MathJax.startup.promise.then(() => MathJax.typesetPromise())"
+    }
+}
+
 templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
