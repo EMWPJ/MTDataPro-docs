@@ -59,6 +59,7 @@ myst_enable_extensions = [
 ]
 myst_heading_anchors = 3
 myst_url_schemes = ('http', 'https', 'mailto')
+myst_fence_as_directive = ['mermaid']
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None),
