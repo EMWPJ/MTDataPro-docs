@@ -95,13 +95,25 @@ footer {
     margin-top: 2em;
 }
 
-/* 流程图样式 */
-.mermaid {
-    text-align: center;
-    margin: 1.5em 0;
+/* Mermaid 流程图样式 */
+pre.mermaid {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: visible;
     background-color: #f8f9fa;
     padding: 1em;
     border-radius: 4px;
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+pre.mermaid > svg {
+    height: auto !important;
+    max-height: none !important;
+    width: auto !important;
+    min-width: 100%;
+    max-width: 100% !important;
 }
 
 /* 首页网格卡片样式 */
