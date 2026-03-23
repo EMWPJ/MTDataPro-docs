@@ -14,7 +14,12 @@ extensions = [
     'sphinx_copybutton',
     'sphinx_sitemap',
     'sphinx_design',
+    'sphinxcontrib.mermaid',
 ]
+
+# Mermaid 配置
+mermaid_version = '10.6.1'
+mermaid_init_js = 'mermaid.initialize({startOnLoad:true,theme:"neutral"});'
 
 templates_path = ['_templates']
 
