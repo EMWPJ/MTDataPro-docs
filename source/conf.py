@@ -1,136 +1,90 @@
-project = 'MTDataPro 中文手册'
-copyright = '2026, MTDataPro 开发团队'
-author = 'MTDataPro 开发团队'
-version = '1.9'
-release = '1.9.4'
-language = 'zh_CN'
+project = "MTDataPro 中文手册"
+copyright = "2026, MTDataPro 开发团队"
+author = "MTDataPro 开发团队"
+version = "1.9"
+release = "1.9.4"
+language = "zh_CN"
 
 exclude_patterns = []
 
 extensions = [
-    'myst_parser',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.viewcode',
-    'sphinx_copybutton',
-    'sphinx_sitemap',
-    'sphinx_design',
-    'sphinxcontrib.mermaid',
+    "myst_parser",
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.viewcode",
+    "sphinx_copybutton",
+    "sphinx_sitemap",
+    "sphinxcontrib.mermaid",
 ]
 
-# 启用 myst_parser 的 math 扩展
 myst_enable_extensions = [
-    'amsmath',
-    'dollarmath',
-    'colon_fence',
-    'deflist',
-    'html_admonition',
-    'html_image',
-    'linkify',
-    'substitution',
-    'tasklist',
+    "amsmath",
+    "dollarmath",
+    "colon_fence",
+    "deflist",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "substitution",
+    "tasklist",
 ]
 
-# Mermaid 配置
-mermaid_version = '10.6.1'
+mermaid_version = "10.6.1"
 mermaid_init_js = 'mermaid.initialize({startOnLoad:true,theme:"neutral"});'
 
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = "sphinx_rtd_theme"
 html_theme_options = {
-    'logo_only': False,
-    'prev_next_buttons_location': 'bottom',
-    'style_external_links': False,
-    'style_nav_header_background': '#2980B9',
-    'collapse_navigation': False,
-    'sticky_navigation': True,
-    'navigation_depth': 4,
-    'includehidden': True,
-    'titles_only': False,
-    'flyout_display': 'hidden',
+    "logo_only": False,
+    "prev_next_buttons_location": "bottom",
+    "style_external_links": False,
+    "style_nav_header_background": "#2980B9",
+    "collapse_navigation": False,
+    "sticky_navigation": True,
+    "navigation_depth": 4,
+    "includehidden": True,
+    "titles_only": False,
+    "flyout_display": "hidden",
 }
 
-html_static_path = ['_static']
-html_css_files = ['css/custom.css']
-html_js_files = ['mathjax-init.js']
+html_static_path = ["_static"]
+html_css_files = ["css/custom.css"]
+html_js_files = ["mathjax-init.js"]
 
 source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown',
+    ".rst": "restructuredtext",
+    ".md": "markdown",
 }
 
 myst_heading_anchors = 3
-myst_url_schemes = ('http', 'https', 'mailto')
-myst_fence_as_directive = ['mermaid']
+myst_url_schemes = ("http", "https", "mailto")
+myst_fence_as_directive = ["mermaid"]
 
 intersphinx_mapping = {
-    'python': ('https://docs.python.org/3', None),
+    "python": ("https://docs.python.org/3", None),
 }
 
-sitemap_url_scheme = 'https://mtdp-china.org/docs/{lang}'
+# Sitemap configuration
+html_baseurl = "https://emwpj.github.io/MTDataPro-docs/"
+sitemap_url_scheme = "https://emwpj.github.io/MTDataPro-docs/{lang}"
 
-templates_path = ['_templates']
-
-html_theme = 'sphinx_rtd_theme'
-html_theme_options = {
-    'logo_only': False,
-    'prev_next_buttons_location': 'bottom',
-    'style_external_links': False,
-    'style_nav_header_background': '#2980B9',
-    'collapse_navigation': False,
-    'sticky_navigation': True,
-    'navigation_depth': 4,
-    'includehidden': True,
-    'titles_only': False,
-    'flyout_display': 'hidden',
-}
-
-html_static_path = ['_static']
-html_css_files = ['css/custom.css']
-
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown',
-}
-
-myst_enable_extensions = [
-    'colon_fence',
-    'deflist',
-    'html_admonition',
-    'html_image',
-    'linkify',
-    'substitution',
-    'tasklist',
-]
-myst_heading_anchors = 3
-myst_url_schemes = ('http', 'https', 'mailto')
-myst_fence_as_directive = ['mermaid']
-
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3', None),
-}
-
-sitemap_url_scheme = 'https://mtdp-china.org/docs/{lang}'
-
-# HTML 输出选项
-html_title = 'MTDataPro 中文手册'
-html_short_title = 'MTDataPro'
-html_last_updated_fmt = '%Y 年 %m 月 %d 日'
+html_title = "MTDataPro 中文手册"
+html_short_title = "MTDataPro"
+html_last_updated_fmt = "%Y 年 %m 月 %d 日"
 html_show_sourcelink = True
 html_show_sphinx = True
 html_show_copyright = True
 
-# 侧边栏配置
 html_sidebars = {
-    '**': [
-        'sidebar/brand.html',
-        'sidebar/search.html',
-        'sidebar/scroll.html',
-        'sidebar/ethical-ads.html',
+    "**": [
+        "sidebar/brand.html",
+        "sidebar/search.html",
+        "sidebar/scroll.html",
+        "sidebar/ethical-ads.html",
     ]
 }
 
-# MathJax 配置
+# MathJax configuration
 mathjax3_config = {
     "options": {
         "processHtmlClass": "math",
@@ -141,5 +95,5 @@ mathjax3_config = {
     },
     "startup": {
         "pageReady": "MathJax.startup.promise.then(() => MathJax.typesetPromise())"
-    }
+    },
 }

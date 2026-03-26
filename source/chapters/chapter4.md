@@ -221,14 +221,13 @@ graph LR
 
 **功能：**批量替换TBL文件中的参数值
 
-#### 🔧 TS→FC转换 (PhoenixTsToFtMenu)
+#### TS→FC转换 (PhoenixTsToFtMenu)
 
 **功能：**将时间序列转换为傅里叶系数文件
 
 ---
----
 
-## 3.2 📻 Phoenix MTU-5C/8A (JSON格式)
+## 3.2 Phoenix MTU-5C/8A (JSON格式)
 
 ### 3.2.1 支持的仪器型号
 
@@ -313,9 +312,8 @@ graph TB
 **操作：**选择菜单 `工具 → Metronix工具 → ATS→DAT`
 
 ---
----
 
-## 3.4 📻 LEMI长周期仪器
+## 3.4 LEMI长周期仪器
 
 ### 3.4.1 数据特点
 
@@ -418,9 +416,8 @@ graph TB
 | 采集参数 | 采样率等 |
 
 ---
----
 
-## 3.6 📡 Aether仪器 (ATTS格式)
+## 3.6 Aether仪器 (ATTS格式)
 
 ### 3.6.1 数据导入
 

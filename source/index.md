@@ -20,52 +20,13 @@ MTDataPro 是地球科学领域广泛使用的专业 MT 数据处理软件之一
 
 ## 快速链接
 
-```{grid} 2 2 3 3
-:gutter: 2
+| 快速入门 | 安装指南 | 处理流程 |
+|:---:|:---:|:---:|
+| [10 分钟完成第一次数据处理](intro/quickstart) | [安装、配置与授权](intro/install) | [时间序列处理详解](chapters/chapter4) |
 
-```{grid-item-card} 快速入门
-:link: intro/quickstart
-:link-type: doc
-
-10 分钟完成第一次数据处理
-```
-
-```{grid-item-card} 安装指南
-:link: intro/install
-:link-type: doc
-
-安装、配置与授权
-```
-
-```{grid-item-card} 处理流程
-:link: chapters/chapter4
-:link-type: doc
-
-时间序列处理详解
-```
-
-```{grid-item-card} 仪器支持
-:link: chapters/chapter3
-:link-type: doc
-
-Phoenix、Metronix、LEMI
-```
-
-```{grid-item-card} 数据导出
-:link: chapters/chapter6
-:link-type: doc
-
-EDI、J-format 格式
-```
-
-```{grid-item-card} 常见问题
-:link: appendices/appendixD
-:link-type: doc
-
-FAQ 与故障排除
-```
-
-```
+| 仪器支持 | 数据导出 | 常见问题 |
+|:---:|:---:|:---:|
+| [Phoenix、Metronix、LEMI](chapters/chapter3) | [EDI、J-format 格式](chapters/chapter6) | [FAQ 与故障排除](appendices/appendixD) |
 
 ---
 
