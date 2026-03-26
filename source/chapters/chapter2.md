@@ -310,6 +310,113 @@ graph TB
 3. 系统自动检测时间同步状态
 :::
 
+### 2.3.5 测点设置表单详解
+
+在MTDP中，每个测点的详细参数通过测点设置表单进行管理。双击测点即可打开该表单。
+
+#### 2.3.5.1 基本信息
+
+| 字段 | 控件名称 | 说明 | 数据类型 |
+|:----:|:--------:|:----:|:--------:|
+| 测点名称 | EditName | 测点标识名称 | 字符串 |
+| 所有者 | EditOwner | 测点所有者/负责人 | 字符串 |
+| 描述 | MemoDescription | 测点详细描述信息 | 多行文本 |
+| 测量员 | EditSurveyor | 实施测量的技术人员 | 字符串 |
+| 数据采集者 | EditDataCollector | 采集设备操作人员 | 字符串 |
+| 数据处理者 | EditDataProcessor | 数据处理操作人员 | 字符串 |
+| 创建时间 | EditCreationTime | 测点创建时间戳 | 日期时间 |
+| 数据质量 | ComboBoxDataQuality | 数据质量评级(0-4级) | 下拉选择 |
+
+**数据质量等级定义：**
+
+| 等级 | 名称 | 说明 |
+|:----:|:----:|:-----|
+| 0 | 未评估 | 尚未进行质量评估 |
+| 1 | 优秀 | 数据质量极佳可直接使用 |
+| 2 | 良好 | 数据质量正常可用 |
+| 3 | 一般 | 数据存在轻微问题需注意 |
+| 4 | 较差 | 数据质量问题较多 |
+
+#### 2.3.5.2 坐标信息
+
+| 字段 | 控件名称 | 说明 | 单位 |
+|:----:|:--------:|:----:|:----:|
+| 经度 | EditLongitude | 测点东向地理坐标 | 度 |
+| 纬度 | EditLatitude | 测点北向地理坐标 | 度 |
+| 高程 | EditAltitude | 测点海拔高度 | 米 |
+
+#### 2.3.5.3 通道配置参数
+
+每个测点包含5个电磁分量通道，各通道参数如下：
+
+| 通道 | 索引控件 | 反向控件 | 长度控件 | 传感器ID | 旋转角控件 |
+|:----:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| **Ex** (电场X) | NumberBoxExIndex | CheckBoxExReverse | NumberBoxExLength | - | NumberBoxExRotate |
+| **Ey** (电场Y) | NumberBoxEyIndex | CheckBoxEyReverse | NumberBoxEyLength | - | NumberBoxEyRotate |
+| **Hx** (磁场X) | NumberBoxHxIndex | CheckBoxHxReverse | NumberBoxHxLength | EditHxSensor | NumberBoxHxRotate |
+| **Hy** (磁场Y) | NumberBoxHyIndex | CheckBoxHyReverse | NumberBoxHyLength | EditHySensor | NumberBoxHyRotate |
+| **Hz** (磁场Z) | NumberBoxHzIndex | CheckBoxHzReverse | NumberBoxHzLength | EditHzSensor | NumberBoxHzRotate |
+
+**通道参数说明：**
+
+| 参数 | 说明 | 注意事项 |
+|:----:|:-----|:---------|
+| **索引** | 通道在数据文件中的位置编号 | 通常自动识别 |
+| **反向** | 是否反转通道极性 | 用于修正电极接线错误 |
+| **长度** | 电极间距或传感器序列号 | 电场为电极距，磁场为传感器编号 |
+| **传感器ID** | 磁传感器的唯一标识 | 仅磁场通道有此参数 |
+| **旋转角** | 通道相对于真北的旋转角度 | 用于坐标旋转校正 |
+
+#### 2.3.5.4 采集盒信息
+
+| 字段 | 控件名称 | 说明 | 单位 |
+|:----:|:--------:|:----:|:----:|
+| 采集盒ID | EditBox | MT采集仪器的唯一序列号 | - |
+| 电场前置放大器 | EditEPreamplifier | 前置放大器型号/编号 | - |
+| Ex接地电阻 | NumberBoxGroundResEx | Ex通道电极接地电阻 | Ω |
+| Ey接地电阻 | NumberBoxGroundResEy | Ey通道电极接地电阻 | Ω |
+
+**接地电阻说明：**
+- 理想值：< 1kΩ
+- 可接受：< 5kΩ
+- 需改善：> 5kΩ（可能影响数据质量）
+
+#### 2.3.5.5 时间信息
+
+| 字段 | 控件名称 | 说明 |
+|:----:|:--------:|:----|
+| 采集开始时间 | SiteBeginEnd.BeginDateTime | 时间序列数据起始时刻 |
+| 采集结束时间 | SiteBeginEnd.EndDateTime | 时间序列数据结束时刻 |
+| 处理开始时间 | ProcessBeginEnd.BeginDateTime | 用于处理的时间窗口起始 |
+| 处理结束时间 | ProcessBeginEnd.EndDateTime | 用于处理的时间窗口结束 |
+| 采集时长 | LabelTimeLengthH | 自动计算的采集持续时间 |
+
+#### 2.3.5.6 频率信息
+
+| 字段 | 控件名称 | 说明 | 单位 |
+|:----:|:--------:|:----:|:----:|
+| 最大可用频率 | EditMaxAvailableFrequency | 数据中包含的最高频率 | Hz |
+| 最小可用频率 | EditMinAvailableFrequency | 数据中包含的最低频率 | Hz |
+
+#### 2.3.5.7 特殊功能
+
+**从TBL文件加载：**
+- 支持拖放 `.tbl` 文件更新Phoenix测点信息
+- 自动读取：坐标、时间、采集盒ID、传感器ID、电极长度、旋转角
+
+**从LEMI文件加载：**
+- 支持拖放 `.lemi` 文件
+- 更新LEMI通道索引
+
+**加载傅里叶系数：**
+- 支持拖放 `.stfc` 文件
+
+**更新Phoenix TBL：**
+- 修改坐标、采集盒、传感器信息后自动备份原TBL到 `.tbl.backup`
+
+**更新RMT JSON：**
+- 修改坐标、设备信息后更新JSON文件，自动备份原文件
+
 ---
 ⬅️ [上一节：MT基本原理](#22-第一步理解mt基本原理) | ➡️ [下一节：从时间序列到频谱](#24-第三步从时间序列到频谱)
 
