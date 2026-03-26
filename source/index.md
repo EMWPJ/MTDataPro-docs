@@ -79,7 +79,6 @@ MTDataPro 是地球科学领域广泛使用的专业 MT 数据处理软件之一
 intro/index
 intro/install
 intro/quickstart
-tutorial/index
 ```
 
 ```{toctree}
@@ -88,6 +87,7 @@ tutorial/index
 :maxdepth: 2
 
 gallery/index
+tutorial/plotting
 ```
 
 ```{toctree}
