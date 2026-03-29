@@ -62,10 +62,10 @@ MTDataPro 是地球科学领域广泛使用的专业 MT 数据处理软件之一
 ```bibtex
 @software{mtdp2026,
   title = {MTDataPro: A Professional Magnetotelluric Data Processing Software},
-  author = {MTDataPro Development Team},
+  author = {王培杰},
   year = {2026},
   version = {1.9.5},
-  url = {https://github.com/EMWPJ/MTDataPro}
+  url = {https://github.com/EMWPJ/MTDataPro-docs}
 }
 ```
 
