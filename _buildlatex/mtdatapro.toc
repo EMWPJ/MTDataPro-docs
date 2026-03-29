@@ -15,753 +15,760 @@
 \contentsline {subsection}{\numberline {6.1.7}联系方式}{14}{subsection.6.1.7}%
 \contentsline {section}{\numberline {6.2}安装}{14}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}下载软件}{14}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}安装步骤}{15}{subsection.6.2.2}%
-\contentsline {subsubsection}{1. 运行安装程序}{15}{subsubsection*.3}%
-\contentsline {subsubsection}{2. 接受许可协议}{15}{subsubsection*.4}%
-\contentsline {subsubsection}{3. 选择安装位置}{15}{subsubsection*.5}%
-\contentsline {subsubsection}{4. 选择组件}{15}{subsubsection*.6}%
-\contentsline {subsubsection}{5. 完成安装}{15}{subsubsection*.7}%
-\contentsline {subsection}{\numberline {6.2.3}首次运行}{15}{subsection.6.2.3}%
-\contentsline {subsubsection}{输入授权码}{15}{subsubsection*.8}%
-\contentsline {subsubsection}{配置数据路径}{15}{subsubsection*.9}%
-\contentsline {subsubsection}{选择界面语言}{15}{subsubsection*.10}%
-\contentsline {subsection}{\numberline {6.2.4}外部依赖}{15}{subsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.2.5}卸载}{16}{subsection.6.2.5}%
-\contentsline {subsection}{\numberline {6.2.6}常见安装问题}{16}{subsection.6.2.6}%
-\contentsline {subsubsection}{安装失败}{16}{subsubsection*.11}%
-\contentsline {subsubsection}{无法启动}{16}{subsubsection*.12}%
-\contentsline {subsubsection}{授权验证失败}{16}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {6.2.2}解压软件}{15}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}目录结构}{15}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}软件注册}{15}{subsection.6.2.4}%
+\contentsline {subsubsection}{输入序列号}{15}{subsubsection*.3}%
+\contentsline {subsubsection}{配置数据路径}{15}{subsubsection*.4}%
+\contentsline {subsubsection}{选择界面语言}{15}{subsubsection*.5}%
+\contentsline {subsection}{\numberline {6.2.5}外部依赖}{15}{subsection.6.2.5}%
+\contentsline {subsection}{\numberline {6.2.6}常见问题}{16}{subsection.6.2.6}%
+\contentsline {subsubsection}{无法启动}{16}{subsubsection*.6}%
+\contentsline {subsubsection}{注册失败}{16}{subsubsection*.7}%
+\contentsline {subsection}{\numberline {6.2.7}软件更新}{16}{subsection.6.2.7}%
 \contentsline {section}{\numberline {6.3}快速入门}{16}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}基本流程}{16}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {6.3.2}步骤 1：创建工程}{16}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}步骤 2：导入数据}{17}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.3}步骤 2：导入数据}{16}{subsection.6.3.3}%
 \contentsline {subsection}{\numberline {6.3.4}步骤 3：查看时间序列}{17}{subsection.6.3.4}%
 \contentsline {subsection}{\numberline {6.3.5}步骤 4：执行 FFT 处理}{17}{subsection.6.3.5}%
 \contentsline {subsection}{\numberline {6.3.6}步骤 5：数据筛选}{17}{subsection.6.3.6}%
 \contentsline {subsection}{\numberline {6.3.7}步骤 6：导出结果}{17}{subsection.6.3.7}%
-\contentsline {subsection}{\numberline {6.3.8}下一步}{18}{subsection.6.3.8}%
-\contentsline {section}{\numberline {6.4}实例展示}{18}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}图件展示}{18}{subsection.6.4.1}%
-\contentsline {subsubsection}{视电阻率曲线}{18}{subsubsection*.14}%
-\contentsline {subsubsection}{地图视图}{18}{subsubsection*.15}%
-\contentsline {subsection}{\numberline {6.4.2}实例列表}{18}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}贡献实例}{18}{subsection.6.4.3}%
-\contentsline {section}{\numberline {6.5}MTDataPro 数据导出与 Python 绘图教程}{19}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}数据导出}{19}{subsection.6.5.1}%
-\contentsline {subsubsection}{导出步骤}{19}{subsubsection*.16}%
-\contentsline {subsubsection}{导出文件命名规则}{19}{subsubsection*.17}%
-\contentsline {subsection}{\numberline {6.5.2}Python 绘图环境配置}{19}{subsection.6.5.2}%
-\contentsline {subsubsection}{依赖库}{19}{subsubsection*.18}%
-\contentsline {subsubsection}{matplotlib 学术绘图配置}{20}{subsubsection*.19}%
-\contentsline {subsection}{\numberline {6.5.3}单测点视电阻率/相位曲线}{20}{subsection.6.5.3}%
-\contentsline {subsubsection}{脚本：\sphinxhref {http://PlotFullZ-Single.py}{PlotFullZ\sphinxhyphen {}Single.py}}{20}{subsubsection*.20}%
-\contentsline {subsubsection}{输出效果}{21}{subsubsection*.21}%
-\contentsline {subsection}{\numberline {6.5.4}多测点联合对比图}{22}{subsection.6.5.4}%
-\contentsline {subsubsection}{脚本：\sphinxhref {http://PlotFullZ-All.py}{PlotFullZ\sphinxhyphen {}All.py}}{22}{subsubsection*.22}%
-\contentsline {subsection}{\numberline {6.5.5}测点对比分析}{23}{subsection.6.5.5}%
-\contentsline {subsubsection}{脚本：\sphinxhref {http://PlotFullZ-Compare.py}{PlotFullZ\sphinxhyphen {}Compare.py}}{23}{subsubsection*.23}%
-\contentsline {subsection}{\numberline {6.5.6}全阻抗与相位张量图}{25}{subsection.6.5.6}%
-\contentsline {subsubsection}{脚本：\sphinxhref {http://PlotFullZ-Site.py}{PlotFullZ\sphinxhyphen {}Site.py}}{25}{subsubsection*.24}%
-\contentsline {subsection}{\numberline {6.5.7}PDF 合并工具}{28}{subsection.6.5.7}%
-\contentsline {subsubsection}{脚本：\sphinxhref {http://MergerAllZPDF.py}{MergerAllZPDF.py}}{28}{subsubsection*.25}%
-\contentsline {subsection}{\numberline {6.5.8}坐标转换工具}{28}{subsection.6.5.8}%
-\contentsline {subsubsection}{脚本：\sphinxhref {http://coorConvert.py}{coorConvert.py}}{28}{subsubsection*.26}%
-\contentsline {subsection}{\numberline {6.5.9}常见问题}{29}{subsection.6.5.9}%
-\contentsline {subsubsection}{Q: 绘图的频率范围如何设置？}{29}{subsubsection*.27}%
-\contentsline {subsubsection}{Q: 误差棒不显示？}{29}{subsubsection*.28}%
-\contentsline {subsubsection}{Q: 如何调整图形尺寸？}{29}{subsubsection*.29}%
-\contentsline {subsubsection}{Q: 中文标签显示为方块？}{29}{subsubsection*.30}%
-\contentsline {section}{\numberline {6.6}第1章 软件概述}{30}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}1.1 MTDP简介}{30}{subsection.6.6.1}%
-\contentsline {subsubsection}{1.1.1 软件定位}{30}{subsubsection*.31}%
-\contentsline {subsubsection}{1.1.2 版本信息}{30}{subsubsection*.32}%
-\contentsline {subsubsection}{1.1.3 主要特点}{30}{subsubsection*.33}%
-\contentsline {subsection}{\numberline {6.6.2}1.2 系统要求与安装}{31}{subsection.6.6.2}%
-\contentsline {subsubsection}{1.2.1 硬件要求}{31}{subsubsection*.34}%
-\contentsline {subsubsection}{1.2.2 软件要求}{31}{subsubsection*.35}%
-\contentsline {subsubsection}{1.2.3 安装步骤}{31}{subsubsection*.36}%
-\contentsline {subsubsection}{1.2.4 授权验证}{31}{subsubsection*.37}%
-\contentsline {subsection}{\numberline {6.6.3}1.3 软件界面导览}{31}{subsection.6.6.3}%
-\contentsline {subsubsection}{1.3.1 主窗口布局}{31}{subsubsection*.38}%
-\contentsline {subsubsection}{1.3.2 数据层次结构}{32}{subsubsection*.39}%
-\contentsline {subsubsection}{1.3.3 菜单结构}{32}{subsubsection*.40}%
-\contentsline {paragraph}{主菜单}{32}{paragraph*.41}%
-\contentsline {paragraph}{右键菜单详细说明}{33}{paragraph*.42}%
-\contentsline {subparagraph}{项目右键菜单}{34}{subparagraph*.43}%
-\contentsline {subparagraph}{工区右键菜单}{34}{subparagraph*.44}%
-\contentsline {subparagraph}{📁 分组（测段）右键菜单}{35}{subparagraph*.45}%
-\contentsline {subparagraph}{测点右键菜单}{38}{subparagraph*.46}%
-\contentsline {subparagraph}{右键菜单使用技巧}{40}{subparagraph*.47}%
-\contentsline {subsection}{\numberline {6.6.4}1.4 工程文件结构}{41}{subsection.6.6.4}%
-\contentsline {subsubsection}{1.4.1 目录组织}{41}{subsubsection*.48}%
-\contentsline {subsubsection}{1.4.2 自动备份}{41}{subsubsection*.49}%
-\contentsline {subsection}{\numberline {6.6.5}1.5 快速入门教程}{41}{subsection.6.6.5}%
-\contentsline {subsubsection}{5分钟完成数据处理}{41}{subsubsection*.50}%
-\contentsline {subsection}{\numberline {6.6.6}1.6 常见工作流程}{42}{subsection.6.6.6}%
-\contentsline {subsubsection}{1.6.1 标准MT数据处理流程}{42}{subsubsection*.51}%
-\contentsline {subsubsection}{1.6.2 远参考处理流程}{42}{subsubsection*.52}%
-\contentsline {subsubsection}{1.6.3 RMSMR强干扰处理流程}{43}{subsubsection*.53}%
-\contentsline {subsubsection}{1.6.4 批量处理流程}{43}{subsubsection*.54}%
-\contentsline {subsubsection}{1.6.5 数据质量评估流程}{43}{subsubsection*.55}%
-\contentsline {subsubsection}{1.6.6 典型应用场景}{43}{subsubsection*.56}%
-\contentsline {subsection}{\numberline {6.6.7}1.7 软件配置建议}{44}{subsection.6.6.7}%
-\contentsline {subsubsection}{1.7.1 推荐设置}{44}{subsubsection*.57}%
-\contentsline {subsubsection}{1.7.2 性能优化}{44}{subsubsection*.58}%
-\contentsline {subsection}{\numberline {6.6.8}1.8 获取帮助}{44}{subsection.6.6.8}%
-\contentsline {section}{\numberline {6.7}📚 第2章 大地电磁数据处理教程}{44}{section.6.7}%
-\contentsline {subsection}{\numberline {6.7.1}2.1 教程概述与学习路径}{44}{subsection.6.7.1}%
-\contentsline {subsubsection}{2.1.1 MT数据处理全景图}{44}{subsubsection*.59}%
-\contentsline {subsubsection}{2.1.2 本章学习路径}{44}{subsubsection*.60}%
-\contentsline {subsubsection}{2.1.3 学习建议}{45}{subsubsection*.61}%
-\contentsline {subsubsection}{2.1.4 术语中英对照表}{45}{subsubsection*.62}%
-\contentsline {subsection}{\numberline {6.7.2}2.2 第一步：理解MT基本原理}{45}{subsection.6.7.2}%
-\contentsline {subsubsection}{2.2.1 天然电磁场从哪里来？}{45}{subsubsection*.63}%
-\contentsline {paragraph}{两种天然场源}{45}{paragraph*.64}%
-\contentsline {paragraph}{昼夜变化的影响}{45}{paragraph*.65}%
-\contentsline {subsubsection}{2.2.2 电磁波如何"看见"地下？}{46}{subsubsection*.66}%
-\contentsline {paragraph}{核心概念：趋肤深度}{46}{paragraph*.67}%
-\contentsline {paragraph}{实际探测深度速查表}{46}{paragraph*.68}%
-\contentsline {subsubsection}{2.2.3 我们测量的是什么？}{46}{subsubsection*.69}%
-\contentsline {paragraph}{阻抗：地下的"电阻"}{46}{paragraph*.70}%
-\contentsline {paragraph}{视电阻率与相位}{46}{paragraph*.71}%
-\contentsline {paragraph}{倾子：寻找侧向异常}{47}{paragraph*.72}%
-\contentsline {subsection}{\numberline {6.7.3}2.3 第二步：数据采集准备}{47}{subsection.6.7.3}%
-\contentsline {subsubsection}{2.3.1 野外布置要点}{47}{subsubsection*.73}%
-\contentsline {paragraph}{测站组成}{47}{paragraph*.74}%
-\contentsline {paragraph}{布置建议}{47}{paragraph*.75}%
-\contentsline {subsubsection}{2.3.2 远参考站设置}{48}{subsubsection*.76}%
-\contentsline {paragraph}{为什么需要远参考站？}{48}{paragraph*.77}%
-\contentsline {paragraph}{远参考站设置要求}{48}{paragraph*.78}%
-\contentsline {subsubsection}{2.3.3 观测时长建议}{48}{subsubsection*.79}%
-\contentsline {paragraph}{根据探测深度确定时长}{48}{paragraph*.80}%
-\contentsline {paragraph}{提高数据质量的技巧}{48}{paragraph*.81}%
-\contentsline {subsubsection}{2.3.4 MTDP数据导入操作}{48}{subsubsection*.82}%
-\contentsline {subsubsection}{2.3.5 测点设置表单详解}{49}{subsubsection*.83}%
-\contentsline {paragraph}{2.3.5.1 基本信息}{49}{paragraph*.84}%
-\contentsline {paragraph}{2.3.5.2 坐标信息}{49}{paragraph*.85}%
-\contentsline {paragraph}{2.3.5.3 通道配置参数}{49}{paragraph*.86}%
-\contentsline {paragraph}{2.3.5.4 采集盒信息}{50}{paragraph*.87}%
-\contentsline {paragraph}{2.3.5.5 时间信息}{50}{paragraph*.88}%
-\contentsline {paragraph}{2.3.5.6 频率信息}{50}{paragraph*.89}%
-\contentsline {paragraph}{2.3.5.7 特殊功能}{50}{paragraph*.90}%
-\contentsline {subsection}{\numberline {6.7.4}2.4 第三步：从时间序列到频谱}{51}{subsection.6.7.4}%
-\contentsline {subsubsection}{2.4.1 傅里叶变换基础}{51}{subsubsection*.91}%
-\contentsline {paragraph}{为什么需要FFT？}{51}{paragraph*.92}%
-\contentsline {paragraph}{MTDP中的FFT参数}{51}{paragraph*.93}%
-\contentsline {subsubsection}{2.4.2 功率谱估计}{51}{subsubsection*.94}%
-\contentsline {paragraph}{自功率谱与互功率谱}{51}{paragraph*.95}%
-\contentsline {paragraph}{叠加的作用}{52}{paragraph*.96}%
-\contentsline {subsubsection}{2.4.3 数据分组与叠加}{52}{subsubsection*.97}%
-\contentsline {paragraph}{分组策略}{52}{paragraph*.98}%
-\contentsline {subsubsection}{2.4.4 MTDP的FFT操作}{52}{subsubsection*.99}%
-\contentsline {subsection}{\numberline {6.7.5}2.5 第四步：阻抗估计}{53}{subsection.6.7.5}%
-\contentsline {subsubsection}{2.5.1 方法对比总览}{53}{subsubsection*.100}%
-\contentsline {subsubsection}{2.5.2 方法选择决策树}{53}{subsubsection*.101}%
-\contentsline {subsubsection}{2.5.3 最小二乘法（入门理解）}{53}{subsubsection*.102}%
-\contentsline {paragraph}{基本思想}{53}{paragraph*.103}%
-\contentsline {paragraph}{为什么不推荐？}{53}{paragraph*.104}%
-\contentsline {subsubsection}{2.5.4 远参考道法（推荐）}{53}{subsubsection*.105}%
-\contentsline {paragraph}{核心思想}{53}{paragraph*.106}%
-\contentsline {paragraph}{为什么有效？}{53}{paragraph*.107}%
-\contentsline {paragraph}{使用条件}{53}{paragraph*.108}%
-\contentsline {subsubsection}{2.5.5 稳健估计（进阶）}{54}{subsubsection*.109}%
-\contentsline {paragraph}{回归M估计}{54}{paragraph*.110}%
-\contentsline {paragraph}{有界影响估计}{54}{paragraph*.111}%
-\contentsline {subsubsection}{2.5.6 RMSMR方法（MTDP特色）}{54}{subsubsection*.112}%
-\contentsline {paragraph}{三维度处理策略}{54}{paragraph*.113}%
-\contentsline {subsubsection}{2.5.7 MTDP阻抗估计操作}{54}{subsubsection*.114}%
-\contentsline {subsection}{\numberline {6.7.6}2.6 第五步：数据质量评估}{55}{subsection.6.7.6}%
-\contentsline {subsubsection}{2.6.1 质量评估指标总览}{55}{subsubsection*.115}%
-\contentsline {subsubsection}{2.6.2 三种相干度详解}{55}{subsubsection*.116}%
-\contentsline {paragraph}{常相干度 (Ordinary Coherence)}{55}{paragraph*.117}%
-\contentsline {paragraph}{重相干度 (Multiple Coherence)}{55}{paragraph*.118}%
-\contentsline {paragraph}{偏相干度 (Partial Coherence)}{56}{paragraph*.119}%
-\contentsline {subsubsection}{2.6.3 其他质量指标}{56}{subsubsection*.120}%
-\contentsline {paragraph}{功率谱密度 (PSD)}{56}{paragraph*.121}%
-\contentsline {paragraph}{误差棒（方差估计）}{56}{paragraph*.122}%
-\contentsline {subsubsection}{2.6.4 数据筛选方法}{56}{subsubsection*.123}%
-\contentsline {paragraph}{筛选参数一览}{56}{paragraph*.124}%
-\contentsline {paragraph}{马氏距离筛选}{57}{paragraph*.125}%
-\contentsline {subsubsection}{2.6.5 好/坏数据对比示例}{57}{subsubsection*.126}%
-\contentsline {paragraph}{✅ 高质量数据特征}{57}{paragraph*.127}%
-\contentsline {paragraph}{❌ 低质量数据特征}{57}{paragraph*.128}%
-\contentsline {paragraph}{质量问题诊断表}{58}{paragraph*.129}%
-\contentsline {subsubsection}{2.6.6 质量评估清单}{58}{subsubsection*.130}%
-\contentsline {subsubsection}{2.6.7 MTDP质量评估操作}{58}{subsubsection*.131}%
-\contentsline {subsection}{\numberline {6.7.7}2.7 第六步：高级分析工具}{59}{subsection.6.7.7}%
-\contentsline {subsubsection}{2.7.1 相位张量分析}{59}{subsubsection*.132}%
-\contentsline {paragraph}{为什么用相位张量？}{59}{paragraph*.133}%
-\contentsline {paragraph}{相位张量定义}{59}{paragraph*.134}%
-\contentsline {paragraph}{椭圆表示}{59}{paragraph*.135}%
-\contentsline {paragraph}{关键参数}{59}{paragraph*.136}%
-\contentsline {subsubsection}{2.7.2 Rhoplus分析}{59}{subsubsection*.137}%
-\contentsline {paragraph}{核心思想}{59}{paragraph*.138}%
-\contentsline {paragraph}{目标函数}{59}{paragraph*.139}%
-\contentsline {paragraph}{应用场景}{60}{paragraph*.140}%
-\contentsline {paragraph}{多角度Rhoplus}{60}{paragraph*.141}%
-\contentsline {subsubsection}{2.7.3 MTDP高级分析操作}{60}{subsubsection*.142}%
-\contentsline {subsection}{\numberline {6.7.8}2.8 第七步：RMSMR完整流程}{60}{subsection.6.7.8}%
-\contentsline {subsubsection}{2.8.1 RMSMR处理流程图}{60}{subsubsection*.143}%
-\contentsline {subsubsection}{2.8.2 参数设置指南}{60}{subsubsection*.144}%
-\contentsline {paragraph}{核心参数详解}{60}{paragraph*.145}%
-\contentsline {paragraph}{参数调优建议}{61}{paragraph*.146}%
-\contentsline {paragraph}{不同场景的推荐参数}{61}{paragraph*.147}%
-\contentsline {subsubsection}{2.8.3 在MTDP中执行RMSMR}{61}{subsubsection*.148}%
-\contentsline {paragraph}{步骤1：数据导入}{61}{paragraph*.149}%
-\contentsline {paragraph}{步骤2：FFT设置}{61}{paragraph*.150}%
-\contentsline {paragraph}{步骤3：选择处理方法}{61}{paragraph*.151}%
-\contentsline {subsubsection}{2.8.4 常见问题处理（详细版）}{62}{subsubsection*.152}%
-\contentsline {paragraph}{问题诊断与解决步骤}{62}{paragraph*.153}%
-\contentsline {subsubsection}{2.8.5 处理时间预估}{62}{subsubsection*.154}%
-\contentsline {subsubsection}{2.8.5 处理结果验证}{63}{subsubsection*.155}%
-\contentsline {paragraph}{验证清单}{63}{paragraph*.156}%
-\contentsline {subsection}{\numberline {6.7.9}2.9 小结}{63}{subsection.6.7.9}%
-\contentsline {subsubsection}{2.9.1 处理流程速查}{63}{subsubsection*.157}%
-\contentsline {subsubsection}{2.9.2 方法选择指南}{63}{subsubsection*.158}%
-\contentsline {subsubsection}{2.9.3 质量标准}{63}{subsubsection*.159}%
-\contentsline {subsubsection}{2.9.4 相关章节快速导航}{63}{subsubsection*.160}%
-\contentsline {subsection}{\numberline {6.7.10}附录A：权威参考文献}{64}{subsection.6.7.10}%
-\contentsline {subsubsection}{经典教材}{64}{subsubsection*.161}%
-\contentsline {subsubsection}{关键论文}{64}{subsubsection*.162}%
-\contentsline {subsubsection}{开源工具}{64}{subsubsection*.163}%
-\contentsline {subsection}{\numberline {6.7.11}附录B：公式速查表}{64}{subsection.6.7.11}%
-\contentsline {subsubsection}{基本公式}{65}{subsubsection*.164}%
-\contentsline {subsubsection}{估计方法}{65}{subsubsection*.165}%
-\contentsline {subsubsection}{相干度}{65}{subsubsection*.166}%
-\contentsline {subsubsection}{相位张量}{65}{subsubsection*.167}%
-\contentsline {subsubsection}{其他公式}{65}{subsubsection*.168}%
-\contentsline {subsection}{\numberline {6.7.12}附录C：学习路径建议}{65}{subsection.6.7.12}%
-\contentsline {subsubsection}{初学者路径}{66}{subsubsection*.169}%
-\contentsline {subsubsection}{进阶用户路径}{66}{subsubsection*.170}%
-\contentsline {subsubsection}{问题排查路径}{66}{subsubsection*.171}%
-\contentsline {subsection}{\numberline {6.7.13}附录D：术语索引}{66}{subsection.6.7.13}%
-\contentsline {subsubsection}{B}{66}{subsubsection*.172}%
-\contentsline {subsubsection}{C}{66}{subsubsection*.173}%
-\contentsline {subsubsection}{D}{66}{subsubsection*.174}%
-\contentsline {subsubsection}{E}{67}{subsubsection*.175}%
-\contentsline {subsubsection}{F}{67}{subsubsection*.176}%
-\contentsline {subsubsection}{G}{67}{subsubsection*.177}%
-\contentsline {subsubsection}{H}{67}{subsubsection*.178}%
-\contentsline {subsubsection}{I}{67}{subsubsection*.179}%
-\contentsline {subsubsection}{J}{67}{subsubsection*.180}%
-\contentsline {subsubsection}{K}{67}{subsubsection*.181}%
-\contentsline {subsubsection}{L}{67}{subsubsection*.182}%
-\contentsline {subsubsection}{M}{67}{subsubsection*.183}%
-\contentsline {subsubsection}{N}{67}{subsubsection*.184}%
-\contentsline {subsubsection}{O}{67}{subsubsection*.185}%
-\contentsline {subsubsection}{P}{68}{subsubsection*.186}%
-\contentsline {subsubsection}{Q}{68}{subsubsection*.187}%
-\contentsline {subsubsection}{R}{68}{subsubsection*.188}%
-\contentsline {subsubsection}{S}{68}{subsubsection*.189}%
-\contentsline {subsubsection}{T}{68}{subsubsection*.190}%
-\contentsline {subsubsection}{W}{68}{subsubsection*.191}%
-\contentsline {subsubsection}{Y}{68}{subsubsection*.192}%
-\contentsline {subsubsection}{Z}{68}{subsubsection*.193}%
-\contentsline {subsection}{\numberline {6.7.14}附录E：常见问题 FAQ}{69}{subsection.6.7.14}%
-\contentsline {subsubsection}{Q1: 为什么我的视电阻率曲线在某个频段突然跳动？}{69}{subsubsection*.194}%
-\contentsline {subsubsection}{Q2: 远参考站距离多远合适？}{69}{subsubsection*.195}%
-\contentsline {subsubsection}{Q3: RMSMR迭代多少次合适？}{69}{subsubsection*.196}%
-\contentsline {subsubsection}{Q4: 相干度一直很低怎么办？}{69}{subsubsection*.197}%
-\contentsline {subsubsection}{Q5: 如何判断数据是否可以用于反演？}{70}{subsubsection*.198}%
-\contentsline {subsubsection}{Q6: 不同仪器格式的数据如何导入？}{70}{subsubsection*.199}%
-\contentsline {subsubsection}{Q7: 处理结果导出什么格式？}{70}{subsubsection*.200}%
-\contentsline {section}{\numberline {6.8}📂 第3章 数据工程管理}{70}{section.6.8}%
-\contentsline {subsection}{\numberline {6.8.1}3.1 工程结构概述}{70}{subsection.6.8.1}%
-\contentsline {subsubsection}{3.1.1 各层级说明}{71}{subsubsection*.201}%
-\contentsline {subsubsection}{3.1.2 测点类型}{71}{subsubsection*.202}%
-\contentsline {subsection}{\numberline {6.8.2}3.2 创建与管理工程}{71}{subsection.6.8.2}%
-\contentsline {subsubsection}{3.2.1 新建工程}{71}{subsubsection*.203}%
-\contentsline {subsubsection}{3.2.2 打开已有工程}{71}{subsubsection*.204}%
-\contentsline {subsubsection}{3.2.3 工程属性设置 (ProjectSetForm)}{72}{subsubsection*.205}%
-\contentsline {subsubsection}{3.2.4 人员信息管理 (PersonSetForm)}{72}{subsubsection*.206}%
-\contentsline {subsection}{\numberline {6.8.3}3.3 工区管理}{72}{subsection.6.8.3}%
-\contentsline {subsubsection}{3.3.1 新建工区}{72}{subsubsection*.207}%
-\contentsline {subsubsection}{3.3.2 工区属性设置 (WorkAreaSetForm)}{73}{subsubsection*.208}%
-\contentsline {subsubsection}{3.3.3 工区操作}{73}{subsubsection*.209}%
-\contentsline {subsection}{\numberline {6.8.4}3.4 测段管理}{73}{subsection.6.8.4}%
-\contentsline {subsubsection}{3.4.1 新建测段}{73}{subsubsection*.210}%
-\contentsline {subsubsection}{3.4.2 测段属性设置 (GroupSetForm)}{74}{subsubsection*.211}%
-\contentsline {subsubsection}{3.4.3 批量加载测点}{74}{subsubsection*.212}%
-\contentsline {subsection}{\numberline {6.8.5}3.5 测点管理}{74}{subsection.6.8.5}%
-\contentsline {subsubsection}{3.5.1 测点属性}{75}{subsubsection*.213}%
-\contentsline {subsubsection}{3.5.2 测点操作}{75}{subsubsection*.214}%
-\contentsline {subsubsection}{3.5.3 数据质量等级}{75}{subsubsection*.215}%
-\contentsline {subsubsection}{3.5.4 测点排序}{75}{subsubsection*.216}%
-\contentsline {subsubsection}{3.5.5 通道配置}{76}{subsubsection*.217}%
-\contentsline {subsubsection}{3.5.6 时间信息}{76}{subsubsection*.218}%
-\contentsline {subsubsection}{3.5.7 特殊功能}{76}{subsubsection*.219}%
-\contentsline {subsection}{\numberline {6.8.6}3.6 远参考站管理}{77}{subsection.6.8.6}%
-\contentsline {subsubsection}{3.6.1 远参考站计算}{77}{subsubsection*.220}%
-\contentsline {subsubsection}{3.6.2 设置公共磁场站}{77}{subsubsection*.221}%
-\contentsline {subsubsection}{3.6.3 设置远参考站}{77}{subsubsection*.222}%
-\contentsline {subsection}{\numberline {6.8.7}3.7 坐标管理}{77}{subsection.6.8.7}%
-\contentsline {subsubsection}{3.7.1 从KML导入坐标}{77}{subsubsection*.223}%
-\contentsline {subsubsection}{3.7.2 导出测点坐标}{77}{subsubsection*.224}%
-\contentsline {subsubsection}{3.7.3 坐标格式}{78}{subsubsection*.225}%
-\contentsline {subsection}{\numberline {6.8.8}3.8 工程文件管理}{78}{subsection.6.8.8}%
-\contentsline {subsubsection}{3.6.1 保存与备份}{78}{subsubsection*.226}%
-\contentsline {subsubsection}{3.6.2 工程信息存储}{78}{subsubsection*.227}%
-\contentsline {subsubsection}{3.6.3 导入导出}{78}{subsubsection*.228}%
-\contentsline {subsection}{\numberline {6.8.9}3.9 多语言支持}{78}{subsection.6.8.9}%
-\contentsline {subsection}{\numberline {6.8.10}3.10 常用操作快捷方式}{79}{subsection.6.8.10}%
-\contentsline {section}{\numberline {6.9}第4章 仪器数据支持}{79}{section.6.9}%
-\contentsline {subsection}{\numberline {6.9.1}4.1 Phoenix MTU\sphinxhyphen {}5/5A (TBL格式)}{79}{subsection.6.9.1}%
-\contentsline {subsubsection}{4.1.1 支持的仪器型号}{79}{subsubsection*.229}%
-\contentsline {subsubsection}{4.1.2 数据文件}{79}{subsubsection*.230}%
-\contentsline {subsubsection}{4.1.3 Phoenix MTU\sphinxhyphen {}5/5A 数据导入（详细步骤）}{79}{subsubsection*.231}%
-\contentsline {paragraph}{4.1.3.1 准备工作}{79}{paragraph*.232}%
-\contentsline {paragraph}{4.1.3.2 导入流程}{80}{paragraph*.233}%
-\contentsline {paragraph}{4.1.3.3 导入后验证}{80}{paragraph*.234}%
-\contentsline {paragraph}{4.1.3.4 常见问题与解决}{80}{paragraph*.235}%
-\contentsline {paragraph}{4.1.3.5 最佳实践}{81}{paragraph*.236}%
-\contentsline {subsubsection}{4.1.4 标定文件}{81}{subsubsection*.237}%
-\contentsline {subsubsection}{4.1.5 专用工具}{82}{subsubsection*.238}%
-\contentsline {paragraph}{Phoenix数据处理 (PhoenixDataProcessForm)}{82}{paragraph*.239}%
-\contentsline {paragraph}{SSMT2000处理 (PhoenixNormalDataProcessForm)}{82}{paragraph*.240}%
-\contentsline {paragraph}{数据合并 (PhoenixDataMergeForm)}{82}{paragraph*.241}%
-\contentsline {paragraph}{时间序列分割 (PhoenixTSSplit)}{83}{paragraph*.242}%
-\contentsline {paragraph}{通道重排 (PhoenixChannelReArrengeForm)}{83}{paragraph*.243}%
-\contentsline {paragraph}{时间序列对齐修复 (PhoenixTSMisalignmentRepairForm)}{83}{paragraph*.244}%
-\contentsline {paragraph}{TBL参数替换 (TBLParameterReplaceForm)}{83}{paragraph*.245}%
-\contentsline {paragraph}{TS→FC转换 (PhoenixTsToFtMenu)}{83}{paragraph*.246}%
-\contentsline {subsection}{\numberline {6.9.2}4.2 Phoenix MTU\sphinxhyphen {}5C/8A (JSON格式)}{83}{subsection.6.9.2}%
-\contentsline {subsubsection}{4.2.1 支持的仪器型号}{83}{subsubsection*.247}%
-\contentsline {subsubsection}{4.2.2 数据导入}{83}{subsubsection*.248}%
-\contentsline {subsubsection}{4.2.3 降采样处理}{84}{subsubsection*.249}%
-\contentsline {subsection}{\numberline {6.9.3}4.3 Metronix仪器}{84}{subsection.6.9.3}%
-\contentsline {subsubsection}{4.3.1 支持的仪器型号}{84}{subsubsection*.250}%
-\contentsline {subsubsection}{4.3.2 数据文件}{84}{subsubsection*.251}%
-\contentsline {subsubsection}{4.3.3 数据导入}{84}{subsubsection*.252}%
-\contentsline {subsubsection}{4.3.4 WEM数据处理器}{84}{subsubsection*.253}%
-\contentsline {subsubsection}{4.3.5 Metronix专用工具}{84}{subsubsection*.254}%
-\contentsline {paragraph}{WEM处理器 (WEMProcessorForm)}{84}{paragraph*.255}%
-\contentsline {paragraph}{ATS→DAT转换}{85}{paragraph*.256}%
-\contentsline {subsection}{\numberline {6.9.4}4.4 LEMI长周期仪器}{85}{subsection.6.9.4}%
-\contentsline {subsubsection}{4.4.1 数据特点}{85}{subsubsection*.257}%
-\contentsline {subsubsection}{4.4.2 数据导入}{85}{subsubsection*.258}%
-\contentsline {subsubsection}{4.4.3 与高频数据联合处理}{85}{subsubsection*.259}%
-\contentsline {subsubsection}{4.5.2 数据特点}{86}{subsubsection*.260}%
-\contentsline {subsubsection}{4.5.3 数据导入}{86}{subsubsection*.261}%
-\contentsline {subsubsection}{4.5.4 RMT数据文件格式}{87}{subsubsection*.262}%
-\contentsline {paragraph}{SBF格式 (.sbf)}{87}{paragraph*.263}%
-\contentsline {paragraph}{CASRMT格式 (.json/.rmtjson)}{87}{paragraph*.264}%
-\contentsline {subsubsection}{4.5.5 系统响应校准}{87}{subsubsection*.265}%
-\contentsline {subsubsection}{4.5.6 RMT/CASRMT专用工具}{88}{subsubsection*.266}%
-\contentsline {paragraph}{RMT站点管理 (RMTSiteForm)}{88}{paragraph*.267}%
-\contentsline {subsection}{\numberline {6.9.5}4.6 Aether仪器 (ATTS格式)}{88}{subsection.6.9.5}%
-\contentsline {subsubsection}{4.6.1 数据导入}{88}{subsubsection*.268}%
-\contentsline {subsubsection}{4.6.2 降采样处理}{88}{subsubsection*.269}%
-\contentsline {subsection}{\numberline {6.9.6}4.7 通用EDI格式}{88}{subsection.6.9.6}%
-\contentsline {subsubsection}{4.7.1 导入已有EDI数据}{88}{subsubsection*.270}%
-\contentsline {subsubsection}{4.7.2 数据编辑}{89}{subsubsection*.271}%
-\contentsline {subsection}{\numberline {6.9.7}4.8 合成数据 (Synthetic)}{89}{subsection.6.9.7}%
-\contentsline {subsubsection}{4.8.1 数据格式}{89}{subsubsection*.272}%
-\contentsline {subsubsection}{4.8.2 数据导入}{89}{subsubsection*.273}%
-\contentsline {subsection}{\numberline {6.9.8}4.9 AGEXXL格式}{89}{subsection.6.9.8}%
-\contentsline {subsubsection}{4.9.1 数据导入}{89}{subsubsection*.274}%
-\contentsline {subsection}{\numberline {6.9.9}4.10 数据格式汇总}{89}{subsection.6.9.9}%
-\contentsline {subsection}{\numberline {6.9.10}4.11 标定文件查找机制}{90}{subsection.6.9.10}%
-\contentsline {subsubsection}{4.11.1 搜索顺序}{90}{subsubsection*.275}%
-\contentsline {subsubsection}{4.11.2 标定文件格式}{90}{subsubsection*.276}%
-\contentsline {subsubsection}{4.11.3 配置标定路径}{90}{subsubsection*.277}%
-\contentsline {subsection}{\numberline {6.9.11}4.12 多文件加载方式}{90}{subsection.6.9.11}%
-\contentsline {subsubsection}{4.12.1 单文件加载}{90}{subsubsection*.278}%
-\contentsline {subsubsection}{4.12.2 双源文件加载（X/Y源）}{90}{subsubsection*.279}%
-\contentsline {subsubsection}{4.12.3 多文件合并加载}{90}{subsubsection*.280}%
-\contentsline {subsection}{\numberline {6.9.12}4.13 仪器类型自动识别}{91}{subsection.6.9.12}%
-\contentsline {subsection}{\numberline {6.9.13}4.14 数据导入建议}{91}{subsection.6.9.13}%
-\contentsline {subsubsection}{4.14.1 导入前检查}{91}{subsubsection*.281}%
-\contentsline {subsubsection}{4.14.2 数据组织}{91}{subsubsection*.282}%
-\contentsline {subsection}{\numberline {6.9.14}4.15 批量添加频点}{91}{subsection.6.9.14}%
-\contentsline {subsubsection}{4.15.1 批量添加频点表单 (BatchAddFreqForm)}{91}{subsubsection*.283}%
-\contentsline {subsubsection}{4.15.2 频率生成方式}{92}{subsubsection*.284}%
-\contentsline {subsubsection}{4.15.3 参数说明}{92}{subsubsection*.285}%
-\contentsline {subsubsection}{4.15.4 生成算法}{92}{subsubsection*.286}%
-\contentsline {paragraph}{等比分布（对数间隔）}{92}{paragraph*.287}%
-\contentsline {paragraph}{等差分布（线性间隔）}{92}{paragraph*.288}%
-\contentsline {paragraph}{自定义间距（乘法递增）}{93}{paragraph*.289}%
-\contentsline {subsubsection}{4.15.5 频段编辑功能 (EditBandForm)}{93}{subsubsection*.290}%
-\contentsline {paragraph}{界面参数}{93}{paragraph*.291}%
-\contentsline {paragraph}{采样率输入格式}{93}{paragraph*.292}%
-\contentsline {paragraph}{验证规则}{94}{paragraph*.293}%
-\contentsline {subsection}{\numberline {6.9.15}4.16 分组类型设置 (GroupTypeForm)}{94}{subsection.6.9.15}%
-\contentsline {subsubsection}{分组类型说明}{94}{subsubsection*.294}%
-\contentsline {subsubsection}{MaxXPR参数}{94}{subsubsection*.295}%
-\contentsline {section}{\numberline {6.10}📊 第5章 时间序列处理}{94}{section.6.10}%
-\contentsline {subsection}{\numberline {6.10.1}5.1 ⚙️ FFT参数设置概述}{94}{subsection.6.10.1}%
-\contentsline {subsubsection}{4.1.1 参数设置对话框结构}{95}{subsubsection*.296}%
-\contentsline {subsection}{\numberline {6.10.2}5.2 📂 频段管理（MainSchema）}{95}{subsection.6.10.2}%
-\contentsline {subsubsection}{5.2.1 频段结构}{95}{subsubsection*.297}%
-\contentsline {subsubsection}{5.2.2 频段属性}{95}{subsubsection*.298}%
-\contentsline {subsubsection}{5.2.3 频段操作}{95}{subsubsection*.299}%
-\contentsline {subsubsection}{5.2.4 预设频段配置}{95}{subsubsection*.300}%
-\contentsline {subsection}{\numberline {6.10.3}5.3 子Schema管理（SubSchema）}{96}{subsection.6.10.3}%
-\contentsline {subsubsection}{4.3.1 子Schema属性}{96}{subsubsection*.301}%
-\contentsline {subsubsection}{4.3.2 FFT长度设置}{96}{subsubsection*.302}%
-\contentsline {subsubsection}{4.3.3 重叠率设置}{96}{subsubsection*.303}%
-\contentsline {subsubsection}{4.3.4 子Schema操作}{96}{subsubsection*.304}%
-\contentsline {subsection}{\numberline {6.10.4}5.4 频率管理}{96}{subsection.6.10.4}%
-\contentsline {subsubsection}{4.4.1 频率列表操作}{96}{subsubsection*.305}%
-\contentsline {subsubsection}{4.4.2 批量生成频率}{97}{subsubsection*.306}%
-\contentsline {paragraph}{📊 方式1：等比分布（Logarithmic）}{97}{paragraph*.307}%
-\contentsline {paragraph}{📏 方式2：等差分布（Linear）}{97}{paragraph*.308}%
-\contentsline {paragraph}{🔧 方式3：自定义间距（Custom）}{97}{paragraph*.309}%
-\contentsline {paragraph}{📌 Phoenix多频段模式}{98}{paragraph*.310}%
-\contentsline {subsubsection}{4.4.3 频率显示格式}{98}{subsubsection*.311}%
-\contentsline {subsection}{\numberline {6.10.5}5.5 全局FFT参数}{98}{subsection.6.10.5}%
-\contentsline {subsubsection}{4.5.1 窗函数}{98}{subsubsection*.312}%
-\contentsline {subsubsection}{4.5.2 窗函数选择指南}{99}{subsubsection*.313}%
-\contentsline {subsubsection}{4.5.3 实用设置建议}{99}{subsubsection*.314}%
-\contentsline {subsubsection}{4.5.4 窗函数对比示例}{99}{subsubsection*.315}%
-\contentsline {subsubsection}{4.5.5 单频计算方式}{100}{subsubsection*.316}%
-\contentsline {subsubsection}{4.5.6 多锥谱分析（Multi\sphinxhyphen {}Taper）}{100}{subsubsection*.317}%
-\contentsline {subsubsection}{4.5.7 零填充（Zero Padding）}{100}{subsubsection*.318}%
-\contentsline {subsubsection}{4.5.8 搜索带宽（Search Band）}{100}{subsubsection*.319}%
-\contentsline {subsection}{\numberline {6.10.6}5.6 🎯 估计方法设置}{100}{subsection.6.10.6}%
-\contentsline {subsubsection}{4.6.1 参考道估计方法}{101}{subsubsection*.320}%
-\contentsline {subsubsection}{4.6.2 稳健估计方法}{101}{subsubsection*.321}%
-\contentsline {subsubsection}{4.15.1 数据检查要点}{101}{subsubsection*.322}%
-\contentsline {subsubsection}{4.15.2 强干扰环境建议}{101}{subsubsection*.323}%
-\contentsline {subsection}{\numberline {6.10.7}5.16 🔬 测点精细处理界面（频谱编辑窗口）}{101}{subsection.6.10.7}%
-\contentsline {subsubsection}{5.16.0 RMSMR理论基础（为什么需要精细处理？）}{102}{subsubsection*.324}%
-\contentsline {paragraph}{为什么MT数据需要精细处理？}{102}{paragraph*.325}%
-\contentsline {paragraph}{RMSMR方法的三重保障}{102}{paragraph*.326}%
-\contentsline {paragraph}{从理论到实践的映射}{102}{paragraph*.327}%
-\contentsline {subsubsection}{5.16.1 界面布局概述}{102}{subsubsection*.328}%
-\contentsline {subsubsection}{5.16.1 界面布局概述}{102}{subsubsection*.329}%
-\contentsline {subsubsection}{5.16.2 FC文件管理}{103}{subsubsection*.330}%
-\contentsline {paragraph}{傅里叶系数（FC）文件说明}{103}{paragraph*.331}%
-\contentsline {paragraph}{FC列表操作}{103}{paragraph*.332}%
-\contentsline {paragraph}{编辑FC版本管理}{103}{paragraph*.333}%
-\contentsline {subsubsection}{5.16.3 远参考站配置}{104}{subsubsection*.334}%
-\contentsline {paragraph}{远参考站列表}{104}{paragraph*.335}%
-\contentsline {paragraph}{远参考方案选择}{104}{paragraph*.336}%
-\contentsline {paragraph}{反向参考站配置}{104}{paragraph*.337}%
-\contentsline {paragraph}{旋转角度设置}{104}{paragraph*.338}%
-\contentsline {subsubsection}{5.16.4 估计方法与残差剔除}{104}{subsubsection*.339}%
-\contentsline {paragraph}{Robust估计方法选择}{105}{paragraph*.340}%
-\contentsline {paragraph}{残差剔除参数}{105}{paragraph*.341}%
-\contentsline {subsubsection}{5.16.5 频谱组编辑框架（选项卡详解）}{105}{subsubsection*.342}%
-\contentsline {paragraph}{选项卡1：视电阻率/相位（RhoPhs）}{105}{paragraph*.343}%
-\contentsline {paragraph}{选项卡2：倾子（Tipper）}{105}{paragraph*.344}%
-\contentsline {paragraph}{选项卡3：阻抗张量（Z）}{106}{paragraph*.345}%
-\contentsline {paragraph}{选项卡4：相位张量（PhaseTensor）}{106}{paragraph*.346}%
-\contentsline {paragraph}{选项卡5：相干度（Coherence）}{106}{paragraph*.347}%
-\contentsline {paragraph}{选项卡6：CCZ阻抗}{106}{paragraph*.348}%
-\contentsline {paragraph}{选项卡7：极化（Polar）}{107}{paragraph*.349}%
-\contentsline {paragraph}{选项卡8：自动筛选参数（AutoSelect）}{107}{paragraph*.350}%
-\contentsline {paragraph}{选项卡9：传输方案（Transmit）}{107}{paragraph*.351}%
-\contentsline {subsubsection}{5.16.6 自动筛选算法详解（RMSMR核心）}{107}{subsubsection*.352}%
-\contentsline {paragraph}{为什么需要自动筛选？}{107}{paragraph*.353}%
-\contentsline {paragraph}{筛选类型总览}{108}{paragraph*.354}%
-\contentsline {paragraph}{各算法详解}{108}{paragraph*.355}%
-\contentsline {subparagraph}{1. RhoPlus SA（模拟退火）}{108}{subparagraph*.356}%
-\contentsline {subparagraph}{2. RhoPlus GA（遗传算法）}{108}{subparagraph*.357}%
-\contentsline {subparagraph}{3. RhoPlus MOGA（多目标遗传算法）⭐ 推荐}{108}{subparagraph*.358}%
-\contentsline {subparagraph}{4. Full Z MOGA（全阻抗MOGA）⭐ 高精度}{109}{subparagraph*.359}%
-\contentsline {paragraph}{马氏距离筛选（预处理步骤）}{109}{paragraph*.360}%
-\contentsline {paragraph}{筛选算法选择指南}{110}{paragraph*.361}%
-\contentsline {subsubsection}{5.16.7 数据导出功能}{110}{subsubsection*.362}%
-\contentsline {paragraph}{导出菜单概览}{110}{paragraph*.363}%
-\contentsline {paragraph}{EDI格式导出}{110}{paragraph*.364}%
-\contentsline {paragraph}{JSON格式导出}{110}{paragraph*.365}%
-\contentsline {paragraph}{参数导出}{110}{paragraph*.366}%
-\contentsline {paragraph}{残差权重导出}{110}{paragraph*.367}%
-\contentsline {subsubsection}{5.16.8 多参考站处理}{111}{subsubsection*.368}%
-\contentsline {subsubsection}{5.16.9 理论模型对比}{111}{subsubsection*.369}%
-\contentsline {subsubsection}{5.16.10 常用操作流程（RMSMR实践）}{111}{subsubsection*.370}%
-\contentsline {paragraph}{流程1：快速质量检查（1分钟）}{112}{paragraph*.371}%
-\contentsline {paragraph}{流程2：远参考处理（5分钟）}{112}{paragraph*.372}%
-\contentsline {paragraph}{流程3：自动筛选（10分钟）}{112}{paragraph*.373}%
-\contentsline {paragraph}{流程4：完整RMSMR处理流程（20\sphinxhyphen {}30分钟）}{112}{paragraph*.374}%
-\contentsline {subsubsection}{5.16.11 快捷键参考}{112}{subsubsection*.375}%
-\contentsline {subsubsection}{5.16.12 常见问题与解决}{112}{subsubsection*.376}%
-\contentsline {subsubsection}{5.16.13 参考文献}{113}{subsubsection*.377}%
-\contentsline {section}{\numberline {6.11}🔍 第6章 数据筛选与估计}{113}{section.6.11}%
-\contentsline {subsection}{\numberline {6.11.1}6.1 🖥️ 数据筛选界面}{113}{subsection.6.11.1}%
-\contentsline {subsubsection}{6.1.1 界面布局}{113}{subsubsection*.378}%
-\contentsline {subsubsection}{5.1.2 工具栏}{113}{subsubsection*.379}%
-\contentsline {subsection}{\numberline {6.11.2}6.2 📈 图表类型}{114}{subsection.6.11.2}%
-\contentsline {subsubsection}{5.2.1 视电阻率/相位}{114}{subsubsection*.380}%
-\contentsline {subsubsection}{5.2.2 阻抗张量}{114}{subsubsection*.381}%
-\contentsline {subsubsection}{5.2.3 倾子向量}{114}{subsubsection*.382}%
-\contentsline {subsubsection}{5.2.4 相位张量}{114}{subsubsection*.383}%
-\contentsline {subsubsection}{5.2.5 相干度}{115}{subsubsection*.384}%
-\contentsline {subsubsection}{5.2.6 其他参数}{116}{subsubsection*.385}%
-\contentsline {subsection}{\numberline {6.11.3}6.3 筛选操作}{116}{subsection.6.11.3}%
-\contentsline {subsubsection}{5.3.1 单参数筛选}{116}{subsubsection*.386}%
-\contentsline {subsubsection}{5.3.2 双参数筛选}{116}{subsubsection*.387}%
-\contentsline {subsubsection}{5.3.3 撤销与重做}{116}{subsubsection*.388}%
-\contentsline {subsection}{\numberline {6.11.4}6.4 旋转角度}{116}{subsection.6.11.4}%
-\contentsline {subsubsection}{5.4.1 功能说明}{116}{subsubsection*.389}%
-\contentsline {subsubsection}{5.4.2 操作方法}{117}{subsubsection*.390}%
-\contentsline {subsection}{\numberline {6.11.5}6.5 📏 马氏距离筛选}{117}{subsection.6.11.5}%
-\contentsline {subsubsection}{5.5.1 功能说明}{117}{subsubsection*.391}%
-\contentsline {subsubsection}{5.5.2 操作方法}{117}{subsubsection*.392}%
-\contentsline {subsection}{\numberline {6.11.6}6.6 🤖 自动筛选}{117}{subsection.6.11.6}%
-\contentsline {subsubsection}{5.6.1 筛选参数}{117}{subsubsection*.393}%
-\contentsline {subsubsection}{5.6.2 自动旋转角度}{118}{subsubsection*.394}%
-\contentsline {subsubsection}{5.6.3 筛选类型}{118}{subsubsection*.395}%
-\contentsline {subsection}{\numberline {6.11.7}6.7 📐 Rhoplus参考曲线}{118}{subsection.6.11.7}%
-\contentsline {subsubsection}{5.7.1 功能说明}{118}{subsubsection*.396}%
-\contentsline {subsubsection}{5.7.2 Rhoplus计算方式}{119}{subsubsection*.397}%
-\contentsline {subsubsection}{5.7.3 操作方法}{119}{subsubsection*.398}%
-\contentsline {subsubsection}{5.7.4 输出结果}{119}{subsubsection*.399}%
-\contentsline {subsubsection}{5.7.5 添加预测曲线}{119}{subsubsection*.400}%
-\contentsline {subsection}{\numberline {6.11.8}6.8 🧠 AI模型预测}{119}{subsection.6.11.8}%
-\contentsline {subsubsection}{5.8.1 功能说明}{119}{subsubsection*.401}%
-\contentsline {subsubsection}{5.8.2 预测方法}{120}{subsubsection*.402}%
-\contentsline {subsubsection}{5.8.3 操作方法}{120}{subsubsection*.403}%
-\contentsline {subsubsection}{5.8.4 使用建议}{120}{subsubsection*.404}%
-\contentsline {subsection}{\numberline {6.11.9}6.9 理论曲线预测}{120}{subsection.6.11.9}%
-\contentsline {subsubsection}{5.9.1 功能说明}{120}{subsubsection*.405}%
-\contentsline {subsubsection}{5.9.2 操作方法}{120}{subsubsection*.406}%
-\contentsline {subsubsection}{5.9.3 导入/导出预测}{120}{subsubsection*.407}%
-\contentsline {subsection}{\numberline {6.11.10}6.10 🎯 Robust稳健估计}{120}{subsection.6.11.10}%
-\contentsline {subsubsection}{5.9.1 可用方法}{121}{subsubsection*.408}%
-\contentsline {subsubsection}{5.9.2 参数设置}{121}{subsubsection*.409}%
-\contentsline {subsection}{\numberline {6.11.11}6.11 时轴显示}{121}{subsection.6.11.11}%
-\contentsline {subsubsection}{5.10.1 功能说明}{121}{subsubsection*.410}%
-\contentsline {subsubsection}{5.10.2 操作方法}{121}{subsubsection*.411}%
-\contentsline {subsection}{\numberline {6.11.12}6.12 传递调度}{121}{subsection.6.11.12}%
-\contentsline {subsubsection}{5.11.1 功能说明}{121}{subsubsection*.412}%
-\contentsline {subsubsection}{5.11.2 操作方法}{121}{subsubsection*.413}%
-\contentsline {subsection}{\numberline {6.11.13}6.13 🚀 实用处理流程}{121}{subsection.6.11.13}%
-\contentsline {subsubsection}{5.12.1 👶 新手推荐}{121}{subsubsection*.414}%
-\contentsline {subsubsection}{5.12.2 ⭐ 高质量数据}{122}{subsubsection*.415}%
-\contentsline {subsubsection}{5.12.3 ⚠️ 强干扰环境}{122}{subsubsection*.416}%
-\contentsline {subsection}{\numberline {6.11.14}6.14 XPR分组设置}{122}{subsection.6.11.14}%
-\contentsline {subsubsection}{5.13.1 分组类型}{122}{subsubsection*.417}%
-\contentsline {subsubsection}{5.13.2 MaxXPR参数}{122}{subsubsection*.418}%
-\contentsline {subsubsection}{5.13.3 使用建议}{122}{subsubsection*.419}%
-\contentsline {subsection}{\numberline {6.11.15}6.15 🌐 远参考站管理}{122}{subsection.6.11.15}%
-\contentsline {subsubsection}{5.14.1 功能说明}{122}{subsubsection*.420}%
-\contentsline {subsubsection}{5.14.2 适用条件}{122}{subsubsection*.421}%
-\contentsline {subsubsection}{5.14.3 远参考数据编辑 (RemoteReferenceEditForm)}{123}{subsubsection*.422}%
-\contentsline {subsubsection}{5.14.4 远参考处理建议}{123}{subsubsection*.423}%
-\contentsline {subsection}{\numberline {6.11.16}6.16 🔄 通道旋转恢复}{123}{subsection.6.11.16}%
-\contentsline {subsubsection}{5.15.1 功能说明}{123}{subsubsection*.424}%
-\contentsline {subsubsection}{5.15.2 旋转角度设置}{123}{subsubsection*.425}%
-\contentsline {subsubsection}{5.15.3 使用场景}{124}{subsubsection*.426}%
-\contentsline {subsubsection}{5.15.4 操作步骤}{124}{subsubsection*.427}%
-\contentsline {subsubsection}{5.15.5 注意事项}{124}{subsubsection*.428}%
-\contentsline {subsection}{\numberline {6.11.17}6.17 🧬 智能筛选算法}{124}{subsection.6.11.17}%
-\contentsline {subsubsection}{5.16.1 遗传算法概述}{124}{subsubsection*.429}%
-\contentsline {subsubsection}{5.16.2 算法参数}{124}{subsubsection*.430}%
-\contentsline {subsubsection}{5.16.3 优化目标}{124}{subsubsection*.431}%
-\contentsline {subsubsection}{5.16.4 多目标优化}{125}{subsubsection*.432}%
-\contentsline {subsubsection}{5.16.5 统计质量控制}{125}{subsubsection*.433}%
-\contentsline {subsubsection}{5.16.6 使用建议}{125}{subsubsection*.434}%
-\contentsline {subsubsection}{5.17 MT参数完整列表}{125}{subsubsection*.435}%
-\contentsline {paragraph}{5.17.1 基本参数}{125}{paragraph*.436}%
-\contentsline {paragraph}{5.17.2 阻抗张量实部与虚部（单位：Ω）}{125}{paragraph*.437}%
-\contentsline {paragraph}{5.17.3 阻抗张量幅值与相位}{126}{paragraph*.438}%
-\contentsline {paragraph}{5.17.4 倾子张量（无量纲）}{126}{paragraph*.439}%
-\contentsline {paragraph}{5.17.5 视电阻率（单位：Ω·m）}{127}{paragraph*.440}%
-\contentsline {paragraph}{5.17.6 阻抗方差}{127}{paragraph*.441}%
-\contentsline {paragraph}{5.17.7 视电阻率与相位方差}{127}{paragraph*.442}%
-\contentsline {paragraph}{5.17.8 相位张量}{128}{paragraph*.443}%
-\contentsline {paragraph}{5.17.9 共轭阻抗变换}{128}{paragraph*.444}%
-\contentsline {paragraph}{5.17.10 相干度}{128}{paragraph*.445}%
-\contentsline {paragraph}{5.17.11 信号与噪声}{130}{paragraph*.446}%
-\contentsline {paragraph}{5.17.12 功率谱密度}{130}{paragraph*.447}%
-\contentsline {paragraph}{5.17.13 频谱幅值}{131}{paragraph*.448}%
-\contentsline {paragraph}{5.17.14 极化参数}{131}{paragraph*.449}%
-\contentsline {paragraph}{5.17.15 阻抗行列式}{131}{paragraph*.450}%
-\contentsline {paragraph}{5.17.16 数据筛选常用参数推荐}{131}{paragraph*.451}%
-\contentsline {paragraph}{5.17.17 参数使用建议}{131}{paragraph*.452}%
-\contentsline {paragraph}{5.18 EDI导出格式}{132}{paragraph*.453}%
-\contentsline {section}{\numberline {6.12}第7章 结果输出与可视化}{132}{section.6.12}%
-\contentsline {subsection}{\numberline {6.12.1}7.1 数据图表查看}{132}{subsection.6.12.1}%
-\contentsline {subsubsection}{6.1.1 视电阻率/相位曲线}{132}{subsubsection*.454}%
-\contentsline {subsubsection}{6.1.2 多测点对比}{133}{subsubsection*.455}%
-\contentsline {subsubsection}{6.1.3 图表交互操作}{133}{subsubsection*.456}%
-\contentsline {subsection}{\numberline {6.12.2}7.2 EDI格式导出}{133}{subsection.6.12.2}%
-\contentsline {subsubsection}{6.2.1 批量导出（详细流程）}{133}{subsubsection*.457}%
-\contentsline {paragraph}{6.2.1.1 批量导出概述}{133}{paragraph*.458}%
-\contentsline {paragraph}{6.2.1.2 导入前准备}{133}{paragraph*.459}%
-\contentsline {paragraph}{6.2.1.3 批量导出操作步骤}{134}{paragraph*.460}%
-\contentsline {paragraph}{6.2.1.4 导出后验证}{134}{paragraph*.461}%
-\contentsline {paragraph}{6.2.1.5 常见问题}{135}{paragraph*.462}%
-\contentsline {paragraph}{6.2.1.6 批量导出最佳实践}{135}{paragraph*.463}%
-\contentsline {subsubsection}{6.2.2 导出操作}{136}{subsubsection*.464}%
-\contentsline {subsubsection}{6.2.4 EDI格式详细规范}{136}{subsubsection*.465}%
-\contentsline {paragraph}{EDI文件完整结构}{136}{paragraph*.466}%
-\contentsline {paragraph}{EDI数据段详解}{137}{paragraph*.467}%
-\contentsline {paragraph}{MTEDATA数据字段}{138}{paragraph*.468}%
-\contentsline {paragraph}{EDI版本兼容性}{138}{paragraph*.469}%
-\contentsline {subsubsection}{6.2.5 EDI格式验证}{138}{subsubsection*.470}%
-\contentsline {subsubsection}{6.2.6 其他导出格式}{138}{subsubsection*.471}%
-\contentsline {paragraph}{J\sphinxhyphen {}format格式}{138}{paragraph*.472}%
-\contentsline {paragraph}{PLT格式}{139}{paragraph*.473}%
-\contentsline {paragraph}{CSV格式}{139}{paragraph*.474}%
-\contentsline {subsection}{\numberline {6.12.3}7.3 地理信息导出}{139}{subsection.6.12.3}%
-\contentsline {subsubsection}{6.3.1 KML格式导出}{139}{subsubsection*.475}%
-\contentsline {subsubsection}{6.3.2 KMZ格式导出}{140}{subsubsection*.476}%
-\contentsline {subsubsection}{6.3.3 KML文件结构}{140}{subsubsection*.477}%
-\contentsline {subsection}{\numberline {6.12.4}7.4 坐标数据导出}{140}{subsection.6.12.4}%
-\contentsline {subsection}{\numberline {6.12.5}7.5 批量导出功能}{141}{subsection.6.12.5}%
-\contentsline {subsubsection}{6.5.1 导出测段参数}{141}{subsubsection*.478}%
-\contentsline {subsubsection}{6.5.2 导出相位张量}{141}{subsubsection*.479}%
-\contentsline {subsubsection}{6.5.3 导出数据质量}{141}{subsubsection*.480}%
-\contentsline {subsubsection}{6.5.4 导出测点坐标}{141}{subsubsection*.481}%
-\contentsline {subsection}{\numberline {6.12.6}7.6 其他导出格式}{142}{subsection.6.12.6}%
-\contentsline {subsubsection}{6.5.1 视电阻率/相位数据导出}{142}{subsubsection*.482}%
-\contentsline {subsubsection}{6.5.2 图表导出}{142}{subsubsection*.483}%
-\contentsline {subsection}{\numberline {6.12.7}7.7 数据质量控制}{142}{subsection.6.12.7}%
-\contentsline {subsubsection}{6.6.1 数据质量标记}{142}{subsubsection*.484}%
-\contentsline {subsubsection}{6.6.2 批量质量导出}{142}{subsubsection*.485}%
-\contentsline {subsection}{\numberline {6.12.8}7.8 与GIS软件联动}{142}{subsection.6.12.8}%
-\contentsline {subsection}{\numberline {6.12.9}7.9 工程文件备份}{143}{subsection.6.12.9}%
-\contentsline {subsubsection}{6.8.1 导出版本}{143}{subsubsection*.486}%
-\contentsline {subsubsection}{6.8.2 自动备份}{143}{subsubsection*.487}%
-\contentsline {subsection}{\numberline {6.12.10}7.10 时间序列导出}{143}{subsection.6.12.10}%
-\contentsline {subsubsection}{6.9.1 GMT格式导出}{143}{subsubsection*.488}%
-\contentsline {subsubsection}{6.9.2 ATGMT格式导出}{143}{subsubsection*.489}%
-\contentsline {subsection}{\numberline {6.12.11}7.11 HTML报告生成}{143}{subsection.6.12.11}%
-\contentsline {section}{\numberline {6.13}👁️ 第9章 视图功能}{143}{section.6.13}%
-\contentsline {subsection}{\numberline {6.13.1}9.1 🖥️ 界面布局}{144}{subsection.6.13.1}%
-\contentsline {subsubsection}{9.1.1 主要选项卡}{144}{subsubsection*.490}%
-\contentsline {subsubsection}{9.1.2 视图子页面}{144}{subsubsection*.491}%
-\contentsline {subsection}{\numberline {6.13.2}9.2 📊 时间序列查看器}{144}{subsection.6.13.2}%
-\contentsline {subsubsection}{9.2.1 打开时间序列查看器}{144}{subsubsection*.492}%
-\contentsline {subsubsection}{9.2.2 界面结构}{144}{subsubsection*.493}%
-\contentsline {subsubsection}{9.2.3 通道显示控制}{145}{subsubsection*.494}%
-\contentsline {subsubsection}{9.2.4 测点显示控制}{145}{subsubsection*.495}%
-\contentsline {subsubsection}{9.2.5 显示参数设置}{145}{subsubsection*.496}%
-\contentsline {subsubsection}{9.2.6 时间轴控制}{146}{subsubsection*.497}%
-\contentsline {subsubsection}{9.2.7 显示选项}{146}{subsubsection*.498}%
-\contentsline {subsubsection}{9.2.8 多采样率支持}{146}{subsubsection*.499}%
-\contentsline {subsection}{\numberline {6.13.3}9.3 📈 FFT实时计算}{146}{subsection.6.13.3}%
-\contentsline {subsubsection}{9.3.1 功能说明}{146}{subsubsection*.500}%
-\contentsline {subsubsection}{9.3.2 FFT选项卡}{147}{subsubsection*.501}%
-\contentsline {subsubsection}{9.3.3 FFT参数设置}{147}{subsubsection*.502}%
-\contentsline {subsubsection}{9.3.4 FFT计算方式}{147}{subsubsection*.503}%
-\contentsline {subsubsection}{9.3.5 频谱显示}{148}{subsubsection*.504}%
-\contentsline {subsubsection}{9.3.6 相干性显示}{148}{subsubsection*.505}%
-\contentsline {subsection}{\numberline {6.13.4}9.4 📻 Phoenix时间序列查看器}{148}{subsection.6.13.4}%
-\contentsline {subsubsection}{9.4.1 专用功能}{148}{subsubsection*.506}%
-\contentsline {subsubsection}{9.4.2 从TBL文件加载}{148}{subsubsection*.507}%
-\contentsline {subsubsection}{9.4.3 数据类型支持}{149}{subsubsection*.508}%
-\contentsline {subsection}{\numberline {6.13.5}9.5 🗺️ 地图视图}{149}{subsection.6.13.5}%
-\contentsline {subsubsection}{9.5.1 功能说明}{149}{subsubsection*.509}%
-\contentsline {subsubsection}{9.5.2 使用方法}{149}{subsubsection*.510}%
-\contentsline {subsubsection}{9.5.3 地图操作}{149}{subsubsection*.511}%
-\contentsline {subsection}{\numberline {6.13.6}9.6 📉 视电阻率/相位曲线}{149}{subsection.6.13.6}%
-\contentsline {subsubsection}{9.6.1 打开曲线视图}{149}{subsubsection*.512}%
-\contentsline {subsubsection}{9.6.2 显示选项}{150}{subsubsection*.513}%
-\contentsline {subsection}{\numberline {6.13.7}9.7 📡 标定曲线查看}{150}{subsection.6.13.7}%
-\contentsline {subsubsection}{9.7.1 标定查看器类型}{150}{subsubsection*.514}%
-\contentsline {subsubsection}{9.7.2 通用标定查看器 (CalCalibrationForm)}{150}{subsubsection*.515}%
-\contentsline {subsubsection}{9.7.3 Phoenix标定查看器 (CalibrationViewForm)}{151}{subsubsection*.516}%
-\contentsline {subsubsection}{9.7.4 标定曲线解读}{152}{subsubsection*.517}%
-\contentsline {paragraph}{幅度曲线解读}{152}{paragraph*.518}%
-\contentsline {paragraph}{相位曲线解读}{152}{paragraph*.519}%
-\contentsline {paragraph}{多曲线对比}{153}{paragraph*.520}%
-\contentsline {subsection}{\numberline {6.13.8}9.8 🧵 多线程监控}{153}{subsection.6.13.8}%
-\contentsline {subsubsection}{9.8.1 功能说明}{153}{subsubsection*.521}%
-\contentsline {subsubsection}{9.8.2 监控内容}{153}{subsubsection*.522}%
-\contentsline {subsubsection}{9.8.3 任务管理}{153}{subsubsection*.523}%
-\contentsline {subsection}{\numberline {6.13.9}9.9 工程树操作}{153}{subsection.6.13.9}%
-\contentsline {subsubsection}{9.9.1 快捷操作}{153}{subsubsection*.524}%
-\contentsline {subsubsection}{9.9.2 层次结构}{154}{subsubsection*.525}%
-\contentsline {subsubsection}{9.9.3 拖拽操作}{154}{subsubsection*.526}%
-\contentsline {subsection}{\numberline {6.13.10}9.10 图表通用操作}{154}{subsection.6.13.10}%
-\contentsline {subsubsection}{9.10.1 鼠标操作}{154}{subsubsection*.527}%
-\contentsline {subsubsection}{9.10.2 键盘快捷键}{154}{subsubsection*.528}%
-\contentsline {subsection}{\numberline {6.13.11}9.11 🔬 SSA奇异谱分析}{154}{subsection.6.13.11}%
-\contentsline {subsubsection}{9.11.1 功能说明}{154}{subsubsection*.529}%
-\contentsline {subsubsection}{9.11.2 打开SSA分析}{154}{subsubsection*.530}%
-\contentsline {subsubsection}{9.11.3 SSA参数}{155}{subsubsection*.531}%
-\contentsline {subsubsection}{9.11.4 分析步骤}{155}{subsubsection*.532}%
-\contentsline {subsubsection}{9.11.5 MSSA多通道分析}{155}{subsubsection*.533}%
-\contentsline {subsubsection}{9.11.6 结果解读}{156}{subsubsection*.534}%
-\contentsline {subsubsection}{9.11.7 应用场景}{156}{subsubsection*.535}%
-\contentsline {subsubsection}{9.11.8 导出结果}{156}{subsubsection*.536}%
-\contentsline {section}{\numberline {6.14}附录A: 快捷键参考}{156}{section.6.14}%
-\contentsline {subsection}{\numberline {6.14.1}常用快捷键}{156}{subsection.6.14.1}%
-\contentsline {subsection}{\numberline {6.14.2}处理相关快捷键}{157}{subsection.6.14.2}%
-\contentsline {subsection}{\numberline {6.14.3}视图相关快捷键}{157}{subsection.6.14.3}%
-\contentsline {subsection}{\numberline {6.14.4}工程管理快捷键}{157}{subsection.6.14.4}%
-\contentsline {section}{\numberline {6.15}附录B: 参数说明表}{157}{section.6.15}%
-\contentsline {subsection}{\numberline {6.15.1}处理方案参数}{157}{subsection.6.15.1}%
-\contentsline {subsection}{\numberline {6.15.2}FFT参数}{158}{subsection.6.15.2}%
-\contentsline {subsection}{\numberline {6.15.3}稳健估计参数}{158}{subsection.6.15.3}%
-\contentsline {subsection}{\numberline {6.15.4}参考道估计方法}{158}{subsection.6.15.4}%
-\contentsline {subsection}{\numberline {6.15.5}稳健估计方法}{158}{subsection.6.15.5}%
-\contentsline {subsection}{\numberline {6.15.6}自动筛选参数}{159}{subsection.6.15.6}%
-\contentsline {subsection}{\numberline {6.15.7}马氏距离参数}{159}{subsection.6.15.7}%
-\contentsline {subsection}{\numberline {6.15.8}遗传算法参数}{159}{subsection.6.15.8}%
-\contentsline {subsection}{\numberline {6.15.9}降采样参数}{159}{subsection.6.15.9}%
-\contentsline {subsection}{\numberline {6.15.10}工频滤波参数}{159}{subsection.6.15.10}%
-\contentsline {subsection}{\numberline {6.15.11}Rhoplus参数}{160}{subsection.6.15.11}%
-\contentsline {subsection}{\numberline {6.15.12}AI预测参数}{160}{subsection.6.15.12}%
-\contentsline {subsection}{\numberline {6.15.13}测点排序方式}{160}{subsection.6.15.13}%
-\contentsline {subsection}{\numberline {6.15.14}仪器类型代码}{160}{subsection.6.15.14}%
-\contentsline {subsection}{\numberline {6.15.15}数据质量等级}{161}{subsection.6.15.15}%
-\contentsline {subsection}{\numberline {6.15.16}MT参数类型}{161}{subsection.6.15.16}%
-\contentsline {section}{\numberline {6.16}附录C: 文件格式规范}{161}{section.6.16}%
-\contentsline {subsection}{\numberline {6.16.1}工程文件结构}{161}{subsection.6.16.1}%
-\contentsline {subsubsection}{工程目录结构}{161}{subsubsection*.537}%
-\contentsline {subsection}{\numberline {6.16.2}EDI文件格式}{162}{subsection.6.16.2}%
-\contentsline {subsubsection}{EDI文件结构示例}{162}{subsubsection*.538}%
-\contentsline {subsection}{\numberline {6.16.3}各仪器原始数据格式摘要}{162}{subsection.6.16.3}%
-\contentsline {subsubsection}{Phoenix TBL格式}{162}{subsubsection*.539}%
-\contentsline {subsubsection}{Phoenix JSON格式}{162}{subsubsection*.540}%
-\contentsline {subsubsection}{Metronix ATM格式}{163}{subsubsection*.541}%
-\contentsline {subsubsection}{LEMI格式}{163}{subsubsection*.542}%
-\contentsline {subsubsection}{ATTS格式}{163}{subsubsection*.543}%
-\contentsline {subsection}{\numberline {6.16.4}标定文件格式}{163}{subsection.6.16.4}%
-\contentsline {subsubsection}{CLB文件（电场盒标定）}{163}{subsubsection*.544}%
-\contentsline {subsubsection}{CLC文件（磁传感器标定）}{163}{subsubsection*.545}%
-\contentsline {subsection}{\numberline {6.16.5}处理方案文件}{164}{subsection.6.16.5}%
-\contentsline {section}{\numberline {6.17}附录D: 常见问题FAQ}{164}{section.6.17}%
-\contentsline {subsection}{\numberline {6.17.1}安装与授权问题}{164}{subsection.6.17.1}%
-\contentsline {subsection}{\numberline {6.17.2}数据导入问题}{164}{subsection.6.17.2}%
-\contentsline {subsection}{\numberline {6.17.3}处理结果异常}{164}{subsection.6.17.3}%
-\contentsline {subsection}{\numberline {6.17.4}导出问题}{165}{subsection.6.17.4}%
-\contentsline {subsection}{\numberline {6.17.5}其他问题}{165}{subsection.6.17.5}%
-\contentsline {section}{\numberline {6.18}附录E: 更新日志}{165}{section.6.18}%
-\contentsline {subsection}{\numberline {6.18.1}版本 1.9.4 (当前版本)}{165}{subsection.6.18.1}%
-\contentsline {subsubsection}{多仪器支持}{165}{subsubsection*.546}%
-\contentsline {subsubsection}{数据处理}{166}{subsubsection*.547}%
-\contentsline {subsubsection}{稳健估计}{166}{subsubsection*.548}%
-\contentsline {subsubsection}{参考道技术}{166}{subsubsection*.549}%
-\contentsline {subsubsection}{智能筛选}{166}{subsubsection*.550}%
-\contentsline {subsubsection}{导出功能}{166}{subsubsection*.551}%
-\contentsline {subsection}{\numberline {6.18.2}版本 1.5}{167}{subsection.6.18.2}%
-\contentsline {subsection}{\numberline {6.18.3}版本 1.0}{167}{subsection.6.18.3}%
-\contentsline {subsection}{\numberline {6.18.4}已知问题}{167}{subsection.6.18.4}%
-\contentsline {subsection}{\numberline {6.18.5}系统要求}{167}{subsection.6.18.5}%
-\contentsline {subsection}{\numberline {6.18.6}技术支持}{168}{subsection.6.18.6}%
-\contentsline {section}{\numberline {6.19}附录F: 图表操作详解}{168}{section.6.19}%
-\contentsline {subsection}{\numberline {6.19.1}F.1 图表右键菜单}{168}{subsection.6.19.1}%
-\contentsline {subsubsection}{F.1.1 显示设置}{168}{subsubsection*.552}%
-\contentsline {subsubsection}{F.1.2 坐标轴设置}{168}{subsubsection*.553}%
-\contentsline {subsubsection}{F.1.3 缩放功能}{168}{subsubsection*.554}%
-\contentsline {subsubsection}{F.1.4 导出功能}{169}{subsubsection*.555}%
-\contentsline {subsection}{\numberline {6.19.2}F.2 坐标轴操作}{169}{subsection.6.19.2}%
-\contentsline {subsubsection}{F.2.1 点击坐标轴设置范围}{169}{subsubsection*.556}%
-\contentsline {subsubsection}{F.2.2 对数/线性坐标切换}{169}{subsubsection*.557}%
-\contentsline {subsection}{\numberline {6.19.3}F.3 图表缩放与平移}{169}{subsection.6.19.3}%
-\contentsline {subsubsection}{F.3.1 鼠标操作}{169}{subsubsection*.558}%
-\contentsline {subsubsection}{F.3.2 键盘快捷键}{169}{subsubsection*.559}%
-\contentsline {subsection}{\numberline {6.19.4}F.4 数据筛选图表操作}{170}{subsection.6.19.4}%
-\contentsline {subsubsection}{F.4.1 选择模式}{170}{subsubsection*.560}%
-\contentsline {subsubsection}{F.4.2 完成选择}{170}{subsubsection*.561}%
-\contentsline {subsubsection}{F.4.3 撤销与重做}{170}{subsubsection*.562}%
-\contentsline {subsubsection}{F.4.4 操作示例}{170}{subsubsection*.563}%
-\contentsline {subsection}{\numberline {6.19.5}F.5 添加临时曲线}{171}{subsection.6.19.5}%
-\contentsline {subsection}{\numberline {6.19.6}F.6 图表编辑器}{171}{subsection.6.19.6}%
-\contentsline {subsubsection}{F.6.1 常用设置}{171}{subsubsection*.564}%
-\contentsline {subsubsection}{F.6.2 保存设置}{171}{subsubsection*.565}%
-\contentsline {subsection}{\numberline {6.19.7}F.7 多图表对比}{171}{subsection.6.19.7}%
-\contentsline {subsubsection}{F.7.1 多测点叠加}{171}{subsubsection*.566}%
-\contentsline {subsubsection}{F.7.2 图表工具栏}{172}{subsubsection*.567}%
-\contentsline {subsection}{\numberline {6.19.8}F.8 常见问题}{172}{subsection.6.19.8}%
-\contentsline {section}{\numberline {6.20}贡献指南}{172}{section.6.20}%
-\contentsline {subsection}{\numberline {6.20.1}如何贡献}{172}{subsection.6.20.1}%
-\contentsline {subsection}{\numberline {6.20.2}文档结构}{172}{subsection.6.20.2}%
-\contentsline {subsection}{\numberline {6.20.3}本地构建}{173}{subsection.6.20.3}%
-\contentsline {subsection}{\numberline {6.20.4}写作规范}{173}{subsection.6.20.4}%
-\contentsline {subsection}{\numberline {6.20.5}注意事项}{173}{subsection.6.20.5}%
+\contentsline {subsection}{\numberline {6.3.8}下一步}{17}{subsection.6.3.8}%
+\contentsline {section}{\numberline {6.4}第1章 软件概述}{18}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}1.1 MTDP简介}{18}{subsection.6.4.1}%
+\contentsline {subsubsection}{1.1.1 软件定位}{18}{subsubsection*.8}%
+\contentsline {subsubsection}{1.1.2 版本信息}{18}{subsubsection*.9}%
+\contentsline {subsubsection}{1.1.3 主要特点}{18}{subsubsection*.10}%
+\contentsline {subsection}{\numberline {6.4.2}1.2 系统要求与安装}{19}{subsection.6.4.2}%
+\contentsline {subsubsection}{1.2.1 硬件要求}{19}{subsubsection*.11}%
+\contentsline {subsubsection}{1.2.2 软件要求}{19}{subsubsection*.12}%
+\contentsline {subsubsection}{1.2.3 安装步骤}{19}{subsubsection*.13}%
+\contentsline {subsubsection}{1.2.4 授权验证}{19}{subsubsection*.14}%
+\contentsline {subsection}{\numberline {6.4.3}1.3 软件界面导览}{19}{subsection.6.4.3}%
+\contentsline {subsubsection}{1.3.1 主窗口布局}{19}{subsubsection*.15}%
+\contentsline {subsubsection}{1.3.2 数据层次结构}{20}{subsubsection*.16}%
+\contentsline {subsubsection}{1.3.3 菜单结构}{20}{subsubsection*.17}%
+\contentsline {paragraph}{主菜单}{20}{paragraph*.18}%
+\contentsline {paragraph}{右键菜单详细说明}{21}{paragraph*.19}%
+\contentsline {subparagraph}{项目右键菜单}{22}{subparagraph*.20}%
+\contentsline {subparagraph}{工区右键菜单}{22}{subparagraph*.21}%
+\contentsline {subparagraph}{📁 分组（测段）右键菜单}{23}{subparagraph*.22}%
+\contentsline {subparagraph}{测点右键菜单}{26}{subparagraph*.23}%
+\contentsline {subparagraph}{右键菜单使用技巧}{28}{subparagraph*.24}%
+\contentsline {subsection}{\numberline {6.4.4}1.4 工程文件结构}{29}{subsection.6.4.4}%
+\contentsline {subsubsection}{1.4.1 目录组织}{29}{subsubsection*.25}%
+\contentsline {subsubsection}{1.4.2 自动备份}{29}{subsubsection*.26}%
+\contentsline {subsection}{\numberline {6.4.5}1.5 快速入门教程}{29}{subsection.6.4.5}%
+\contentsline {subsubsection}{5分钟完成数据处理}{29}{subsubsection*.27}%
+\contentsline {subsection}{\numberline {6.4.6}1.6 常见工作流程}{30}{subsection.6.4.6}%
+\contentsline {subsubsection}{1.6.1 标准MT数据处理流程}{30}{subsubsection*.28}%
+\contentsline {subsubsection}{1.6.2 远参考处理流程}{30}{subsubsection*.29}%
+\contentsline {subsubsection}{1.6.3 RMSMR强干扰处理流程}{31}{subsubsection*.30}%
+\contentsline {subsubsection}{1.6.4 批量处理流程}{31}{subsubsection*.31}%
+\contentsline {subsubsection}{1.6.5 数据质量评估流程}{31}{subsubsection*.32}%
+\contentsline {subsubsection}{1.6.6 典型应用场景}{31}{subsubsection*.33}%
+\contentsline {subsection}{\numberline {6.4.7}1.7 软件配置建议}{32}{subsection.6.4.7}%
+\contentsline {subsubsection}{1.7.1 推荐设置}{32}{subsubsection*.34}%
+\contentsline {subsubsection}{1.7.2 性能优化}{32}{subsubsection*.35}%
+\contentsline {subsection}{\numberline {6.4.8}1.8 获取帮助}{32}{subsection.6.4.8}%
+\contentsline {section}{\numberline {6.5}📚 第2章 大地电磁数据处理教程}{32}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}2.1 教程概述与学习路径}{32}{subsection.6.5.1}%
+\contentsline {subsubsection}{2.1.1 MT数据处理全景图}{32}{subsubsection*.36}%
+\contentsline {subsubsection}{2.1.2 本章学习路径}{32}{subsubsection*.37}%
+\contentsline {subsubsection}{2.1.3 学习建议}{33}{subsubsection*.38}%
+\contentsline {subsubsection}{2.1.4 术语中英对照表}{33}{subsubsection*.39}%
+\contentsline {subsection}{\numberline {6.5.2}2.2 第一步：理解MT基本原理}{33}{subsection.6.5.2}%
+\contentsline {subsubsection}{2.2.1 天然电磁场从哪里来？}{33}{subsubsection*.40}%
+\contentsline {paragraph}{两种天然场源}{33}{paragraph*.41}%
+\contentsline {paragraph}{昼夜变化的影响}{33}{paragraph*.42}%
+\contentsline {subsubsection}{2.2.2 电磁波如何"看见"地下？}{34}{subsubsection*.43}%
+\contentsline {paragraph}{核心概念：趋肤深度}{34}{paragraph*.44}%
+\contentsline {paragraph}{实际探测深度速查表}{34}{paragraph*.45}%
+\contentsline {subsubsection}{2.2.3 我们测量的是什么？}{34}{subsubsection*.46}%
+\contentsline {paragraph}{阻抗：地下的"电阻"}{34}{paragraph*.47}%
+\contentsline {paragraph}{视电阻率与相位}{34}{paragraph*.48}%
+\contentsline {paragraph}{倾子：寻找侧向异常}{35}{paragraph*.49}%
+\contentsline {subsection}{\numberline {6.5.3}2.3 第二步：数据采集准备}{35}{subsection.6.5.3}%
+\contentsline {subsubsection}{2.3.1 野外布置要点}{35}{subsubsection*.50}%
+\contentsline {paragraph}{测站组成}{35}{paragraph*.51}%
+\contentsline {paragraph}{布置建议}{35}{paragraph*.52}%
+\contentsline {subsubsection}{2.3.2 远参考站设置}{36}{subsubsection*.53}%
+\contentsline {paragraph}{为什么需要远参考站？}{36}{paragraph*.54}%
+\contentsline {paragraph}{远参考站设置要求}{36}{paragraph*.55}%
+\contentsline {subsubsection}{2.3.3 观测时长建议}{36}{subsubsection*.56}%
+\contentsline {paragraph}{根据探测深度确定时长}{36}{paragraph*.57}%
+\contentsline {paragraph}{提高数据质量的技巧}{36}{paragraph*.58}%
+\contentsline {subsubsection}{2.3.4 MTDP数据导入操作}{36}{subsubsection*.59}%
+\contentsline {subsubsection}{2.3.5 测点设置表单详解}{37}{subsubsection*.60}%
+\contentsline {paragraph}{2.3.5.1 基本信息}{37}{paragraph*.61}%
+\contentsline {paragraph}{2.3.5.2 坐标信息}{37}{paragraph*.62}%
+\contentsline {paragraph}{2.3.5.3 通道配置参数}{37}{paragraph*.63}%
+\contentsline {paragraph}{2.3.5.4 采集盒信息}{38}{paragraph*.64}%
+\contentsline {paragraph}{2.3.5.5 时间信息}{38}{paragraph*.65}%
+\contentsline {paragraph}{2.3.5.6 频率信息}{38}{paragraph*.66}%
+\contentsline {paragraph}{2.3.5.7 特殊功能}{38}{paragraph*.67}%
+\contentsline {subsection}{\numberline {6.5.4}2.4 第三步：从时间序列到频谱}{39}{subsection.6.5.4}%
+\contentsline {subsubsection}{2.4.1 傅里叶变换基础}{39}{subsubsection*.68}%
+\contentsline {paragraph}{为什么需要FFT？}{39}{paragraph*.69}%
+\contentsline {paragraph}{MTDP中的FFT参数}{39}{paragraph*.70}%
+\contentsline {subsubsection}{2.4.2 功率谱估计}{39}{subsubsection*.71}%
+\contentsline {paragraph}{自功率谱与互功率谱}{39}{paragraph*.72}%
+\contentsline {paragraph}{叠加的作用}{40}{paragraph*.73}%
+\contentsline {subsubsection}{2.4.3 数据分组与叠加}{40}{subsubsection*.74}%
+\contentsline {paragraph}{分组策略}{40}{paragraph*.75}%
+\contentsline {subsubsection}{2.4.4 MTDP的FFT操作}{40}{subsubsection*.76}%
+\contentsline {subsection}{\numberline {6.5.5}2.5 第四步：阻抗估计}{41}{subsection.6.5.5}%
+\contentsline {subsubsection}{2.5.1 方法对比总览}{41}{subsubsection*.77}%
+\contentsline {subsubsection}{2.5.2 方法选择决策树}{41}{subsubsection*.78}%
+\contentsline {subsubsection}{2.5.3 最小二乘法（入门理解）}{41}{subsubsection*.79}%
+\contentsline {paragraph}{基本思想}{41}{paragraph*.80}%
+\contentsline {paragraph}{为什么不推荐？}{41}{paragraph*.81}%
+\contentsline {subsubsection}{2.5.4 远参考道法（推荐）}{41}{subsubsection*.82}%
+\contentsline {paragraph}{核心思想}{41}{paragraph*.83}%
+\contentsline {paragraph}{为什么有效？}{41}{paragraph*.84}%
+\contentsline {paragraph}{使用条件}{41}{paragraph*.85}%
+\contentsline {subsubsection}{2.5.5 稳健估计（进阶）}{42}{subsubsection*.86}%
+\contentsline {paragraph}{回归M估计}{42}{paragraph*.87}%
+\contentsline {paragraph}{有界影响估计}{42}{paragraph*.88}%
+\contentsline {subsubsection}{2.5.6 RMSMR方法（MTDP特色）}{42}{subsubsection*.89}%
+\contentsline {paragraph}{三维度处理策略}{42}{paragraph*.90}%
+\contentsline {subsubsection}{2.5.7 MTDP阻抗估计操作}{42}{subsubsection*.91}%
+\contentsline {subsection}{\numberline {6.5.6}2.6 第五步：数据质量评估}{43}{subsection.6.5.6}%
+\contentsline {subsubsection}{2.6.1 质量评估指标总览}{43}{subsubsection*.92}%
+\contentsline {subsubsection}{2.6.2 三种相干度详解}{43}{subsubsection*.93}%
+\contentsline {paragraph}{常相干度 (Ordinary Coherence)}{43}{paragraph*.94}%
+\contentsline {paragraph}{重相干度 (Multiple Coherence)}{43}{paragraph*.95}%
+\contentsline {paragraph}{偏相干度 (Partial Coherence)}{44}{paragraph*.96}%
+\contentsline {subsubsection}{2.6.3 其他质量指标}{44}{subsubsection*.97}%
+\contentsline {paragraph}{功率谱密度 (PSD)}{44}{paragraph*.98}%
+\contentsline {paragraph}{误差棒（方差估计）}{44}{paragraph*.99}%
+\contentsline {subsubsection}{2.6.4 数据筛选方法}{44}{subsubsection*.100}%
+\contentsline {paragraph}{筛选参数一览}{44}{paragraph*.101}%
+\contentsline {paragraph}{马氏距离筛选}{45}{paragraph*.102}%
+\contentsline {subsubsection}{2.6.5 好/坏数据对比示例}{45}{subsubsection*.103}%
+\contentsline {paragraph}{✅ 高质量数据特征}{45}{paragraph*.104}%
+\contentsline {paragraph}{❌ 低质量数据特征}{45}{paragraph*.105}%
+\contentsline {paragraph}{质量问题诊断表}{46}{paragraph*.106}%
+\contentsline {subsubsection}{2.6.6 质量评估清单}{46}{subsubsection*.107}%
+\contentsline {subsubsection}{2.6.7 MTDP质量评估操作}{46}{subsubsection*.108}%
+\contentsline {subsection}{\numberline {6.5.7}2.7 第六步：高级分析工具}{47}{subsection.6.5.7}%
+\contentsline {subsubsection}{2.7.1 相位张量分析}{47}{subsubsection*.109}%
+\contentsline {paragraph}{为什么用相位张量？}{47}{paragraph*.110}%
+\contentsline {paragraph}{相位张量定义}{47}{paragraph*.111}%
+\contentsline {paragraph}{椭圆表示}{47}{paragraph*.112}%
+\contentsline {paragraph}{关键参数}{47}{paragraph*.113}%
+\contentsline {subsubsection}{2.7.2 Rhoplus分析}{47}{subsubsection*.114}%
+\contentsline {paragraph}{核心思想}{47}{paragraph*.115}%
+\contentsline {paragraph}{目标函数}{47}{paragraph*.116}%
+\contentsline {paragraph}{应用场景}{48}{paragraph*.117}%
+\contentsline {paragraph}{多角度Rhoplus}{48}{paragraph*.118}%
+\contentsline {subsubsection}{2.7.3 MTDP高级分析操作}{48}{subsubsection*.119}%
+\contentsline {subsection}{\numberline {6.5.8}2.8 第七步：RMSMR完整流程}{48}{subsection.6.5.8}%
+\contentsline {subsubsection}{2.8.1 RMSMR处理流程图}{48}{subsubsection*.120}%
+\contentsline {subsubsection}{2.8.2 参数设置指南}{48}{subsubsection*.121}%
+\contentsline {paragraph}{核心参数详解}{48}{paragraph*.122}%
+\contentsline {paragraph}{参数调优建议}{49}{paragraph*.123}%
+\contentsline {paragraph}{不同场景的推荐参数}{49}{paragraph*.124}%
+\contentsline {subsubsection}{2.8.3 在MTDP中执行RMSMR}{49}{subsubsection*.125}%
+\contentsline {paragraph}{步骤1：数据导入}{49}{paragraph*.126}%
+\contentsline {paragraph}{步骤2：FFT设置}{49}{paragraph*.127}%
+\contentsline {paragraph}{步骤3：选择处理方法}{49}{paragraph*.128}%
+\contentsline {subsubsection}{2.8.4 常见问题处理（详细版）}{50}{subsubsection*.129}%
+\contentsline {paragraph}{问题诊断与解决步骤}{50}{paragraph*.130}%
+\contentsline {subsubsection}{2.8.5 处理时间预估}{50}{subsubsection*.131}%
+\contentsline {subsubsection}{2.8.5 处理结果验证}{51}{subsubsection*.132}%
+\contentsline {paragraph}{验证清单}{51}{paragraph*.133}%
+\contentsline {subsection}{\numberline {6.5.9}2.9 小结}{51}{subsection.6.5.9}%
+\contentsline {subsubsection}{2.9.1 处理流程速查}{51}{subsubsection*.134}%
+\contentsline {subsubsection}{2.9.2 方法选择指南}{51}{subsubsection*.135}%
+\contentsline {subsubsection}{2.9.3 质量标准}{51}{subsubsection*.136}%
+\contentsline {subsubsection}{2.9.4 相关章节快速导航}{51}{subsubsection*.137}%
+\contentsline {subsection}{\numberline {6.5.10}附录A：权威参考文献}{52}{subsection.6.5.10}%
+\contentsline {subsubsection}{经典教材}{52}{subsubsection*.138}%
+\contentsline {subsubsection}{关键论文}{52}{subsubsection*.139}%
+\contentsline {subsubsection}{开源工具}{52}{subsubsection*.140}%
+\contentsline {subsection}{\numberline {6.5.11}附录B：公式速查表}{52}{subsection.6.5.11}%
+\contentsline {subsubsection}{基本公式}{53}{subsubsection*.141}%
+\contentsline {subsubsection}{估计方法}{53}{subsubsection*.142}%
+\contentsline {subsubsection}{相干度}{53}{subsubsection*.143}%
+\contentsline {subsubsection}{相位张量}{53}{subsubsection*.144}%
+\contentsline {subsubsection}{其他公式}{53}{subsubsection*.145}%
+\contentsline {subsection}{\numberline {6.5.12}附录C：学习路径建议}{53}{subsection.6.5.12}%
+\contentsline {subsubsection}{初学者路径}{54}{subsubsection*.146}%
+\contentsline {subsubsection}{进阶用户路径}{54}{subsubsection*.147}%
+\contentsline {subsubsection}{问题排查路径}{54}{subsubsection*.148}%
+\contentsline {subsection}{\numberline {6.5.13}附录D：术语索引}{54}{subsection.6.5.13}%
+\contentsline {subsubsection}{B}{54}{subsubsection*.149}%
+\contentsline {subsubsection}{C}{54}{subsubsection*.150}%
+\contentsline {subsubsection}{D}{54}{subsubsection*.151}%
+\contentsline {subsubsection}{E}{55}{subsubsection*.152}%
+\contentsline {subsubsection}{F}{55}{subsubsection*.153}%
+\contentsline {subsubsection}{G}{55}{subsubsection*.154}%
+\contentsline {subsubsection}{H}{55}{subsubsection*.155}%
+\contentsline {subsubsection}{I}{55}{subsubsection*.156}%
+\contentsline {subsubsection}{J}{55}{subsubsection*.157}%
+\contentsline {subsubsection}{K}{55}{subsubsection*.158}%
+\contentsline {subsubsection}{L}{55}{subsubsection*.159}%
+\contentsline {subsubsection}{M}{55}{subsubsection*.160}%
+\contentsline {subsubsection}{N}{55}{subsubsection*.161}%
+\contentsline {subsubsection}{O}{55}{subsubsection*.162}%
+\contentsline {subsubsection}{P}{56}{subsubsection*.163}%
+\contentsline {subsubsection}{Q}{56}{subsubsection*.164}%
+\contentsline {subsubsection}{R}{56}{subsubsection*.165}%
+\contentsline {subsubsection}{S}{56}{subsubsection*.166}%
+\contentsline {subsubsection}{T}{56}{subsubsection*.167}%
+\contentsline {subsubsection}{W}{56}{subsubsection*.168}%
+\contentsline {subsubsection}{Y}{56}{subsubsection*.169}%
+\contentsline {subsubsection}{Z}{56}{subsubsection*.170}%
+\contentsline {subsection}{\numberline {6.5.14}附录E：常见问题 FAQ}{57}{subsection.6.5.14}%
+\contentsline {subsubsection}{Q1: 为什么我的视电阻率曲线在某个频段突然跳动？}{57}{subsubsection*.171}%
+\contentsline {subsubsection}{Q2: 远参考站距离多远合适？}{57}{subsubsection*.172}%
+\contentsline {subsubsection}{Q3: RMSMR迭代多少次合适？}{57}{subsubsection*.173}%
+\contentsline {subsubsection}{Q4: 相干度一直很低怎么办？}{57}{subsubsection*.174}%
+\contentsline {subsubsection}{Q5: 如何判断数据是否可以用于反演？}{58}{subsubsection*.175}%
+\contentsline {subsubsection}{Q6: 不同仪器格式的数据如何导入？}{58}{subsubsection*.176}%
+\contentsline {subsubsection}{Q7: 处理结果导出什么格式？}{58}{subsubsection*.177}%
+\contentsline {section}{\numberline {6.6}📂 第3章 数据工程管理}{58}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}3.1 工程结构概述}{58}{subsection.6.6.1}%
+\contentsline {subsubsection}{3.1.1 各层级说明}{59}{subsubsection*.178}%
+\contentsline {subsubsection}{3.1.2 测点类型}{59}{subsubsection*.179}%
+\contentsline {subsection}{\numberline {6.6.2}3.2 创建与管理工程}{59}{subsection.6.6.2}%
+\contentsline {subsubsection}{3.2.1 新建工程}{59}{subsubsection*.180}%
+\contentsline {subsubsection}{3.2.2 打开已有工程}{59}{subsubsection*.181}%
+\contentsline {subsubsection}{3.2.3 工程属性设置 (ProjectSetForm)}{60}{subsubsection*.182}%
+\contentsline {subsubsection}{3.2.4 人员信息管理 (PersonSetForm)}{60}{subsubsection*.183}%
+\contentsline {subsection}{\numberline {6.6.3}3.3 工区管理}{60}{subsection.6.6.3}%
+\contentsline {subsubsection}{3.3.1 新建工区}{60}{subsubsection*.184}%
+\contentsline {subsubsection}{3.3.2 工区属性设置 (WorkAreaSetForm)}{61}{subsubsection*.185}%
+\contentsline {subsubsection}{3.3.3 工区操作}{61}{subsubsection*.186}%
+\contentsline {subsection}{\numberline {6.6.4}3.4 测段管理}{61}{subsection.6.6.4}%
+\contentsline {subsubsection}{3.4.1 新建测段}{61}{subsubsection*.187}%
+\contentsline {subsubsection}{3.4.2 测段属性设置 (GroupSetForm)}{62}{subsubsection*.188}%
+\contentsline {subsubsection}{3.4.3 批量加载测点}{62}{subsubsection*.189}%
+\contentsline {subsection}{\numberline {6.6.5}3.5 测点管理}{62}{subsection.6.6.5}%
+\contentsline {subsubsection}{3.5.1 测点属性}{63}{subsubsection*.190}%
+\contentsline {subsubsection}{3.5.2 测点操作}{63}{subsubsection*.191}%
+\contentsline {subsubsection}{3.5.3 数据质量等级}{63}{subsubsection*.192}%
+\contentsline {subsubsection}{3.5.4 测点排序}{63}{subsubsection*.193}%
+\contentsline {subsubsection}{3.5.5 通道配置}{64}{subsubsection*.194}%
+\contentsline {subsubsection}{3.5.6 时间信息}{64}{subsubsection*.195}%
+\contentsline {subsubsection}{3.5.7 特殊功能}{64}{subsubsection*.196}%
+\contentsline {subsection}{\numberline {6.6.6}3.6 远参考站管理}{65}{subsection.6.6.6}%
+\contentsline {subsubsection}{3.6.1 远参考站计算}{65}{subsubsection*.197}%
+\contentsline {subsubsection}{3.6.2 设置公共磁场站}{65}{subsubsection*.198}%
+\contentsline {subsubsection}{3.6.3 设置远参考站}{65}{subsubsection*.199}%
+\contentsline {subsection}{\numberline {6.6.7}3.7 坐标管理}{65}{subsection.6.6.7}%
+\contentsline {subsubsection}{3.7.1 从KML导入坐标}{65}{subsubsection*.200}%
+\contentsline {subsubsection}{3.7.2 导出测点坐标}{65}{subsubsection*.201}%
+\contentsline {subsubsection}{3.7.3 坐标格式}{66}{subsubsection*.202}%
+\contentsline {subsection}{\numberline {6.6.8}3.8 工程文件管理}{66}{subsection.6.6.8}%
+\contentsline {subsubsection}{3.6.1 保存与备份}{66}{subsubsection*.203}%
+\contentsline {subsubsection}{3.6.2 工程信息存储}{66}{subsubsection*.204}%
+\contentsline {subsubsection}{3.6.3 导入导出}{66}{subsubsection*.205}%
+\contentsline {subsection}{\numberline {6.6.9}3.9 多语言支持}{66}{subsection.6.6.9}%
+\contentsline {subsection}{\numberline {6.6.10}3.10 常用操作快捷方式}{67}{subsection.6.6.10}%
+\contentsline {section}{\numberline {6.7}🧪 第4章 仪器数据支持}{67}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}4.1 Phoenix MTU\sphinxhyphen {}5/5A (TBL格式)}{67}{subsection.6.7.1}%
+\contentsline {subsubsection}{4.1.1 支持的仪器型号}{67}{subsubsection*.206}%
+\contentsline {subsubsection}{4.1.2 数据文件}{67}{subsubsection*.207}%
+\contentsline {subsubsection}{4.1.3 Phoenix MTU\sphinxhyphen {}5/5A 数据导入（详细步骤）}{67}{subsubsection*.208}%
+\contentsline {paragraph}{4.1.3.1 准备工作}{67}{paragraph*.209}%
+\contentsline {paragraph}{4.1.3.2 导入流程}{68}{paragraph*.210}%
+\contentsline {paragraph}{4.1.3.3 导入后验证}{68}{paragraph*.211}%
+\contentsline {paragraph}{4.1.3.4 常见问题与解决}{68}{paragraph*.212}%
+\contentsline {paragraph}{4.1.3.5 最佳实践}{69}{paragraph*.213}%
+\contentsline {subsubsection}{4.1.4 标定文件}{69}{subsubsection*.214}%
+\contentsline {subsubsection}{4.1.5 专用工具}{70}{subsubsection*.215}%
+\contentsline {paragraph}{Phoenix数据处理 (PhoenixDataProcessForm)}{70}{paragraph*.216}%
+\contentsline {paragraph}{SSMT2000处理 (PhoenixNormalDataProcessForm)}{70}{paragraph*.217}%
+\contentsline {paragraph}{数据合并 (PhoenixDataMergeForm)}{70}{paragraph*.218}%
+\contentsline {paragraph}{时间序列分割 (PhoenixTSSplit)}{71}{paragraph*.219}%
+\contentsline {paragraph}{通道重排 (PhoenixChannelReArrengeForm)}{71}{paragraph*.220}%
+\contentsline {paragraph}{时间序列对齐修复 (PhoenixTSMisalignmentRepairForm)}{71}{paragraph*.221}%
+\contentsline {paragraph}{TBL参数替换 (TBLParameterReplaceForm)}{71}{paragraph*.222}%
+\contentsline {paragraph}{TS→FC转换 (PhoenixTsToFtMenu)}{71}{paragraph*.223}%
+\contentsline {subsection}{\numberline {6.7.2}4.2 Phoenix MTU\sphinxhyphen {}5C/8A (JSON格式)}{71}{subsection.6.7.2}%
+\contentsline {subsubsection}{4.2.1 支持的仪器型号}{71}{subsubsection*.224}%
+\contentsline {subsubsection}{4.2.2 数据导入}{71}{subsubsection*.225}%
+\contentsline {subsubsection}{4.2.3 降采样处理}{72}{subsubsection*.226}%
+\contentsline {subsection}{\numberline {6.7.3}4.3 Metronix仪器}{72}{subsection.6.7.3}%
+\contentsline {subsubsection}{4.3.1 支持的仪器型号}{72}{subsubsection*.227}%
+\contentsline {subsubsection}{4.3.2 数据文件}{72}{subsubsection*.228}%
+\contentsline {subsubsection}{4.3.3 数据导入}{72}{subsubsection*.229}%
+\contentsline {subsubsection}{4.3.4 WEM数据处理器}{72}{subsubsection*.230}%
+\contentsline {subsubsection}{4.3.5 Metronix专用工具}{72}{subsubsection*.231}%
+\contentsline {paragraph}{WEM处理器 (WEMProcessorForm)}{72}{paragraph*.232}%
+\contentsline {paragraph}{ATS→DAT转换}{73}{paragraph*.233}%
+\contentsline {subsection}{\numberline {6.7.4}4.4 LEMI长周期仪器}{73}{subsection.6.7.4}%
+\contentsline {subsubsection}{4.4.1 数据特点}{73}{subsubsection*.234}%
+\contentsline {subsubsection}{4.4.2 数据导入}{73}{subsubsection*.235}%
+\contentsline {subsubsection}{4.4.3 与高频数据联合处理}{73}{subsubsection*.236}%
+\contentsline {subsubsection}{4.5.2 数据特点}{74}{subsubsection*.237}%
+\contentsline {subsubsection}{4.5.3 数据导入}{74}{subsubsection*.238}%
+\contentsline {subsubsection}{4.5.4 RMT数据文件格式}{75}{subsubsection*.239}%
+\contentsline {paragraph}{SBF格式 (.sbf)}{75}{paragraph*.240}%
+\contentsline {paragraph}{CASRMT格式 (.json/.rmtjson)}{75}{paragraph*.241}%
+\contentsline {subsubsection}{4.5.5 系统响应校准}{75}{subsubsection*.242}%
+\contentsline {subsubsection}{4.5.6 RMT/CASRMT专用工具}{76}{subsubsection*.243}%
+\contentsline {paragraph}{RMT站点管理 (RMTSiteForm)}{76}{paragraph*.244}%
+\contentsline {subsection}{\numberline {6.7.5}4.6 Aether仪器 (ATTS格式)}{76}{subsection.6.7.5}%
+\contentsline {subsubsection}{4.6.1 数据导入}{76}{subsubsection*.245}%
+\contentsline {subsubsection}{4.6.2 降采样处理}{76}{subsubsection*.246}%
+\contentsline {subsection}{\numberline {6.7.6}4.7 通用EDI格式}{76}{subsection.6.7.6}%
+\contentsline {subsubsection}{4.7.1 导入已有EDI数据}{76}{subsubsection*.247}%
+\contentsline {subsubsection}{4.7.2 数据编辑}{77}{subsubsection*.248}%
+\contentsline {subsection}{\numberline {6.7.7}4.8 合成数据 (Synthetic)}{77}{subsection.6.7.7}%
+\contentsline {subsubsection}{4.8.1 数据格式}{77}{subsubsection*.249}%
+\contentsline {subsubsection}{4.8.2 数据导入}{77}{subsubsection*.250}%
+\contentsline {subsection}{\numberline {6.7.8}4.9 AGEXXL格式}{77}{subsection.6.7.8}%
+\contentsline {subsubsection}{4.9.1 数据导入}{77}{subsubsection*.251}%
+\contentsline {subsection}{\numberline {6.7.9}4.10 数据格式汇总}{77}{subsection.6.7.9}%
+\contentsline {subsection}{\numberline {6.7.10}4.11 标定文件查找机制}{78}{subsection.6.7.10}%
+\contentsline {subsubsection}{4.11.1 搜索顺序}{78}{subsubsection*.252}%
+\contentsline {subsubsection}{4.11.2 标定文件格式}{78}{subsubsection*.253}%
+\contentsline {subsubsection}{4.11.3 配置标定路径}{78}{subsubsection*.254}%
+\contentsline {subsection}{\numberline {6.7.11}4.12 多文件加载方式}{78}{subsection.6.7.11}%
+\contentsline {subsubsection}{4.12.1 单文件加载}{78}{subsubsection*.255}%
+\contentsline {subsubsection}{4.12.2 双源文件加载（X/Y源）}{78}{subsubsection*.256}%
+\contentsline {subsubsection}{4.12.3 多文件合并加载}{78}{subsubsection*.257}%
+\contentsline {subsection}{\numberline {6.7.12}4.13 仪器类型自动识别}{79}{subsection.6.7.12}%
+\contentsline {subsection}{\numberline {6.7.13}4.14 数据导入建议}{79}{subsection.6.7.13}%
+\contentsline {subsubsection}{4.14.1 导入前检查}{79}{subsubsection*.258}%
+\contentsline {subsubsection}{4.14.2 数据组织}{79}{subsubsection*.259}%
+\contentsline {subsection}{\numberline {6.7.14}4.15 批量添加频点}{79}{subsection.6.7.14}%
+\contentsline {subsubsection}{4.15.1 批量添加频点表单 (BatchAddFreqForm)}{79}{subsubsection*.260}%
+\contentsline {subsubsection}{4.15.2 频率生成方式}{80}{subsubsection*.261}%
+\contentsline {subsubsection}{4.15.3 参数说明}{80}{subsubsection*.262}%
+\contentsline {subsubsection}{4.15.4 生成算法}{80}{subsubsection*.263}%
+\contentsline {paragraph}{等比分布（对数间隔）}{80}{paragraph*.264}%
+\contentsline {paragraph}{等差分布（线性间隔）}{80}{paragraph*.265}%
+\contentsline {paragraph}{自定义间距（乘法递增）}{81}{paragraph*.266}%
+\contentsline {subsubsection}{4.15.5 频段编辑功能 (EditBandForm)}{81}{subsubsection*.267}%
+\contentsline {paragraph}{界面参数}{81}{paragraph*.268}%
+\contentsline {paragraph}{采样率输入格式}{81}{paragraph*.269}%
+\contentsline {paragraph}{验证规则}{82}{paragraph*.270}%
+\contentsline {subsection}{\numberline {6.7.15}4.16 分组类型设置 (GroupTypeForm)}{82}{subsection.6.7.15}%
+\contentsline {subsubsection}{分组类型说明}{82}{subsubsection*.271}%
+\contentsline {subsubsection}{MaxXPR参数}{82}{subsubsection*.272}%
+\contentsline {section}{\numberline {6.8}📊 第5章 时间序列处理}{82}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}5.1 ⚙️ FFT参数设置概述}{82}{subsection.6.8.1}%
+\contentsline {subsubsection}{4.1.1 参数设置对话框结构}{83}{subsubsection*.273}%
+\contentsline {subsection}{\numberline {6.8.2}5.2 📂 频段管理（MainSchema）}{83}{subsection.6.8.2}%
+\contentsline {subsubsection}{5.2.1 频段结构}{83}{subsubsection*.274}%
+\contentsline {subsubsection}{5.2.2 频段属性}{83}{subsubsection*.275}%
+\contentsline {subsubsection}{5.2.3 频段操作}{83}{subsubsection*.276}%
+\contentsline {subsubsection}{5.2.4 预设频段配置}{83}{subsubsection*.277}%
+\contentsline {subsection}{\numberline {6.8.3}5.3 子Schema管理（SubSchema）}{84}{subsection.6.8.3}%
+\contentsline {subsubsection}{4.3.1 子Schema属性}{84}{subsubsection*.278}%
+\contentsline {subsubsection}{4.3.2 FFT长度设置}{84}{subsubsection*.279}%
+\contentsline {subsubsection}{4.3.3 重叠率设置}{84}{subsubsection*.280}%
+\contentsline {subsubsection}{4.3.4 子Schema操作}{84}{subsubsection*.281}%
+\contentsline {subsection}{\numberline {6.8.4}5.4 频率管理}{84}{subsection.6.8.4}%
+\contentsline {subsubsection}{4.4.1 频率列表操作}{84}{subsubsection*.282}%
+\contentsline {subsubsection}{4.4.2 批量生成频率}{85}{subsubsection*.283}%
+\contentsline {paragraph}{📊 方式1：等比分布（Logarithmic）}{85}{paragraph*.284}%
+\contentsline {paragraph}{📏 方式2：等差分布（Linear）}{85}{paragraph*.285}%
+\contentsline {paragraph}{🔧 方式3：自定义间距（Custom）}{85}{paragraph*.286}%
+\contentsline {paragraph}{📌 Phoenix多频段模式}{86}{paragraph*.287}%
+\contentsline {subsubsection}{4.4.3 频率显示格式}{86}{subsubsection*.288}%
+\contentsline {subsection}{\numberline {6.8.5}5.5 全局FFT参数}{86}{subsection.6.8.5}%
+\contentsline {subsubsection}{4.5.1 窗函数}{86}{subsubsection*.289}%
+\contentsline {subsubsection}{4.5.2 窗函数选择指南}{87}{subsubsection*.290}%
+\contentsline {subsubsection}{4.5.3 实用设置建议}{87}{subsubsection*.291}%
+\contentsline {subsubsection}{4.5.4 窗函数对比示例}{87}{subsubsection*.292}%
+\contentsline {subsubsection}{4.5.5 单频计算方式}{88}{subsubsection*.293}%
+\contentsline {subsubsection}{4.5.6 多锥谱分析（Multi\sphinxhyphen {}Taper）}{88}{subsubsection*.294}%
+\contentsline {subsubsection}{4.5.7 零填充（Zero Padding）}{88}{subsubsection*.295}%
+\contentsline {subsubsection}{4.5.8 搜索带宽（Search Band）}{88}{subsubsection*.296}%
+\contentsline {subsection}{\numberline {6.8.6}5.6 🎯 估计方法设置}{88}{subsection.6.8.6}%
+\contentsline {subsubsection}{4.6.1 参考道估计方法}{89}{subsubsection*.297}%
+\contentsline {subsubsection}{4.6.2 稳健估计方法}{89}{subsubsection*.298}%
+\contentsline {subsubsection}{4.15.1 数据检查要点}{89}{subsubsection*.299}%
+\contentsline {subsubsection}{4.15.2 强干扰环境建议}{89}{subsubsection*.300}%
+\contentsline {subsection}{\numberline {6.8.7}5.16 🔬 测点精细处理界面（频谱编辑窗口）}{89}{subsection.6.8.7}%
+\contentsline {subsubsection}{5.16.0 RMSMR理论基础（为什么需要精细处理？）}{90}{subsubsection*.301}%
+\contentsline {paragraph}{为什么MT数据需要精细处理？}{90}{paragraph*.302}%
+\contentsline {paragraph}{RMSMR方法的三重保障}{90}{paragraph*.303}%
+\contentsline {paragraph}{从理论到实践的映射}{90}{paragraph*.304}%
+\contentsline {subsubsection}{5.16.1 界面布局概述}{90}{subsubsection*.305}%
+\contentsline {subsubsection}{5.16.1 界面布局概述}{90}{subsubsection*.306}%
+\contentsline {subsubsection}{5.16.2 FC文件管理}{91}{subsubsection*.307}%
+\contentsline {paragraph}{傅里叶系数（FC）文件说明}{91}{paragraph*.308}%
+\contentsline {paragraph}{FC列表操作}{91}{paragraph*.309}%
+\contentsline {paragraph}{编辑FC版本管理}{91}{paragraph*.310}%
+\contentsline {subsubsection}{5.16.3 远参考站配置}{92}{subsubsection*.311}%
+\contentsline {paragraph}{远参考站列表}{92}{paragraph*.312}%
+\contentsline {paragraph}{远参考方案选择}{92}{paragraph*.313}%
+\contentsline {paragraph}{反向参考站配置}{92}{paragraph*.314}%
+\contentsline {paragraph}{旋转角度设置}{92}{paragraph*.315}%
+\contentsline {subsubsection}{5.16.4 估计方法与残差剔除}{92}{subsubsection*.316}%
+\contentsline {paragraph}{Robust估计方法选择}{93}{paragraph*.317}%
+\contentsline {paragraph}{残差剔除参数}{93}{paragraph*.318}%
+\contentsline {subsubsection}{5.16.5 频谱组编辑框架（选项卡详解）}{93}{subsubsection*.319}%
+\contentsline {paragraph}{选项卡1：视电阻率/相位（RhoPhs）}{93}{paragraph*.320}%
+\contentsline {paragraph}{选项卡2：倾子（Tipper）}{93}{paragraph*.321}%
+\contentsline {paragraph}{选项卡3：阻抗张量（Z）}{94}{paragraph*.322}%
+\contentsline {paragraph}{选项卡4：相位张量（PhaseTensor）}{94}{paragraph*.323}%
+\contentsline {paragraph}{选项卡5：相干度（Coherence）}{94}{paragraph*.324}%
+\contentsline {paragraph}{选项卡6：CCZ阻抗}{94}{paragraph*.325}%
+\contentsline {paragraph}{选项卡7：极化（Polar）}{95}{paragraph*.326}%
+\contentsline {paragraph}{选项卡8：自动筛选参数（AutoSelect）}{95}{paragraph*.327}%
+\contentsline {paragraph}{选项卡9：传输方案（Transmit）}{95}{paragraph*.328}%
+\contentsline {subsubsection}{5.16.6 自动筛选算法详解（RMSMR核心）}{95}{subsubsection*.329}%
+\contentsline {paragraph}{为什么需要自动筛选？}{95}{paragraph*.330}%
+\contentsline {paragraph}{筛选类型总览}{96}{paragraph*.331}%
+\contentsline {paragraph}{各算法详解}{96}{paragraph*.332}%
+\contentsline {subparagraph}{1. RhoPlus SA（模拟退火）}{96}{subparagraph*.333}%
+\contentsline {subparagraph}{2. RhoPlus GA（遗传算法）}{96}{subparagraph*.334}%
+\contentsline {subparagraph}{3. RhoPlus MOGA（多目标遗传算法）⭐ 推荐}{96}{subparagraph*.335}%
+\contentsline {subparagraph}{4. Full Z MOGA（全阻抗MOGA）⭐ 高精度}{97}{subparagraph*.336}%
+\contentsline {paragraph}{马氏距离筛选（预处理步骤）}{97}{paragraph*.337}%
+\contentsline {paragraph}{筛选算法选择指南}{98}{paragraph*.338}%
+\contentsline {subsubsection}{5.16.7 数据导出功能}{98}{subsubsection*.339}%
+\contentsline {paragraph}{导出菜单概览}{98}{paragraph*.340}%
+\contentsline {paragraph}{EDI格式导出}{98}{paragraph*.341}%
+\contentsline {paragraph}{JSON格式导出}{98}{paragraph*.342}%
+\contentsline {paragraph}{参数导出}{98}{paragraph*.343}%
+\contentsline {paragraph}{残差权重导出}{98}{paragraph*.344}%
+\contentsline {subsubsection}{5.16.8 多参考站处理}{99}{subsubsection*.345}%
+\contentsline {subsubsection}{5.16.9 理论模型对比}{99}{subsubsection*.346}%
+\contentsline {subsubsection}{5.16.10 常用操作流程（RMSMR实践）}{99}{subsubsection*.347}%
+\contentsline {paragraph}{流程1：快速质量检查（1分钟）}{100}{paragraph*.348}%
+\contentsline {paragraph}{流程2：远参考处理（5分钟）}{100}{paragraph*.349}%
+\contentsline {paragraph}{流程3：自动筛选（10分钟）}{100}{paragraph*.350}%
+\contentsline {paragraph}{流程4：完整RMSMR处理流程（20\sphinxhyphen {}30分钟）}{100}{paragraph*.351}%
+\contentsline {subsubsection}{5.16.11 快捷键参考}{100}{subsubsection*.352}%
+\contentsline {subsubsection}{5.16.12 常见问题与解决}{100}{subsubsection*.353}%
+\contentsline {subsubsection}{5.16.13 参考文献}{101}{subsubsection*.354}%
+\contentsline {section}{\numberline {6.9}🔍 第6章 数据筛选与估计}{101}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}6.1 🖥️ 数据筛选界面}{101}{subsection.6.9.1}%
+\contentsline {subsubsection}{6.1.1 界面布局}{101}{subsubsection*.355}%
+\contentsline {subsubsection}{5.1.2 工具栏}{101}{subsubsection*.356}%
+\contentsline {subsection}{\numberline {6.9.2}6.2 📈 图表类型}{102}{subsection.6.9.2}%
+\contentsline {subsubsection}{5.2.1 视电阻率/相位}{102}{subsubsection*.357}%
+\contentsline {subsubsection}{5.2.2 阻抗张量}{102}{subsubsection*.358}%
+\contentsline {subsubsection}{5.2.3 倾子向量}{102}{subsubsection*.359}%
+\contentsline {subsubsection}{5.2.4 相位张量}{102}{subsubsection*.360}%
+\contentsline {subsubsection}{5.2.5 相干度}{103}{subsubsection*.361}%
+\contentsline {subsubsection}{5.2.6 其他参数}{104}{subsubsection*.362}%
+\contentsline {subsection}{\numberline {6.9.3}6.3 筛选操作}{104}{subsection.6.9.3}%
+\contentsline {subsubsection}{5.3.1 单参数筛选}{104}{subsubsection*.363}%
+\contentsline {subsubsection}{5.3.2 双参数筛选}{104}{subsubsection*.364}%
+\contentsline {subsubsection}{5.3.3 撤销与重做}{104}{subsubsection*.365}%
+\contentsline {subsection}{\numberline {6.9.4}6.4 旋转角度}{104}{subsection.6.9.4}%
+\contentsline {subsubsection}{5.4.1 功能说明}{104}{subsubsection*.366}%
+\contentsline {subsubsection}{5.4.2 操作方法}{105}{subsubsection*.367}%
+\contentsline {subsection}{\numberline {6.9.5}6.5 📏 马氏距离筛选}{105}{subsection.6.9.5}%
+\contentsline {subsubsection}{5.5.1 功能说明}{105}{subsubsection*.368}%
+\contentsline {subsubsection}{5.5.2 操作方法}{105}{subsubsection*.369}%
+\contentsline {subsection}{\numberline {6.9.6}6.6 🤖 自动筛选}{105}{subsection.6.9.6}%
+\contentsline {subsubsection}{5.6.1 筛选参数}{105}{subsubsection*.370}%
+\contentsline {subsubsection}{5.6.2 自动旋转角度}{106}{subsubsection*.371}%
+\contentsline {subsubsection}{5.6.3 筛选类型}{106}{subsubsection*.372}%
+\contentsline {subsection}{\numberline {6.9.7}6.7 📐 Rhoplus参考曲线}{106}{subsection.6.9.7}%
+\contentsline {subsubsection}{5.7.1 功能说明}{106}{subsubsection*.373}%
+\contentsline {subsubsection}{5.7.2 Rhoplus计算方式}{107}{subsubsection*.374}%
+\contentsline {subsubsection}{5.7.3 操作方法}{107}{subsubsection*.375}%
+\contentsline {subsubsection}{5.7.4 输出结果}{107}{subsubsection*.376}%
+\contentsline {subsubsection}{5.7.5 添加预测曲线}{107}{subsubsection*.377}%
+\contentsline {subsection}{\numberline {6.9.8}6.8 🧠 AI模型预测}{107}{subsection.6.9.8}%
+\contentsline {subsubsection}{5.8.1 功能说明}{107}{subsubsection*.378}%
+\contentsline {subsubsection}{5.8.2 预测方法}{108}{subsubsection*.379}%
+\contentsline {subsubsection}{5.8.3 操作方法}{108}{subsubsection*.380}%
+\contentsline {subsubsection}{5.8.4 使用建议}{108}{subsubsection*.381}%
+\contentsline {subsection}{\numberline {6.9.9}6.9 理论曲线预测}{108}{subsection.6.9.9}%
+\contentsline {subsubsection}{5.9.1 功能说明}{108}{subsubsection*.382}%
+\contentsline {subsubsection}{5.9.2 操作方法}{108}{subsubsection*.383}%
+\contentsline {subsubsection}{5.9.3 导入/导出预测}{108}{subsubsection*.384}%
+\contentsline {subsection}{\numberline {6.9.10}6.10 🎯 Robust稳健估计}{108}{subsection.6.9.10}%
+\contentsline {subsubsection}{5.9.1 可用方法}{109}{subsubsection*.385}%
+\contentsline {subsubsection}{5.9.2 参数设置}{109}{subsubsection*.386}%
+\contentsline {subsection}{\numberline {6.9.11}6.11 时轴显示}{109}{subsection.6.9.11}%
+\contentsline {subsubsection}{5.10.1 功能说明}{109}{subsubsection*.387}%
+\contentsline {subsubsection}{5.10.2 操作方法}{109}{subsubsection*.388}%
+\contentsline {subsection}{\numberline {6.9.12}6.12 传递调度}{109}{subsection.6.9.12}%
+\contentsline {subsubsection}{5.11.1 功能说明}{109}{subsubsection*.389}%
+\contentsline {subsubsection}{5.11.2 操作方法}{109}{subsubsection*.390}%
+\contentsline {subsection}{\numberline {6.9.13}6.13 🚀 实用处理流程}{109}{subsection.6.9.13}%
+\contentsline {subsubsection}{5.12.1 👶 新手推荐}{109}{subsubsection*.391}%
+\contentsline {subsubsection}{5.12.2 ⭐ 高质量数据}{110}{subsubsection*.392}%
+\contentsline {subsubsection}{5.12.3 ⚠️ 强干扰环境}{110}{subsubsection*.393}%
+\contentsline {subsection}{\numberline {6.9.14}6.14 XPR分组设置}{110}{subsection.6.9.14}%
+\contentsline {subsubsection}{5.13.1 分组类型}{110}{subsubsection*.394}%
+\contentsline {subsubsection}{5.13.2 MaxXPR参数}{110}{subsubsection*.395}%
+\contentsline {subsubsection}{5.13.3 使用建议}{110}{subsubsection*.396}%
+\contentsline {subsection}{\numberline {6.9.15}6.15 🌐 远参考站管理}{110}{subsection.6.9.15}%
+\contentsline {subsubsection}{5.14.1 功能说明}{110}{subsubsection*.397}%
+\contentsline {subsubsection}{5.14.2 适用条件}{110}{subsubsection*.398}%
+\contentsline {subsubsection}{5.14.3 远参考数据编辑 (RemoteReferenceEditForm)}{111}{subsubsection*.399}%
+\contentsline {subsubsection}{5.14.4 远参考处理建议}{111}{subsubsection*.400}%
+\contentsline {subsection}{\numberline {6.9.16}6.16 🔄 通道旋转恢复}{111}{subsection.6.9.16}%
+\contentsline {subsubsection}{5.15.1 功能说明}{111}{subsubsection*.401}%
+\contentsline {subsubsection}{5.15.2 旋转角度设置}{111}{subsubsection*.402}%
+\contentsline {subsubsection}{5.15.3 使用场景}{112}{subsubsection*.403}%
+\contentsline {subsubsection}{5.15.4 操作步骤}{112}{subsubsection*.404}%
+\contentsline {subsubsection}{5.15.5 注意事项}{112}{subsubsection*.405}%
+\contentsline {subsection}{\numberline {6.9.17}6.17 🧬 智能筛选算法}{112}{subsection.6.9.17}%
+\contentsline {subsubsection}{5.16.1 遗传算法概述}{112}{subsubsection*.406}%
+\contentsline {subsubsection}{5.16.2 算法参数}{112}{subsubsection*.407}%
+\contentsline {subsubsection}{5.16.3 优化目标}{112}{subsubsection*.408}%
+\contentsline {subsubsection}{5.16.4 多目标优化}{113}{subsubsection*.409}%
+\contentsline {subsubsection}{5.16.5 统计质量控制}{113}{subsubsection*.410}%
+\contentsline {subsubsection}{5.16.6 使用建议}{113}{subsubsection*.411}%
+\contentsline {subsubsection}{5.17 MT参数完整列表}{113}{subsubsection*.412}%
+\contentsline {paragraph}{5.17.1 基本参数}{113}{paragraph*.413}%
+\contentsline {paragraph}{5.17.2 阻抗张量实部与虚部（单位：Ω）}{113}{paragraph*.414}%
+\contentsline {paragraph}{5.17.3 阻抗张量幅值与相位}{114}{paragraph*.415}%
+\contentsline {paragraph}{5.17.4 倾子张量（无量纲）}{114}{paragraph*.416}%
+\contentsline {paragraph}{5.17.5 视电阻率（单位：Ω·m）}{115}{paragraph*.417}%
+\contentsline {paragraph}{5.17.6 阻抗方差}{115}{paragraph*.418}%
+\contentsline {paragraph}{5.17.7 视电阻率与相位方差}{115}{paragraph*.419}%
+\contentsline {paragraph}{5.17.8 相位张量}{116}{paragraph*.420}%
+\contentsline {paragraph}{5.17.9 共轭阻抗变换}{116}{paragraph*.421}%
+\contentsline {paragraph}{5.17.10 相干度}{116}{paragraph*.422}%
+\contentsline {paragraph}{5.17.11 信号与噪声}{118}{paragraph*.423}%
+\contentsline {paragraph}{5.17.12 功率谱密度}{118}{paragraph*.424}%
+\contentsline {paragraph}{5.17.13 频谱幅值}{119}{paragraph*.425}%
+\contentsline {paragraph}{5.17.14 极化参数}{119}{paragraph*.426}%
+\contentsline {paragraph}{5.17.15 阻抗行列式}{119}{paragraph*.427}%
+\contentsline {paragraph}{5.17.16 数据筛选常用参数推荐}{119}{paragraph*.428}%
+\contentsline {paragraph}{5.17.17 参数使用建议}{119}{paragraph*.429}%
+\contentsline {paragraph}{5.18 EDI导出格式}{120}{paragraph*.430}%
+\contentsline {section}{\numberline {6.10}📤 第7章 结果输出与可视化}{120}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}7.1 数据图表查看}{120}{subsection.6.10.1}%
+\contentsline {subsubsection}{7.1.1 视电阻率/相位曲线}{120}{subsubsection*.431}%
+\contentsline {subsubsection}{7.1.2 多测点对比}{121}{subsubsection*.432}%
+\contentsline {subsubsection}{7.1.3 图表交互操作}{121}{subsubsection*.433}%
+\contentsline {subsection}{\numberline {6.10.2}7.2 EDI格式导出}{121}{subsection.6.10.2}%
+\contentsline {subsubsection}{6.2.1 批量导出（详细流程）}{121}{subsubsection*.434}%
+\contentsline {paragraph}{7.2.1.1 批量导出概述}{121}{paragraph*.435}%
+\contentsline {paragraph}{7.2.1.2 导入前准备}{121}{paragraph*.436}%
+\contentsline {paragraph}{7.2.1.3 批量导出操作步骤}{122}{paragraph*.437}%
+\contentsline {paragraph}{7.2.1.4 导出后验证}{122}{paragraph*.438}%
+\contentsline {paragraph}{7.2.1.5 常见问题}{123}{paragraph*.439}%
+\contentsline {paragraph}{7.2.1.6 批量导出最佳实践}{123}{paragraph*.440}%
+\contentsline {subsubsection}{7.2.2 导出操作}{124}{subsubsection*.441}%
+\contentsline {subsubsection}{7.2.4 EDI格式详细规范}{124}{subsubsection*.442}%
+\contentsline {paragraph}{EDI文件完整结构}{124}{paragraph*.443}%
+\contentsline {paragraph}{EDI数据段详解}{125}{paragraph*.444}%
+\contentsline {paragraph}{MTEDATA数据字段}{126}{paragraph*.445}%
+\contentsline {paragraph}{EDI版本兼容性}{126}{paragraph*.446}%
+\contentsline {subsubsection}{7.2.5 EDI格式验证}{126}{subsubsection*.447}%
+\contentsline {subsubsection}{7.2.6 其他导出格式}{126}{subsubsection*.448}%
+\contentsline {paragraph}{PLT格式}{126}{paragraph*.449}%
+\contentsline {paragraph}{CSV格式}{127}{paragraph*.450}%
+\contentsline {subsection}{\numberline {6.10.3}7.3 地理信息导出}{127}{subsection.6.10.3}%
+\contentsline {subsubsection}{7.3.1 KML格式导出}{127}{subsubsection*.451}%
+\contentsline {subsubsection}{7.3.2 KMZ格式导出}{127}{subsubsection*.452}%
+\contentsline {subsubsection}{7.3.3 KML文件结构}{128}{subsubsection*.453}%
+\contentsline {subsection}{\numberline {6.10.4}7.4 坐标数据导出}{128}{subsection.6.10.4}%
+\contentsline {subsection}{\numberline {6.10.5}7.5 批量导出功能}{128}{subsection.6.10.5}%
+\contentsline {subsubsection}{7.5.1 导出测段参数}{128}{subsubsection*.454}%
+\contentsline {subsubsection}{7.5.2 导出相位张量}{128}{subsubsection*.455}%
+\contentsline {subsubsection}{7.5.3 导出数据质量}{129}{subsubsection*.456}%
+\contentsline {subsubsection}{7.5.4 导出测点坐标}{129}{subsubsection*.457}%
+\contentsline {subsection}{\numberline {6.10.6}7.6 其他导出格式}{129}{subsection.6.10.6}%
+\contentsline {subsubsection}{7.6.1 视电阻率/相位数据导出}{129}{subsubsection*.458}%
+\contentsline {subsubsection}{7.6.2 图表导出}{129}{subsubsection*.459}%
+\contentsline {subsection}{\numberline {6.10.7}7.7 数据质量控制}{130}{subsection.6.10.7}%
+\contentsline {subsubsection}{7.7.1 数据质量标记}{130}{subsubsection*.460}%
+\contentsline {subsubsection}{7.7.2 批量质量导出}{130}{subsubsection*.461}%
+\contentsline {subsection}{\numberline {6.10.8}7.8 与GIS软件联动}{130}{subsection.6.10.8}%
+\contentsline {subsection}{\numberline {6.10.9}7.9 工程文件备份}{130}{subsection.6.10.9}%
+\contentsline {subsubsection}{7.9.1 导出版本}{130}{subsubsection*.462}%
+\contentsline {subsubsection}{7.9.2 自动备份}{130}{subsubsection*.463}%
+\contentsline {subsection}{\numberline {6.10.10}7.10 时间序列导出}{131}{subsection.6.10.10}%
+\contentsline {subsubsection}{7.10.1 GMT格式导出}{131}{subsubsection*.464}%
+\contentsline {subsubsection}{7.10.2 ATGMT格式导出}{131}{subsubsection*.465}%
+\contentsline {subsection}{\numberline {6.10.11}7.11 HTML报告生成}{131}{subsection.6.10.11}%
+\contentsline {section}{\numberline {6.11}🧮 第8章 工具集}{131}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}8.1 🛠️ 工具菜单完整列表}{131}{subsection.6.11.1}%
+\contentsline {subsubsection}{8.1.1 标定与查看工具}{131}{subsubsection*.466}%
+\contentsline {subsubsection}{8.1.2 Phoenix时间序列工具}{131}{subsubsection*.467}%
+\contentsline {subsubsection}{8.1.3 时间序列转换工具 (TSConvertMenu)}{132}{subsubsection*.468}%
+\contentsline {subsubsection}{8.1.4 LEMI工具}{132}{subsubsection*.469}%
+\contentsline {subsubsection}{8.1.5 Metronix工具}{132}{subsubsection*.470}%
+\contentsline {subsubsection}{8.1.6 WEM数据处理}{132}{subsubsection*.471}%
+\contentsline {subsubsection}{8.1.7 EDI处理工具}{132}{subsubsection*.472}%
+\contentsline {subsubsection}{8.1.8 Phoenix格式转换工具 (PhoenixConvertMenu)}{132}{subsubsection*.473}%
+\contentsline {subsection}{\numberline {6.11.2}8.2 💡 使用建议}{133}{subsection.6.11.2}%
+\contentsline {subsubsection}{8.2.1 工具选择建议}{133}{subsubsection*.474}%
+\contentsline {subsubsection}{8.2.2 常见问题处理}{133}{subsubsection*.475}%
+\contentsline {section}{\numberline {6.12}👁️ 第9章 视图功能}{133}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}9.1 🖥️ 界面布局}{133}{subsection.6.12.1}%
+\contentsline {subsubsection}{9.1.1 主要选项卡}{133}{subsubsection*.476}%
+\contentsline {subsubsection}{9.1.2 视图子页面}{133}{subsubsection*.477}%
+\contentsline {subsection}{\numberline {6.12.2}9.2 📊 时间序列查看器}{133}{subsection.6.12.2}%
+\contentsline {subsubsection}{9.2.1 打开时间序列查看器}{133}{subsubsection*.478}%
+\contentsline {subsubsection}{9.2.2 界面结构}{134}{subsubsection*.479}%
+\contentsline {subsubsection}{9.2.3 通道显示控制}{134}{subsubsection*.480}%
+\contentsline {subsubsection}{9.2.4 测点显示控制}{134}{subsubsection*.481}%
+\contentsline {subsubsection}{9.2.5 显示参数设置}{135}{subsubsection*.482}%
+\contentsline {subsubsection}{9.2.6 时间轴控制}{135}{subsubsection*.483}%
+\contentsline {subsubsection}{9.2.7 显示选项}{135}{subsubsection*.484}%
+\contentsline {subsubsection}{9.2.8 多采样率支持}{136}{subsubsection*.485}%
+\contentsline {subsection}{\numberline {6.12.3}9.3 📈 FFT实时计算}{136}{subsection.6.12.3}%
+\contentsline {subsubsection}{9.3.1 功能说明}{136}{subsubsection*.486}%
+\contentsline {subsubsection}{9.3.2 FFT选项卡}{136}{subsubsection*.487}%
+\contentsline {subsubsection}{9.3.3 FFT参数设置}{136}{subsubsection*.488}%
+\contentsline {subsubsection}{9.3.4 FFT计算方式}{137}{subsubsection*.489}%
+\contentsline {subsubsection}{9.3.5 频谱显示}{137}{subsubsection*.490}%
+\contentsline {subsubsection}{9.3.6 相干性显示}{137}{subsubsection*.491}%
+\contentsline {subsection}{\numberline {6.12.4}9.4 📻 Phoenix时间序列查看器}{137}{subsection.6.12.4}%
+\contentsline {subsubsection}{9.4.1 专用功能}{137}{subsubsection*.492}%
+\contentsline {subsubsection}{9.4.2 从TBL文件加载}{138}{subsubsection*.493}%
+\contentsline {subsubsection}{9.4.3 数据类型支持}{138}{subsubsection*.494}%
+\contentsline {subsection}{\numberline {6.12.5}9.5 🗺️ 地图视图}{138}{subsection.6.12.5}%
+\contentsline {subsubsection}{9.5.1 功能说明}{138}{subsubsection*.495}%
+\contentsline {subsubsection}{9.5.2 使用方法}{138}{subsubsection*.496}%
+\contentsline {subsubsection}{9.5.3 地图操作}{138}{subsubsection*.497}%
+\contentsline {subsection}{\numberline {6.12.6}9.6 📉 视电阻率/相位曲线}{139}{subsection.6.12.6}%
+\contentsline {subsubsection}{9.6.1 打开曲线视图}{139}{subsubsection*.498}%
+\contentsline {subsubsection}{9.6.2 显示选项}{139}{subsubsection*.499}%
+\contentsline {subsection}{\numberline {6.12.7}9.7 📡 标定曲线查看}{139}{subsection.6.12.7}%
+\contentsline {subsubsection}{9.7.1 标定查看器类型}{139}{subsubsection*.500}%
+\contentsline {subsubsection}{9.7.2 通用标定查看器 (CalCalibrationForm)}{139}{subsubsection*.501}%
+\contentsline {subsubsection}{9.7.3 Phoenix标定查看器 (CalibrationViewForm)}{140}{subsubsection*.502}%
+\contentsline {subsubsection}{9.7.4 标定曲线解读}{141}{subsubsection*.503}%
+\contentsline {paragraph}{幅度曲线解读}{141}{paragraph*.504}%
+\contentsline {paragraph}{相位曲线解读}{141}{paragraph*.505}%
+\contentsline {paragraph}{多曲线对比}{142}{paragraph*.506}%
+\contentsline {subsection}{\numberline {6.12.8}9.8 🧵 多线程监控}{142}{subsection.6.12.8}%
+\contentsline {subsubsection}{9.8.1 功能说明}{142}{subsubsection*.507}%
+\contentsline {subsubsection}{9.8.2 监控内容}{142}{subsubsection*.508}%
+\contentsline {subsubsection}{9.8.3 任务管理}{142}{subsubsection*.509}%
+\contentsline {subsection}{\numberline {6.12.9}9.9 工程树操作}{142}{subsection.6.12.9}%
+\contentsline {subsubsection}{9.9.1 快捷操作}{142}{subsubsection*.510}%
+\contentsline {subsubsection}{9.9.2 层次结构}{143}{subsubsection*.511}%
+\contentsline {subsubsection}{9.9.3 拖拽操作}{143}{subsubsection*.512}%
+\contentsline {subsection}{\numberline {6.12.10}9.10 图表通用操作}{143}{subsection.6.12.10}%
+\contentsline {subsubsection}{9.10.1 鼠标操作}{143}{subsubsection*.513}%
+\contentsline {subsubsection}{9.10.2 键盘快捷键}{143}{subsubsection*.514}%
+\contentsline {subsection}{\numberline {6.12.11}9.11 🔬 SSA奇异谱分析}{143}{subsection.6.12.11}%
+\contentsline {subsubsection}{9.11.1 功能说明}{143}{subsubsection*.515}%
+\contentsline {subsubsection}{9.11.2 打开SSA分析}{143}{subsubsection*.516}%
+\contentsline {subsubsection}{9.11.3 SSA参数}{144}{subsubsection*.517}%
+\contentsline {subsubsection}{9.11.4 分析步骤}{144}{subsubsection*.518}%
+\contentsline {subsubsection}{9.11.5 MSSA多通道分析}{144}{subsubsection*.519}%
+\contentsline {subsubsection}{9.11.6 结果解读}{145}{subsubsection*.520}%
+\contentsline {subsubsection}{9.11.7 应用场景}{145}{subsubsection*.521}%
+\contentsline {subsubsection}{9.11.8 导出结果}{145}{subsubsection*.522}%
+\contentsline {section}{\numberline {6.13}实例展示}{145}{section.6.13}%
+\contentsline {subsection}{\numberline {6.13.1}图件展示}{145}{subsection.6.13.1}%
+\contentsline {subsubsection}{视电阻率曲线}{145}{subsubsection*.523}%
+\contentsline {subsubsection}{地图视图}{145}{subsubsection*.524}%
+\contentsline {subsection}{\numberline {6.13.2}实例列表}{146}{subsection.6.13.2}%
+\contentsline {subsection}{\numberline {6.13.3}贡献实例}{146}{subsection.6.13.3}%
+\contentsline {section}{\numberline {6.14}MTDataPro 数据导出与 Python 绘图教程}{146}{section.6.14}%
+\contentsline {subsection}{\numberline {6.14.1}数据导出}{146}{subsection.6.14.1}%
+\contentsline {subsubsection}{导出步骤}{146}{subsubsection*.525}%
+\contentsline {subsubsection}{导出文件命名规则}{146}{subsubsection*.526}%
+\contentsline {subsection}{\numberline {6.14.2}Python 绘图环境配置}{147}{subsection.6.14.2}%
+\contentsline {subsubsection}{依赖库}{147}{subsubsection*.527}%
+\contentsline {subsubsection}{matplotlib 学术绘图配置}{147}{subsubsection*.528}%
+\contentsline {subsection}{\numberline {6.14.3}单测点视电阻率/相位曲线}{147}{subsection.6.14.3}%
+\contentsline {subsubsection}{脚本：\sphinxhref {http://PlotFullZ-Single.py}{PlotFullZ\sphinxhyphen {}Single.py} (http://PlotFullZ\sphinxhyphen {}Single.py)}{147}{subsubsection*.529}%
+\contentsline {subsubsection}{输出效果}{149}{subsubsection*.530}%
+\contentsline {subsection}{\numberline {6.14.4}多测点联合对比图}{149}{subsection.6.14.4}%
+\contentsline {subsubsection}{脚本：\sphinxhref {http://PlotFullZ-All.py}{PlotFullZ\sphinxhyphen {}All.py} (http://PlotFullZ\sphinxhyphen {}All.py)}{149}{subsubsection*.531}%
+\contentsline {subsection}{\numberline {6.14.5}测点对比分析}{151}{subsection.6.14.5}%
+\contentsline {subsubsection}{脚本：\sphinxhref {http://PlotFullZ-Compare.py}{PlotFullZ\sphinxhyphen {}Compare.py} (http://PlotFullZ\sphinxhyphen {}Compare.py)}{151}{subsubsection*.532}%
+\contentsline {subsection}{\numberline {6.14.6}全阻抗与相位张量图}{153}{subsection.6.14.6}%
+\contentsline {subsubsection}{脚本：\sphinxhref {http://PlotFullZ-Site.py}{PlotFullZ\sphinxhyphen {}Site.py} (http://PlotFullZ\sphinxhyphen {}Site.py)}{153}{subsubsection*.533}%
+\contentsline {subsection}{\numberline {6.14.7}PDF 合并工具}{156}{subsection.6.14.7}%
+\contentsline {subsubsection}{脚本：\sphinxhref {http://MergerAllZPDF.py}{MergerAllZPDF.py} (http://MergerAllZPDF.py)}{156}{subsubsection*.534}%
+\contentsline {subsection}{\numberline {6.14.8}坐标转换工具}{156}{subsection.6.14.8}%
+\contentsline {subsubsection}{脚本：\sphinxhref {http://coorConvert.py}{coorConvert.py} (http://coorConvert.py)}{156}{subsubsection*.535}%
+\contentsline {subsection}{\numberline {6.14.9}常见问题}{157}{subsection.6.14.9}%
+\contentsline {subsubsection}{Q: 绘图的频率范围如何设置？}{157}{subsubsection*.536}%
+\contentsline {subsubsection}{Q: 误差棒不显示？}{157}{subsubsection*.537}%
+\contentsline {subsubsection}{Q: 如何调整图形尺寸？}{157}{subsubsection*.538}%
+\contentsline {subsubsection}{Q: 中文标签显示为方块？}{157}{subsubsection*.539}%
+\contentsline {section}{\numberline {6.15}附录A: 快捷键参考}{157}{section.6.15}%
+\contentsline {subsection}{\numberline {6.15.1}常用快捷键}{157}{subsection.6.15.1}%
+\contentsline {subsection}{\numberline {6.15.2}处理相关快捷键}{158}{subsection.6.15.2}%
+\contentsline {subsection}{\numberline {6.15.3}视图相关快捷键}{158}{subsection.6.15.3}%
+\contentsline {subsection}{\numberline {6.15.4}工程管理快捷键}{158}{subsection.6.15.4}%
+\contentsline {section}{\numberline {6.16}附录B: 参数说明表}{158}{section.6.16}%
+\contentsline {subsection}{\numberline {6.16.1}处理方案参数}{158}{subsection.6.16.1}%
+\contentsline {subsection}{\numberline {6.16.2}FFT参数}{159}{subsection.6.16.2}%
+\contentsline {subsection}{\numberline {6.16.3}稳健估计参数}{159}{subsection.6.16.3}%
+\contentsline {subsection}{\numberline {6.16.4}参考道估计方法}{159}{subsection.6.16.4}%
+\contentsline {subsection}{\numberline {6.16.5}稳健估计方法}{159}{subsection.6.16.5}%
+\contentsline {subsection}{\numberline {6.16.6}自动筛选参数}{160}{subsection.6.16.6}%
+\contentsline {subsection}{\numberline {6.16.7}马氏距离参数}{160}{subsection.6.16.7}%
+\contentsline {subsection}{\numberline {6.16.8}遗传算法参数}{160}{subsection.6.16.8}%
+\contentsline {subsection}{\numberline {6.16.9}降采样参数}{160}{subsection.6.16.9}%
+\contentsline {subsection}{\numberline {6.16.10}工频滤波参数}{160}{subsection.6.16.10}%
+\contentsline {subsection}{\numberline {6.16.11}Rhoplus参数}{161}{subsection.6.16.11}%
+\contentsline {subsection}{\numberline {6.16.12}AI预测参数}{161}{subsection.6.16.12}%
+\contentsline {subsection}{\numberline {6.16.13}测点排序方式}{161}{subsection.6.16.13}%
+\contentsline {subsection}{\numberline {6.16.14}仪器类型代码}{161}{subsection.6.16.14}%
+\contentsline {subsection}{\numberline {6.16.15}数据质量等级}{162}{subsection.6.16.15}%
+\contentsline {subsection}{\numberline {6.16.16}MT参数类型}{162}{subsection.6.16.16}%
+\contentsline {section}{\numberline {6.17}附录C: 文件格式规范}{162}{section.6.17}%
+\contentsline {subsection}{\numberline {6.17.1}工程文件结构}{162}{subsection.6.17.1}%
+\contentsline {subsubsection}{工程目录结构}{162}{subsubsection*.540}%
+\contentsline {subsection}{\numberline {6.17.2}EDI文件格式}{163}{subsection.6.17.2}%
+\contentsline {subsubsection}{EDI文件结构示例}{163}{subsubsection*.541}%
+\contentsline {subsection}{\numberline {6.17.3}各仪器原始数据格式摘要}{163}{subsection.6.17.3}%
+\contentsline {subsubsection}{Phoenix TBL格式}{163}{subsubsection*.542}%
+\contentsline {subsubsection}{Phoenix JSON格式}{163}{subsubsection*.543}%
+\contentsline {subsubsection}{Metronix ATM格式}{164}{subsubsection*.544}%
+\contentsline {subsubsection}{LEMI格式}{164}{subsubsection*.545}%
+\contentsline {subsubsection}{ATTS格式}{164}{subsubsection*.546}%
+\contentsline {subsection}{\numberline {6.17.4}标定文件格式}{164}{subsection.6.17.4}%
+\contentsline {subsubsection}{CLB文件（电场盒标定）}{164}{subsubsection*.547}%
+\contentsline {subsubsection}{CLC文件（磁传感器标定）}{164}{subsubsection*.548}%
+\contentsline {subsection}{\numberline {6.17.5}处理方案文件}{165}{subsection.6.17.5}%
+\contentsline {section}{\numberline {6.18}附录D: 常见问题FAQ}{165}{section.6.18}%
+\contentsline {subsection}{\numberline {6.18.1}安装与授权问题}{165}{subsection.6.18.1}%
+\contentsline {subsection}{\numberline {6.18.2}数据导入问题}{165}{subsection.6.18.2}%
+\contentsline {subsection}{\numberline {6.18.3}处理结果异常}{165}{subsection.6.18.3}%
+\contentsline {subsection}{\numberline {6.18.4}导出问题}{166}{subsection.6.18.4}%
+\contentsline {subsection}{\numberline {6.18.5}其他问题}{166}{subsection.6.18.5}%
+\contentsline {section}{\numberline {6.19}附录E: 更新日志}{166}{section.6.19}%
+\contentsline {subsection}{\numberline {6.19.1}版本 1.9.4 (当前版本)}{166}{subsection.6.19.1}%
+\contentsline {subsubsection}{多仪器支持}{166}{subsubsection*.549}%
+\contentsline {subsubsection}{数据处理}{167}{subsubsection*.550}%
+\contentsline {subsubsection}{稳健估计}{167}{subsubsection*.551}%
+\contentsline {subsubsection}{参考道技术}{167}{subsubsection*.552}%
+\contentsline {subsubsection}{智能筛选}{167}{subsubsection*.553}%
+\contentsline {subsubsection}{导出功能}{167}{subsubsection*.554}%
+\contentsline {subsection}{\numberline {6.19.2}版本 1.5}{168}{subsection.6.19.2}%
+\contentsline {subsection}{\numberline {6.19.3}版本 1.0}{168}{subsection.6.19.3}%
+\contentsline {subsection}{\numberline {6.19.4}已知问题}{168}{subsection.6.19.4}%
+\contentsline {subsection}{\numberline {6.19.5}系统要求}{168}{subsection.6.19.5}%
+\contentsline {subsection}{\numberline {6.19.6}技术支持}{169}{subsection.6.19.6}%
+\contentsline {section}{\numberline {6.20}附录F: 图表操作详解}{169}{section.6.20}%
+\contentsline {subsection}{\numberline {6.20.1}F.1 图表右键菜单}{169}{subsection.6.20.1}%
+\contentsline {subsubsection}{F.1.1 显示设置}{169}{subsubsection*.555}%
+\contentsline {subsubsection}{F.1.2 坐标轴设置}{169}{subsubsection*.556}%
+\contentsline {subsubsection}{F.1.3 缩放功能}{169}{subsubsection*.557}%
+\contentsline {subsubsection}{F.1.4 导出功能}{170}{subsubsection*.558}%
+\contentsline {subsection}{\numberline {6.20.2}F.2 坐标轴操作}{170}{subsection.6.20.2}%
+\contentsline {subsubsection}{F.2.1 点击坐标轴设置范围}{170}{subsubsection*.559}%
+\contentsline {subsubsection}{F.2.2 对数/线性坐标切换}{170}{subsubsection*.560}%
+\contentsline {subsection}{\numberline {6.20.3}F.3 图表缩放与平移}{170}{subsection.6.20.3}%
+\contentsline {subsubsection}{F.3.1 鼠标操作}{170}{subsubsection*.561}%
+\contentsline {subsubsection}{F.3.2 键盘快捷键}{170}{subsubsection*.562}%
+\contentsline {subsection}{\numberline {6.20.4}F.4 数据筛选图表操作}{171}{subsection.6.20.4}%
+\contentsline {subsubsection}{F.4.1 选择模式}{171}{subsubsection*.563}%
+\contentsline {subsubsection}{F.4.2 完成选择}{171}{subsubsection*.564}%
+\contentsline {subsubsection}{F.4.3 撤销与重做}{171}{subsubsection*.565}%
+\contentsline {subsubsection}{F.4.4 操作示例}{171}{subsubsection*.566}%
+\contentsline {subsection}{\numberline {6.20.5}F.5 添加临时曲线}{172}{subsection.6.20.5}%
+\contentsline {subsection}{\numberline {6.20.6}F.6 图表编辑器}{172}{subsection.6.20.6}%
+\contentsline {subsubsection}{F.6.1 常用设置}{172}{subsubsection*.567}%
+\contentsline {subsubsection}{F.6.2 保存设置}{172}{subsubsection*.568}%
+\contentsline {subsection}{\numberline {6.20.7}F.7 多图表对比}{172}{subsection.6.20.7}%
+\contentsline {subsubsection}{F.7.1 多测点叠加}{172}{subsubsection*.569}%
+\contentsline {subsubsection}{F.7.2 图表工具栏}{173}{subsubsection*.570}%
+\contentsline {subsection}{\numberline {6.20.8}F.8 常见问题}{173}{subsection.6.20.8}%
+\contentsline {section}{\numberline {6.21}贡献指南}{173}{section.6.21}%
+\contentsline {subsection}{\numberline {6.21.1}如何贡献}{173}{subsection.6.21.1}%
+\contentsline {subsection}{\numberline {6.21.2}文档结构}{173}{subsection.6.21.2}%
+\contentsline {subsection}{\numberline {6.21.3}本地构建}{174}{subsection.6.21.3}%
+\contentsline {subsection}{\numberline {6.21.4}写作规范}{174}{subsection.6.21.4}%
+\contentsline {subsection}{\numberline {6.21.5}注意事项}{174}{subsection.6.21.5}%

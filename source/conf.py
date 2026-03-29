@@ -97,3 +97,21 @@ mathjax3_config = {
         "pageReady": "MathJax.startup.promise.then(() => MathJax.typesetPromise())"
     },
 }
+
+# LaTeX configuration for PDF output
+latex_documents = [
+    ("index", "mtdatapro.tex", "MTDataPro 中文手册", "王培杰", "manual"),
+]
+
+latex_toplevel_sectioning = "chapter"
+latex_show_urls = "inline"
+latex_elements = {
+    "papersize": "a4",
+    "pointsize": "10pt",
+    "preamble": """
+\\usepackage{xeCJK}
+\\setCJKmainfont{FandolSong}
+\\setCJKsansfont{FandolHei}
+\\setCJKmonofont{FandolFang}
+""",
+}
