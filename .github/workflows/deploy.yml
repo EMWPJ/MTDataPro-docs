@@ -7,8 +7,11 @@ on:
     branches: [main]
 
 jobs:
-  build:
-    runs-on: ubuntu-22.04
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -17,40 +20,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Build HTML
-        run: |
-          sphinx-build -b html source _build/html
-      - name: Build PDF
-        run: |
-          apt-get update
-          apt-get install -y texlive-latex-recommended texlive-latex-extra latexmk
-          sphinx-build -b latex source _build/latex
-          cd _build/latex && latexmk -pdf *.tex
-      - name: Upload HTML artifacts
-        uses: actions/upload-artifact@v4
+        run: sphinx-build -b html source _build/html
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: html-docs
           path: _build/html
-      - name: Upload PDF artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: pdf-docs
-          path: _build/latex/*.pdf
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: html-docs
-          path: _site
-      - uses: actions/configure-pages@v4
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
