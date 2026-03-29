@@ -1,4 +1,7 @@
 _build/
+_buildlatex/
+_buildhtml/
+.github/
 *.pyc
 __pycache__/
 .env
