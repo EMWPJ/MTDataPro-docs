@@ -102,8 +102,8 @@ chapters/chapter4
 chapters/chapter5
 chapters/chapter6
 chapters/chapter7
+chapters/chapter8
 chapters/chapter9
-chapters/chapter10
 ```
 
 ```{toctree}
