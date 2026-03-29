@@ -26,7 +26,7 @@ MTDataPro 是地球科学领域广泛使用的专业 MT 数据处理软件之一
 
 | 仪器支持 | 数据导出 | 常见问题 |
 |:---:|:---:|:---:|
-| [Phoenix、Metronix、LEMI](chapters/chapter3) | [EDI、J-format 格式](chapters/chapter6) | [FAQ 与故障排除](appendices/appendixD) |
+| [Phoenix、Metronix、LEMI](chapters/chapter3) | [EDI 格式](chapters/chapter6) | [FAQ 与故障排除](appendices/appendixD) |
 
 ---
 
@@ -50,7 +50,7 @@ MTDataPro 是地球科学领域广泛使用的专业 MT 数据处理软件之一
 
 ## 外部链接
 
-- [MTDataPro GitHub 仓库](https://github.com/EMWPJ/MTDataPro)
+- [MTDataPro 文档仓库](https://github.com/EMWPJ/MTDataPro-docs)
 - [参与讨论](https://github.com/EMWPJ/MTDataPro-docs/discussions)
 
 ---
@@ -64,7 +64,7 @@ MTDataPro 是地球科学领域广泛使用的专业 MT 数据处理软件之一
   title = {MTDataPro: A Professional Magnetotelluric Data Processing Software},
   author = {MTDataPro Development Team},
   year = {2026},
-  version = {1.9.4},
+  version = {1.9.5},
   url = {https://github.com/EMWPJ/MTDataPro}
 }
 ```
