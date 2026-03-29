@@ -2,7 +2,7 @@
 
 欢迎来到 **MTDataPro** —— 大地电磁（MT）数据处理软件。
 
-MTDataPro 是地球科学领域广泛使用的专业 MT 数据处理软件之一。本手册由 MTDataPro 开发团队维护整理，详尽介绍了 MTDataPro 的用法并提供了大量实用示例，既可以作为初学者的入门读物，也可以作为日常使用的参考书。
+MTDataPro 是地球科学领域广泛使用的专业 MT 数据处理软件之一。本手册由 王培杰 维护整理，详尽介绍了 MTDataPro 的用法并提供了大量实用示例，既可以作为初学者的入门读物，也可以作为日常使用的参考书。
 
 ---
 
@@ -121,6 +121,6 @@ appendix/contributing
 
 ---
 
-&copy; 版权所有 2026, MTDataPro 开发团队。最后更新于 {sub-ref}`today`。
+&copy; 版权所有 2026, 王培杰。最后更新于 {sub-ref}`today`。
 
 利用 [Sphinx](https://www.sphinx-doc.org/) 构建，使用的 [sphinx_rtd_theme 主题](https://github.com/readthedocs/sphinx_rtd_theme) 由 [Read the Docs](https://readthedocs.org) 开发。

@@ -1,6 +1,6 @@
 project = "MTDataPro 中文手册"
-copyright = "2026, MTDataPro 开发团队"
-author = "MTDataPro 开发团队"
+copyright = "2026, 王培杰"
+author = "王培杰"
 version = "1.9"
 release = "1.9.5"
 language = "zh_CN"
