@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.28)  29 MAR 2026 16:02
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.28)  29 MAR 2026 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1159,14 +1159,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (./mtdatapro.toc [1
 
 ]
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSerifBold.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📂 (U+1F4C2) in font [FreeSerifBold.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 🧪 (U+1F9EA) in font [FreeSerifBold.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📊 (U+1F4CA) in font [FreeSerifBold.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
 Missing character: There is no 📂 (U+1F4C2) in font [FreeSerif.otf]/OT:script=la
@@ -1176,8 +1168,6 @@ Missing character: There is no 🎯 (U+1F3AF) in font [FreeSerif.otf]/OT:script=
 tn;language=dflt;mapping=tex-text;!
 Missing character: There is no 🔬 (U+1F52C) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSerifBold.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 🖥 (U+1F5A5) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
@@ -1202,20 +1192,12 @@ Missing character: There is no 🔄 (U+1F504) in font [FreeSerif.otf]/OT:script=
 tn;language=dflt;mapping=tex-text;!
 Missing character: There is no 🧬 (U+1F9EC) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📤 (U+1F4E4) in font [FreeSerifBold.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 🧮 (U+1F9EE) in font [FreeSerifBold.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 🛠 (U+1F6E0) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
 Missing character: There is no 💡 (U+1F4A1) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
-Missing character: There is no 👁 (U+1F441) in font [FreeSerifBold.otf]/OT:scrip
-t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ️ (U+FE0F) in font FandolSong Bold/OT:script=han
-i;language=dflt;!
 Missing character: There is no 🖥 (U+1F5A5) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
@@ -1717,8 +1699,6 @@ Underfull \hbox (badness 10000) detected at line 5322
 
 [23] [24] [25] [26] [27] [28]
 Chapter 5.
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSans.otf]/OT:script=lat
-n;language=dflt;mapping=tex-text;!
 Missing character: There is no 🎯 (U+1F3AF) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
 Missing character: There is no 📋 (U+1F4CB) in font [FreeSerif.otf]/OT:script=la
@@ -1748,8 +1728,6 @@ Missing character: There is no ₚ (U+209A) in font [FreeSerif.otf]/OT:script=la
 n;language=dflt;mapping=tex-text;!
 Missing character: There is no 🌍 (U+1F30D) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [30] [31]
 Missing character: There is no 🎯 (U+1F3AF) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
@@ -1767,8 +1745,6 @@ LaTeX Warning: Hyper reference `chapters/chapter2:23-_E7_AC_AC_E4_BA_8C_E6_AD_A
 5_E6_95_B0_E6_8D_AE_E9_87_87_E9_9B_86_E5_87_86_E5_A4_87' on page 32 undefined o
 n input line 6963.
 
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [32] [33]
 Underfull \hbox (badness 5189) in paragraph at lines 8037--8037
 []\TU/FreeSerif(0)/b/n/10 Ex \TU/FreeSerif(0)/m/n/10 (\TU/FandolSong(0)/m/n/10 
@@ -1896,8 +1872,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 8037--8037
 []\TU/FreeSerif(0)/m/n/10 NumberBoxHzRo-
  []
 
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [34] [35]
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
@@ -1913,8 +1887,6 @@ LaTeX Warning: Hyper reference `chapters/chapter2:24-_E7_AC_AC_E4_B8_89_E6_AD_A
 5_E4_BB_8E_E6_97_B6_E9_97_B4_E5_BA_8F_E5_88_97_E5_88_B0_E9_A2_91_E8_B0_B1' on p
 age 36 undefined on input line 8539.
 
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [36]
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
@@ -1930,10 +1902,7 @@ LaTeX Warning: Hyper reference `chapters/chapter2:25-_E7_AC_AC_E5_9B_9B_E6_AD_A
 5_E9_98_BB_E6_8A_97_E4_BC_B0_E8_AE_A1' on page 37 undefined on input line 8835.
 
 
-[37]
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[38]
+[37] [38]
 Missing character: There is no 📖 (U+1F4D6) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
 [39]
@@ -1951,8 +1920,6 @@ LaTeX Warning: Hyper reference `chapters/chapter2:26-_E7_AC_AC_E4_BA_94_E6_AD_A
 5_E6_95_B0_E6_8D_AE_E8_B4_A8_E9_87_8F_E8_AF_84_E4_BC_B0' on page 40 undefined o
 n input line 9245.
 
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [40] [41]
 Missing character: There is no ^^F (U+0006) in font [FreeSerifBold.otf]/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
@@ -1962,8 +1929,6 @@ Missing character: There is no ✅ (U+2705) in font [FreeSansBold.otf]/OT:script
 latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ❌ (U+274C) in font [FreeSansBold.otf]/OT:script=
 latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [42]
 Missing character: There is no ₘ (U+2098) in font [FreeSerif.otf]/OT:script=lat
 n;language=dflt;mapping=tex-text;!
@@ -1988,8 +1953,6 @@ Missing character: There is no ^^H (U+0008) in font [FreeSerifBold.otf]/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ^^H (U+0008) in font [FreeSerifBold.otf]/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [44]
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
@@ -2005,10 +1968,7 @@ LaTeX Warning: Hyper reference `chapters/chapter2:28-_E7_AC_AC_E4_B8_83_E6_AD_A
 5rmsmr_E5_AE_8C_E6_95_B4_E6_B5_81_E7_A8_8B' on page 45 undefined on input line 
 10372.
 
-[45]
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[46]
+[45] [46]
 Underfull \hbox (badness 10000) in paragraph at lines 11044--11044
 []\TU/FandolHei(0)/m/n/10 问
  []
@@ -2271,8 +2231,6 @@ e 48 undefined on input line 11291.
 
 Missing character: There is no 📖 (U+1F4D6) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [48]
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
@@ -2292,23 +2250,10 @@ Missing character: There is no ^^F (U+0006) in font [FreeSerifBold.otf]/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ^^F (U+0006) in font [FreeSerifBold.otf]/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[50] [51]
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[52] [53]
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[54] [55]
-Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[56
+[50] [51] [52] [53] [54] [55] [56
 
 ]
 Chapter 6.
-Missing character: There is no 📂 (U+1F4C2) in font [FreeSans.otf]/OT:script=lat
-n;language=dflt;mapping=tex-text;!
 Missing character: There is no 📦 (U+1F4E6) in font [FreeMono.otf]/OT:script=lat
 n;language=dflt;!
 Missing character: There is no 🗺 (U+1F5FA) in font [FreeMono.otf]/OT:script=lat
@@ -2352,8 +2297,6 @@ Missing character: There is no ⏰ (U+23F0) in font [FreeSerifBold.otf]/OT:scrip
 =latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 💡 (U+1F4A1) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📂 (U+1F4C2) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [58]
 Missing character: There is no 👤 (U+1F464) in font [FreeSerifBold.otf]/OT:scrip
 t=latn;language=dflt;mapping=tex-text;!
@@ -2376,8 +2319,6 @@ Missing character: There is no 💡 (U+1F4A1) in font [FreeSerif.otf]/OT:script=
 tn;language=dflt;mapping=tex-text;!
 Missing character: There is no 📊 (U+1F4CA) in font [FreeSerifBold.otf]/OT:scrip
 t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📂 (U+1F4C2) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [60]
 Missing character: There is no 📋 (U+1F4CB) in font [FreeSerifBold.otf]/OT:scrip
 t=latn;language=dflt;mapping=tex-text;!
@@ -2395,10 +2336,7 @@ Missing character: There is no 📦 (U+1F4E6) in font [FreeSerifBold.otf]/OT:scr
 t=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 📊 (U+1F4CA) in font [FreeSerifBold.otf]/OT:scrip
 t=latn;language=dflt;mapping=tex-text;!
-[61]
-Missing character: There is no 📂 (U+1F4C2) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[62]
+[61] [62]
 Missing character: There is no 🔄 (U+1F504) in font [FreeSerifBold.otf]/OT:scrip
 t=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 💾 (U+1F4BE) in font [FreeSerifBold.otf]/OT:scrip
@@ -2424,52 +2362,17 @@ Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;la
 guage=dflt;!
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
-Missing character: There is no 📂 (U+1F4C2) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[64] [65]
-Missing character: There is no 📂 (U+1F4C2) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[66
+[64] [65] [66
 
 ]
 Chapter 7.
-Missing character: There is no 🧪 (U+1F9EA) in font [FreeSans.otf]/OT:script=lat
-n;language=dflt;mapping=tex-text;!
-[67]
-Missing character: There is no 🧪 (U+1F9EA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[68] [69]
+[67] [68] [69]
 Missing character: There is no 💡 (U+1F4A1) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
-Missing character: There is no 🧪 (U+1F9EA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[70] [71]
-Missing character: There is no 🧪 (U+1F9EA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[72] [73]
-Missing character: There is no 🧪 (U+1F9EA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[74] [75]
-Missing character: There is no 🧪 (U+1F9EA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[76] [77]
-Missing character: There is no 🧪 (U+1F9EA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[78] [79]
-Missing character: There is no 🧪 (U+1F9EA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[80] [81]
-Missing character: There is no 🧪 (U+1F9EA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[82] [83]
-Missing character: There is no 🧪 (U+1F9EA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[84
+[70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84
 
 ]
 Chapter 8.
-Missing character: There is no 📊 (U+1F4CA) in font [FreeSans.otf]/OT:script=lat
-n;language=dflt;mapping=tex-text;!
 Missing character: There is no ⚙ (U+2699) in font [FreeSansBold.otf]/OT:script=
 latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font FandolHei Bold/OT:script=hani
@@ -2504,10 +2407,7 @@ Missing character: There is no 📋 (U+1F4CB) in font [FreeMono.otf]/OT:script=l
 n;language=dflt;!
 Missing character: There is no 📍 (U+1F4CD) in font [FreeMono.otf]/OT:script=lat
 n;language=dflt;!
-[85]
-Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[86]
+[85] [86]
 Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 [87]
@@ -2515,15 +2415,10 @@ Missing character: There is no 📏 (U+1F4CF) in font [FreeSansBold.otf]/OT:scri
 =latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 🔧 (U+1F527) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [88]
 Missing character: There is no 📌 (U+1F4CC) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[89]
-Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[90]
+[89] [90]
 Missing character: There is no 🎯 (U+1F3AF) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 💡 (U+1F4A1) in font [FreeSerif.otf]/OT:script=la
@@ -2569,16 +2464,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 21235--21235
 []\TU/FandolSong(0)/m/n/10 多 角 度 \TU/FreeSerif(0)/m/n/10 Rho-
  []
 
-Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [92]
 Missing character: There is no 🔬 (U+1F52C) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 [93]
 Missing character: There is no 💡 (U+1F4A1) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [94]
 Missing character: There is no 🔬 (U+1F52C) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
@@ -2587,16 +2478,12 @@ Missing character: There is no ₘ (U+2098) in font [FreeSerif.otf]/OT:script=la
 n;language=dflt;mapping=tex-text;!
 Missing character: There is no ₚ (U+209A) in font [FreeSerif.otf]/OT:script=lat
 n;language=dflt;mapping=tex-text;!
-Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [96]
 Missing character: There is no 🔬 (U+1F52C) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 [97]
 Missing character: There is no 📚 (U+1F4DA) in font [FreeSerifBold.otf]/OT:scrip
 t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [98]
 Missing character: There is no ⭐ (U+2B50) in font [FreeSansBold.otf]/OT:script=
 latn;language=dflt;mapping=tex-text;!
@@ -2608,10 +2495,7 @@ Missing character: There is no ^^F (U+0006) in font [FreeSerifBold.otf]/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 🔬 (U+1F52C) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[99]
-Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[100]
+[99] [100]
 LaTeX Font Info:    Font shape `TU/FreeMono(0)/m/it' will be
 (Font)              scaled to size 8.09995pt on input line 23812.
 
@@ -2620,8 +2504,6 @@ Missing character: There is no 🔬 (U+1F52C) in font [FreeSansBold.otf]/OT:scri
 [101]
 Missing character: There is no 💡 (U+1F4A1) in font [FreeSerifBold.otf]/OT:scrip
 t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [102]
 Missing character: There is no 赟 (U+8D5F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
@@ -2629,15 +2511,10 @@ Missing character: There is no 💡 (U+1F4A1) in font [FreeSerif.otf]/OT:script=
 tn;language=dflt;mapping=tex-text;!
 Missing character: There is no 🔬 (U+1F52C) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[103]
-Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[104
+[103] [104
 
 ]
 Chapter 9.
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSans.otf]/OT:script=lat
-n;language=dflt;mapping=tex-text;!
 Missing character: There is no 🖥 (U+1F5A5) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font FandolHei Bold/OT:script=hani
@@ -2651,15 +2528,10 @@ Missing character: There is no ^^H (U+0008) in font [FreeSerifBold.otf]/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ^^H (U+0008) in font [FreeSerifBold.otf]/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [106]
 Missing character: There is no 📈 (U+1F4C8) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[107]
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[108]
+[107] [108]
 Missing character: There is no 📏 (U+1F4CF) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
@@ -2687,15 +2559,11 @@ Missing character: There is no 📐 (U+1F4D0) in font [FreeSansBold.otf]/OT:scri
 =latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 📖 (U+1F4D6) in font [FreeSerifBold.otf]/OT:scrip
 t=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [110]
 Missing character: There is no 📐 (U+1F4D0) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 [111]
 Missing character: There is no 🧠 (U+1F9E0) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 [112]
 Missing character: There is no 🎯 (U+1F3AF) in font [FreeSansBold.otf]/OT:script
@@ -2743,8 +2611,6 @@ Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;la
 guage=dflt;!
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [114]
 Missing character: There is no 🌐 (U+1F310) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
@@ -2755,112 +2621,54 @@ Missing character: There is no 🔄 (U+1F504) in font [FreeSansBold.otf]/OT:scri
 =latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 🧬 (U+1F9EC) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 [116]
 Missing character: There is no 🧬 (U+1F9EC) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[117]
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[118]
+[117] [118]
 Missing character: There is no 🧬 (U+1F9EC) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[119]
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[120]
+[119] [120]
 Missing character: There is no 🧬 (U+1F9EC) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[121]
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[122]
+[121] [122]
 Missing character: There is no 🧬 (U+1F9EC) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[123]
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[124]
+[123] [124]
 Missing character: There is no 🧬 (U+1F9EC) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[125]
-Missing character: There is no 🔍 (U+1F50D) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[126
+[125] [126
 
 ]
 Chapter 10.
-Missing character: There is no 📤 (U+1F4E4) in font [FreeSans.otf]/OT:script=lat
-n;language=dflt;mapping=tex-text;!
-[127]
-Missing character: There is no 📤 (U+1F4E4) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[128] [129]
-Missing character: There is no 📤 (U+1F4E4) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[130] [131]
-Missing character: There is no 📤 (U+1F4E4) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[132] [133]
-Missing character: There is no 📤 (U+1F4E4) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[134] [135]
-Missing character: There is no 📤 (U+1F4E4) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[136] [137]
-Missing character: There is no 📤 (U+1F4E4) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[138]
+[127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137] [138]
 Chapter 11.
-Missing character: There is no 🧮 (U+1F9EE) in font [FreeSans.otf]/OT:script=lat
-n;language=dflt;mapping=tex-text;!
 Missing character: There is no 🛠 (U+1F6E0) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font FandolHei Bold/OT:script=hani
 ;language=dflt;!
 [139
 
-]
-Missing character: There is no 🧮 (U+1F9EE) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[140]
+] [140]
 Missing character: There is no 💡 (U+1F4A1) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 💡 (U+1F4A1) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[141]
-Missing character: There is no 🧮 (U+1F9EE) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-[142
+[141] [142
 
 ]
 Chapter 12.
-Missing character: There is no 👁 (U+1F441) in font [FreeSans.otf]/OT:script=lat
-n;language=dflt;mapping=tex-text;!
-Missing character: There is no ️ (U+FE0F) in font FandolHei/OT:script=hani;lang
-uage=dflt;!
 Missing character: There is no 🖥 (U+1F5A5) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font FandolHei Bold/OT:script=hani
 ;language=dflt;!
 Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[143]
-Missing character: There is no 👁 (U+1F441) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ️ (U+FE0F) in font FandolHei Bold/OT:script=hani
-;language=dflt;!
-[144]
+[143] [144]
 Missing character: There is no 📊 (U+1F4CA) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 [145]
 Missing character: There is no 📈 (U+1F4C8) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 👁 (U+1F441) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ️ (U+FE0F) in font FandolHei Bold/OT:script=hani
-;language=dflt;!
 [146]
 Missing character: There is no 📈 (U+1F4C8) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
@@ -2871,10 +2679,6 @@ Missing character: There is no 🗺 (U+1F5FA) in font [FreeSansBold.otf]/OT:scri
 =latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font FandolHei Bold/OT:script=hani
 ;language=dflt;!
-Missing character: There is no 👁 (U+1F441) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ️ (U+FE0F) in font FandolHei Bold/OT:script=hani
-;language=dflt;!
 [148]
 Missing character: There is no 📉 (U+1F4C9) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
@@ -2882,37 +2686,19 @@ Missing character: There is no 📡 (U+1F4E1) in font [FreeSansBold.otf]/OT:scri
 =latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 📉 (U+1F4C9) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[149]
-Missing character: There is no 👁 (U+1F441) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ️ (U+FE0F) in font FandolHei Bold/OT:script=hani
-;language=dflt;!
-[150]
+[149] [150]
 Missing character: There is no 📡 (U+1F4E1) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 [151]
 Missing character: There is no 🧵 (U+1F9F5) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 👁 (U+1F441) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ️ (U+FE0F) in font FandolHei Bold/OT:script=hani
-;language=dflt;!
 [152] [153]
 Missing character: There is no 🔬 (U+1F52C) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 👁 (U+1F441) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ️ (U+FE0F) in font FandolHei Bold/OT:script=hani
-;language=dflt;!
 [154]
 Missing character: There is no 🔬 (U+1F52C) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
-[155]
-Missing character: There is no 👁 (U+1F441) in font [FreeSansBold.otf]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ️ (U+FE0F) in font FandolHei Bold/OT:script=hani
-;language=dflt;!
-[156]
+[155] [156]
 Chapter 13.
 [157
 
@@ -3004,12 +2790,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `mtdatapro.out' has not changed.
-(rerunfilecheck)             Checksum: 626BB1230D8A8B7F2063C580274498C3;94270.
+(rerunfilecheck)             Checksum: 933AEA7D9A0186853DEF773AF2702FD0;93809.
  ) 
 Here is how much of TeX's memory you used:
  23717 strings out of 468174
  495367 string characters out of 5436827
- 1312067 words of memory out of 5000000
+ 1311500 words of memory out of 5000000
  51994 multiletter control sequences out of 15000+600000
  636802 words of font info for 149 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
