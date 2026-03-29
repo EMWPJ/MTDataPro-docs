@@ -19,11 +19,21 @@ jobs:
       - name: Build HTML
         run: |
           sphinx-build -b html source _build/html
-      - name: Upload artifacts
+      - name: Build PDF
+        run: |
+          apt-get update && apt-get install -y latexmk xz-utils
+          sphinx-build -b latex source _build/latex
+          cd _build/latex && latexmk -pdf *.tex
+      - name: Upload HTML artifacts
         uses: actions/upload-artifact@v4
         with:
           name: html-docs
           path: _build/html
+      - name: Upload PDF artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdf-docs
+          path: _build/latex/*.pdf
 
   deploy:
     needs: build
