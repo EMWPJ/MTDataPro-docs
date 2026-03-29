@@ -12,9 +12,9 @@ MTDataPro 是地球科学领域广泛使用的专业 MT 数据处理软件之一
 
 1. **MTDataPro 入门**：介绍 MTDataPro 的功能特点、安装方法，并为初学者提供快速入门教程。初学者应完整阅读"入门"章节，并通过练习掌握 MTDataPro 的基本用法。
 
-2. **MTDataPro 实例**：包含丰富的实用脚本和处理案例，可以作为日常数据处理参考。
+2. **MTDataPro 进阶**：详细介绍各功能模块的使用方法和参数配置，可以作为参考书查阅。
 
-3. **MTDataPro 进阶**：详细介绍各功能模块的使用方法和参数配置，可以作为参考书查阅。
+3. **MTDataPro 实例**：包含丰富的实用脚本和处理案例，可以作为日常数据处理参考。
 
 ---
 
@@ -83,15 +83,6 @@ intro/quickstart
 
 ```{toctree}
 :hidden:
-:caption: MTDataPro 实例
-:maxdepth: 2
-
-gallery/index
-tutorial/plotting
-```
-
-```{toctree}
-:hidden:
 :caption: MTDataPro 进阶
 :maxdepth: 2
 
@@ -104,6 +95,15 @@ chapters/chapter6
 chapters/chapter7
 chapters/chapter8
 chapters/chapter9
+```
+
+```{toctree}
+:hidden:
+:caption: MTDataPro 实例
+:maxdepth: 2
+
+gallery/index
+tutorial/plotting
 ```
 
 ```{toctree}
