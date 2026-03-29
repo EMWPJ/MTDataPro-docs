@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.28)  29 MAR 2026 15:44
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.28)  29 MAR 2026 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1755,8 +1755,18 @@ Missing character: There is no 🎯 (U+1F3AF) in font [FreeSerif.otf]/OT:script=
 tn;language=dflt;mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:21-_E6_95_99_E7_A8_8B_E6_A6_8
+2_E8_BF_B0_E4_B8_8E_E5_AD_A6_E4_B9_A0_E8_B7_AF_E5_BE_84' on page 32 undefined o
+n input line 6963.
+
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:23-_E7_AC_AC_E4_BA_8C_E6_AD_A
+5_E6_95_B0_E6_8D_AE_E9_87_87_E9_9B_86_E5_87_86_E5_A4_87' on page 32 undefined o
+n input line 6963.
+
 Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 [32] [33]
@@ -1891,15 +1901,35 @@ Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:scri
 [34] [35]
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:22-_E7_AC_AC_E4_B8_80_E6_AD_A
+5_E7_90_86_E8_A7_A3mt_E5_9F_BA_E6_9C_AC_E5_8E_9F_E7_90_86' on page 36 undefined
+ on input line 8539.
+
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:24-_E7_AC_AC_E4_B8_89_E6_AD_A
+5_E4_BB_8E_E6_97_B6_E9_97_B4_E5_BA_8F_E5_88_97_E5_88_B0_E9_A2_91_E8_B0_B1' on p
+age 36 undefined on input line 8539.
+
 Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 [36]
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:23-_E7_AC_AC_E4_BA_8C_E6_AD_A
+5_E6_95_B0_E6_8D_AE_E9_87_87_E9_9B_86_E5_87_86_E5_A4_87' on page 37 undefined o
+n input line 8835.
+
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:25-_E7_AC_AC_E5_9B_9B_E6_AD_A
+5_E9_98_BB_E6_8A_97_E4_BC_B0_E8_AE_A1' on page 37 undefined on input line 8835.
+
+
 [37]
 Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
@@ -1909,8 +1939,18 @@ tn;language=dflt;mapping=tex-text;!
 [39]
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:24-_E7_AC_AC_E4_B8_89_E6_AD_A
+5_E4_BB_8E_E6_97_B6_E9_97_B4_E5_BA_8F_E5_88_97_E5_88_B0_E9_A2_91_E8_B0_B1' on p
+age 40 undefined on input line 9245.
+
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:26-_E7_AC_AC_E4_BA_94_E6_AD_A
+5_E6_95_B0_E6_8D_AE_E8_B4_A8_E9_87_8F_E8_AF_84_E4_BC_B0' on page 40 undefined o
+n input line 9245.
+
 Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
 [40] [41]
@@ -1931,8 +1971,18 @@ Missing character: There is no ₚ (U+209A) in font [FreeSerif.otf]/OT:script=la
 n;language=dflt;mapping=tex-text;!
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:25-_E7_AC_AC_E5_9B_9B_E6_AD_A
+5_E9_98_BB_E6_8A_97_E4_BC_B0_E8_AE_A1' on page 43 undefined on input line 10016
+.
+
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:27-_E7_AC_AC_E5_85_AD_E6_AD_A
+5_E9_AB_98_E7_BA_A7_E5_88_86_E6_9E_90_E5_B7_A5_E5_85_B7' on page 43 undefined o
+n input line 10016.
+
 [43]
 Missing character: There is no ^^H (U+0008) in font [FreeSerifBold.otf]/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
@@ -1943,8 +1993,18 @@ Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:scri
 [44]
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:26-_E7_AC_AC_E4_BA_94_E6_AD_A
+5_E6_95_B0_E6_8D_AE_E8_B4_A8_E9_87_8F_E8_AF_84_E4_BC_B0' on page 45 undefined o
+n input line 10372.
+
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:28-_E7_AC_AC_E4_B8_83_E6_AD_A
+5rmsmr_E5_AE_8C_E6_95_B4_E6_B5_81_E7_A8_8B' on page 45 undefined on input line 
+10372.
+
 [45]
 Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
 =latn;language=dflt;mapping=tex-text;!
@@ -2198,8 +2258,17 @@ tn;language=dflt;mapping=tex-text;!
 [47]
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:27-_E7_AC_AC_E5_85_AD_E6_AD_A
+5_E9_AB_98_E7_BA_A7_E5_88_86_E6_9E_90_E5_B7_A5_E5_85_B7' on page 48 undefined o
+n input line 11291.
+
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:29-_E5_B0_8F_E7_BB_93' on pag
+e 48 undefined on input line 11291.
+
 Missing character: There is no 📖 (U+1F4D6) in font [FreeSerif.otf]/OT:script=la
 tn;language=dflt;mapping=tex-text;!
 Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:script
@@ -2207,6 +2276,11 @@ Missing character: There is no 📚 (U+1F4DA) in font [FreeSansBold.otf]/OT:scri
 [48]
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
+
+LaTeX Warning: Hyper reference `chapters/chapter2:28-_E7_AC_AC_E4_B8_83_E6_AD_A
+5rmsmr_E5_AE_8C_E6_95_B4_E6_B5_81_E7_A8_8B' on page 49 undefined on input line 
+11591.
+
 Missing character: There is no ️ (U+FE0F) in font FandolSong/OT:script=hani;lan
 guage=dflt;!
 [49]
@@ -2926,15 +3000,17 @@ L3 programming layer <2022/08/05>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `mtdatapro.out' has not changed.
-(rerunfilecheck)             Checksum: B7338792A13787E020C58F3B88FC75C9;108358.
 
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `mtdatapro.out' has not changed.
+(rerunfilecheck)             Checksum: 626BB1230D8A8B7F2063C580274498C3;94270.
  ) 
 Here is how much of TeX's memory you used:
- 23708 strings out of 468174
- 494505 string characters out of 5436827
- 1329715 words of memory out of 5000000
- 51985 multiletter control sequences out of 15000+600000
+ 23717 strings out of 468174
+ 495367 string characters out of 5436827
+ 1312067 words of memory out of 5000000
+ 51994 multiletter control sequences out of 15000+600000
  636802 words of font info for 149 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  74i,22n,93p,1198b,846s stack positions out of 10000i,1000n,20000p,200000b,200000s
