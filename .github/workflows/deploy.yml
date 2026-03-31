@@ -43,25 +43,16 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Install TeX Live
+      - name: Build PDF with XeLaTeX
+        uses: xu-cheng/texlive-action@v3
+        with:
+          texlive_version: '2025'
+          scheme: 'full'
         run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends \
-            texlive-xetex \
-            texlive-lang-cjk \
-            texlive-lang-chinese \
-            latexmk \
-            fonts-noto-cjk \
-            fontconfig
-          sudo fc-cache -fv
-        timeout-minutes: 30
-      - name: Build PDF
-        run: |
-          xelatex -version
           sphinx-build -b latex source _buildlatex
           cd _buildlatex
           latexmk -pdf -f -file-line-error -interaction=nonstopmode mtdatapro.tex
-        timeout-minutes: 20
+        timeout-minutes: 30
       - name: Upload PDF
         uses: actions/upload-artifact@v4
         with:

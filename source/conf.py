@@ -111,12 +111,6 @@ latex_engine = "xelatex"
 latex_elements = {
     "papersize": "a4",
     "pointsize": "10pt",
-    "preamble": """
-\\usepackage{iftex}
-\\ifXeTeX
-  \\usepackage{fontspec}
-\\fi
-""",
 }
 
 # Word document configuration

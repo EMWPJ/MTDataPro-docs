@@ -31,28 +31,18 @@ jobs:
         run: |
           sphinx-build -b html source _build/html
 
-      - name: Install TeX Live
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends \
-            texlive-xetex \
-            texlive-lang-cjk \
-            texlive-lang-chinese \
-            latexmk \
-            fonts-noto-cjk \
-            fontconfig
-          sudo fc-cache -fv
-        timeout-minutes: 30
-
-      - name: Build PDF
+      - name: Build PDF with XeLaTeX
+        uses: xu-cheng/texlive-action@v3
+        with:
+          texlive_version: '2025'
+          scheme: 'full'
         env:
           CI: 'true'
         run: |
-          xelatex -version
           sphinx-build -b latex source _buildlatex
           cd _buildlatex
           latexmk -pdf -f -file-line-error -interaction=nonstopmode mtdatapro.tex
-        timeout-minutes: 20
+        timeout-minutes: 30
 
       - name: Build DOCX
         env:
