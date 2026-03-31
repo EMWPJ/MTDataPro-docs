@@ -42,11 +42,16 @@ jobs:
             latexmk \
             fonts-noto-cjk \
             fonts-freefont-ttf \
+            fonts-freefont-otf \
             fontconfig
           sudo fc-cache -fv
+          sudo mktexlsr
+          sudo updmap-sys
         timeout-minutes: 30
 
       - name: Build PDF
+        env:
+          CI: 'true'
         run: |
           xelatex -version
           sphinx-build -b latex source _buildlatex
@@ -58,7 +63,6 @@ jobs:
         env:
           CI: 'true'
         run: |
-          sphinx-build -b html source _build/html
           python scripts/html_to_docx.py
 
       - name: Create Release

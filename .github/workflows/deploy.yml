@@ -54,8 +54,11 @@ jobs:
             latexmk \
             fonts-noto-cjk \
             fonts-freefont-ttf \
+            fonts-freefont-otf \
             fontconfig
           sudo fc-cache -fv
+          sudo mktexlsr
+          sudo updmap-sys
         timeout-minutes: 30
       - name: Build PDF
         run: |
