@@ -48,6 +48,8 @@ jobs:
         with:
           texlive_version: '2025'
           scheme: 'full'
+        env:
+          CI: 'true'
         run: |
           sphinx-build -b latex source _buildlatex
           cd _buildlatex
