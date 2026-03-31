@@ -107,6 +107,7 @@ latex_documents = [
 
 latex_toplevel_sectioning = "chapter"
 latex_show_urls = "inline"
+latex_engine = "xelatex"
 latex_elements = {
     "papersize": "a4",
     "pointsize": "10pt",
@@ -114,21 +115,6 @@ latex_elements = {
 \\usepackage{iftex}
 \\ifXeTeX
   \\usepackage{fontspec}
-  \\usepackage{xeCJK}
-  \\xeCJKsetup{
-      CJKspace=true,
-      xCJKecglue={}
-  }
-  \\setCJKmainfont{Noto Sans CJK SC}
-  \\setCJKsansfont{Noto Sans CJK SC}
-  \\setCJKmonofont{Noto Sans CJK SC}
-\\else
-  \\usepackage{xeCJK}
-  \\xeCJKsetup{
-      CJKspace=true,
-      xCJKecglue={}
-  }
-  \\setCJKmainfont{Noto Sans CJK SC}
 \\fi
 """,
 }
