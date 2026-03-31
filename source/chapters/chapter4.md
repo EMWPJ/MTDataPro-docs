@@ -615,14 +615,9 @@ graph TB
     A4[LEMI] --> B
     A5[RMT/CASRMT] --> B
     A6[ATTS] --> B
-    B --> C1[SpeEDI]
-    B --> C2[ZTEDI]
-    B --> C3[MTpyEDI]
     B --> C4[KML/KMZ]
-    B --> C5[PLT]
     
     style B fill:#e3f2fd
-    style C1 fill:#e8f5e9
 ```
 
 | 仪器/格式 | 数据文件 | 标定文件 | 自动识别扩展名 |

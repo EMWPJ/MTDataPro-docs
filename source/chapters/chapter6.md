@@ -1244,31 +1244,8 @@ graph LR
     E --> I[绘图数据]
 ```
 
-**各EDI导出格式说明：**
+**EDI导出格式说明：**
 
 | 格式名称 | 菜单路径 | 说明 | 适用场景 |
 |----------|----------|------|----------|
-| SpeEDI | 组导出 → SpeEDI | 光谱EDI格式 | Phoenix MT系统数据兼容 |
-| ZTEDI | 组导出 → ZTEDI | Z-Tensor EDI格式 | 垂直分量数据导出 |
-| MTpyEDI | 组导出 → MTpyEDI | MTpy库兼容格式 | Python MTpy数据分析 |
-| PLT | 组导出 → PLT | 绘图格式 | 数据可视化与绘图 |
-
-**SpeEDI格式**
-- 基于标准EDI格式的光谱版本
-- 保留完整频率信息
-- 适用于Phoenix系列仪器数据
-
-**ZTEDI格式**
-- 专门用于垂直电场(Z)分量
-- 包含Z数据和张量信息
-- 适用于大地电磁测深研究
-
-**MTpyEDI格式**
-- 兼容Python的MTpy库
-- 优化了数据类型和结构
-- 便于在Python环境中进行数据分析
-
-**PLT格式**
-- 用于数据绘图和可视化
-- 包含绘图所需的坐标数据
-- 适用于制作publication-quality图形
+| EDI | 组导出 → EDI | 标准EDI格式 | 通用MT数据交换格式 |

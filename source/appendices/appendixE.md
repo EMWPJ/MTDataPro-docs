@@ -44,7 +44,7 @@
 - 遗传算法筛选
 
 ### 导出功能
-- EDI格式（标准/Spe/ZT/MTpy/PLT）
+- EDI格式（标准）
 - KML/KMZ地理信息
 - 时间序列导出（GMT/ATGMT格式）
 

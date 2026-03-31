@@ -8,8 +8,8 @@
 
 ### 导出步骤
 
-1. 在工程树中选择测段（Group）
-2. 右键选择 `导出绘图数据`
+1. 在工程树中选择测点（Site），或批量选择多个测点
+2. 使用测点的导出功能（具体菜单路径请参考 `chapter4-测量数据导出`）
 3. 选择导出内容：
    - 视电阻率数据（ρxy, ρyx）
    - 相位数据（φxy, φyx）
@@ -409,7 +409,7 @@ fre = np.loadtxt(f'{path}/{name}-rxx.dat')[:, 0]
 rxx = np.loadtxt(f'{path}/{name}-rxx.dat')[:, 1]
 rxy = np.loadtxt(f'{path}/{name}-rxy.dat')[:, 1]
 ryx = np.loadtxt(f'{path}/{name}-ryx.dat')[:, 1]
-ryy = np.loadtxt(f'{path}/{name}-rxy.dat')[:, 1]
+ryy = np.loadtxt(f'{path}/{name}-ryy.dat')[:, 1]
 
 pxx = np.loadtxt(f'{path}/{name}-zxxp.dat')[:, 1]
 pxy = np.loadtxt(f'{path}/{name}-zxyp.dat')[:, 1]
