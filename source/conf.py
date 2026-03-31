@@ -14,6 +14,7 @@ extensions = [
     "sphinx_copybutton",
     "sphinx_sitemap",
     "sphinxcontrib.mermaid",
+    # "sphinx_docxbuilder",  # DISABLED - import error with Sphinx 9.x
 ]
 
 myst_enable_extensions = [
@@ -29,7 +30,9 @@ myst_enable_extensions = [
 ]
 
 mermaid_version = "10.6.1"
-mermaid_init_js = 'mermaid.initialize({startOnLoad:true,theme:"neutral"});'
+mermaid_init_js = (
+    'mermaid.initialize({startOnLoad:true,theme:"neutral",fontFactor:1.15});'
+)
 
 templates_path = ["_templates"]
 
@@ -115,3 +118,10 @@ latex_elements = {
 \\setCJKmonofont{FandolFang}
 """,
 }
+
+# Word document configuration
+docx_documents = [
+    ("index", "MTDataPro中文手册.docx", "MTDataPro 中文手册", "王培杰", "general"),
+]
+docx_cover = True
+docx_numbering = True

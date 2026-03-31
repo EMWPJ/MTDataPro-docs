@@ -101,7 +101,10 @@ graph TB
 >
 > **定义**：将阻抗张量分解为实部和虚部 $\mathbf{Z} = \mathbf{X} + i\mathbf{Y}$，相位张量定义为：
 >
-> $$\mathbf{\Phi} = \mathbf{X}^{-1}\mathbf{Y} = \begin{bmatrix} \Phi_{xx} & \Phi_{xy} \\ \Phi_{yx} & \Phi_{yy} \end{bmatrix}$$
+> {math}
+:label: eq-phase-tensor
+
+\mathbf{\Phi} = \mathbf{X}^{-1}\mathbf{Y} = \begin{bmatrix} \Phi_{xx} & \Phi_{xy} \\ \Phi_{yx} & \Phi_{yy} \end{bmatrix}
 >
 > **主要参数：**
 >
@@ -267,13 +270,19 @@ graph TB
 >
 > **定义**：对于p维随机向量$\mathbf{x}$，马氏距离定义为：
 >
-> $$D_M(\mathbf{x}) = \sqrt{(\mathbf{x} - \boldsymbol{\mu})^T \mathbf{\Sigma}^{-1} (\mathbf{x} - \boldsymbol{\mu})}$$
+> {math}
+:label: eq-mahalanobis
+
+D_M(\mathbf{x}) = \sqrt{(\mathbf{x} - \boldsymbol{\mu})^T \mathbf{\Sigma}^{-1} (\mathbf{x} - \boldsymbol{\mu})}
 >
 > 式中$\boldsymbol{\mu}$为均值向量，$\mathbf{\Sigma}$为协方差矩阵。
 >
 > **在MT数据筛选中的应用**：将每个频点的数据视为多维向量，例如：
 >
-> $$\mathbf{x}_i = [\log\rho_{xy}, \log\rho_{yx}, \varphi_{xy}, \varphi_{yx}]^T$$
+> {math}
+:label: eq-data-vector
+
+\mathbf{x}_i = [\log\rho_{xy}, \log\rho_{yx}, \varphi_{xy}, \varphi_{yx}]^T
 >
 > 计算每个频点的马氏距离，距离较大的频点被认为是离群点。
 >
@@ -361,13 +370,19 @@ graph LR
 >
 > **目标函数**：
 >
-> $$\min_{\boldsymbol{\rho}, \boldsymbol{h}} \sum_{i=1}^{N} w_i \left[\frac{\rho_a^{obs}(\omega_i) - \rho_a^{cal}(\omega_i, \boldsymbol{\rho}, \boldsymbol{h})}{\delta\rho_a(\omega_i)}\right]^2$$
+> {math}
+:label: eq-rhoplus-objective
+
+\min_{\boldsymbol{\rho}, \boldsymbol{h}} \sum_{i=1}^{N} w_i \left[\frac{\rho_a^{obs}(\omega_i) - \rho_a^{cal}(\omega_i, \boldsymbol{\rho}, \boldsymbol{h})}{\delta\rho_a(\omega_i)}\right]^2
 >
 > 式中：$\rho_a^{obs}$为观测视电阻率，$\rho_a^{cal}$为计算视电阻率，$\delta\rho_a$为观测误差，$\boldsymbol{\rho}$为各层电阻率，$\boldsymbol{h}$为各层厚度。
 >
 > **多角度Rhoplus**：对于二维或三维结构，不同方向的视电阻率曲线不同。通过旋转坐标系计算不同角度的Rhoplus响应：
 >
-> $$\rho_a(\theta, \omega) = \frac{|Z_{xy}\cos^2\theta + (Z_{yy}-Z_{xx})\sin\theta\cos\theta - Z_{yx}\sin^2\theta|^2}{\omega\mu_0}$$
+> {math}
+:label: eq-rotation-rho
+
+\rho_a(\theta, \omega) = \frac{|Z_{xy}\cos^2\theta + (Z_{yy}-Z_{xx})\sin\theta\cos\theta - Z_{yx}\sin^2\theta|^2}{\omega\mu_0}
 >
 > **主要应用：**
 >

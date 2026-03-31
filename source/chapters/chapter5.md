@@ -1186,7 +1186,10 @@ graph LR
 
 **理论基础：** 马氏距离是考虑变量间相关性的广义距离。
 
-$$D_M = \sqrt{(\mathbf{x} - \boldsymbol{\mu})^T \mathbf{\Sigma}^{-1} (\mathbf{x} - \boldsymbol{\mu})}$$
+{math}
+:label: eq-mahalanobis
+
+D_M = \sqrt{(\mathbf{x} - \boldsymbol{\mu})^T \mathbf{\Sigma}^{-1} (\mathbf{x} - \boldsymbol{\mu})}
 
 **与欧氏距离的区别：**
 

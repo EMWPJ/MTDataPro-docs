@@ -1,6 +1,6 @@
-# 大地电磁数据处理教程
+# RMT原理
 
-> **本章目标**：带你从零开始，一步步掌握大地电磁(MT)数据处理的完整流程，理解每个步骤背后的原理，学会使用MTDP软件获得高质量的处理结果。
+> **本章目标**：带你从零开始，一步步掌握RMT数据处理的完整流程，理解每个步骤背后的原理，学会使用RMTDataPro软件获得高质量的处理结果。
 
 ---
 
@@ -135,7 +135,9 @@ graph TB
 
 趋肤深度（电磁场衰减到1/e的深度）计算公式：
 
-$$\delta = 503\sqrt{\frac{\rho}{f}} \text{2.1}$$
+$$\delta = 503\sqrt{\frac{\rho}{f}}$$
+
+*(2.1)*
 
 其中：
 - $\delta$ = 趋肤深度（米）
@@ -162,19 +164,27 @@ $$\delta = 503\sqrt{\frac{\rho}{f}} \text{2.1}$$
 
 **简单类比**：用万用表测电阻，我们测量电压和电流的比值。MT方法测量电场和磁场的比值，得到地下的"等效电阻"——这就是**阻抗**。
 
-$$\mathbf{E} = \mathbf{Z} \cdot \mathbf{H} \text{2.2}$$
+$$\mathbf{E} = \mathbf{Z} \cdot \mathbf{H}$$
+
+*(2.2)*
 
 因为地下结构可能沿不同方向有不同电阻率（各向异性），所以阻抗是一个**2×2张量**：
 
-$$\begin{pmatrix} E_x \\ E_y \end{pmatrix} = \begin{pmatrix} Z_{xx} & Z_{xy} \\ Z_{yx} & Z_{yy} \end{pmatrix} \begin{pmatrix} H_x \\ H_y \end{pmatrix}\qquad\text{(2.3)}$$
+$$\begin{pmatrix} E_x \\ E_y \end{pmatrix} = \begin{pmatrix} Z_{xx} & Z_{xy} \\ Z_{yx} & Z_{yy} \end{pmatrix} \begin{pmatrix} H_x \\ H_y \end{pmatrix}$$
+
+*(2.3)*
 
 #### 视电阻率与相位
 
 从阻抗可以计算**视电阻率**和**相位**：
 
-$$\rho_a = \frac{|Z|^2}{\omega \mu_0} \text{2.4}$$
+$$\rho_a = \frac{|Z|^2}{\omega \mu_0}$$
 
-$$\varphi = \arg(Z) \text{2.5}$$
+*(2.4)*
+
+$$\varphi = \arg(Z)$$
+
+*(2.5)*
 
 **相位的物理意义**：电场和磁场之间的时间延迟。
 - 均匀半空间：相位 = 45°
@@ -187,7 +197,9 @@ $$\varphi = \arg(Z) \text{2.5}$$
 
 **倾子**描述这种关系：
 
-$$H_z = T_{zx}H_x + T_{zy}H_y \text{2.6}$$
+$$H_z = T_{zx}H_x + T_{zy}H_y$$
+
+*(2.6)*
 
 > 🎯 **实际应用**：感应矢量（由倾子计算）会指向低阻体，是寻找矿体或断裂带的重要工具。
 
@@ -442,7 +454,7 @@ graph LR
 
 | 参数 | 推荐值 | 说明 |
 |:----:|:------:|:-----|
-| **窗长度** | 2^n 点 | 常用 1024, 2048, 4096 |
+| **窗长度** | N倍周期 | 窗口覆盖 N 个工频周期 |
 | **窗函数** | 汉宁窗 | 减少频谱泄漏 |
 | **重叠率** | 50% | 提高数据利用率 |
 
@@ -460,13 +472,17 @@ graph LR
 - **自功率谱**：$[XX^*]$ — 单个信号的能量
 - **互功率谱**：$[XY^*]$ — 两个信号的相关能量
 
-$$[XY^*] = \frac{1}{N}\sum_{i=1}^{N} X_i(f) \cdot Y_i^*(f) \text{2.7}$$
+$$[XY^*] = \frac{1}{N}\sum_{i=1}^{N} X_i(f) \cdot Y_i^*(f)$$
+
+*(2.7)*
 
 #### 叠加的作用
 
 将时间序列分成多段，分别FFT后叠加平均：
 
-$$[XY^*]_{avg} = \frac{1}{N}\sum_{i=1}^{N} X_i Y_i^* \text{2.8}$$
+$$[XY^*]_{avg} = \frac{1}{N}\sum_{i=1}^{N} X_i Y_i^*$$
+
+*(2.8)*
 
 **叠加的好处**：
 - 随机噪声在平均中相互抵消
@@ -556,11 +572,15 @@ graph TD
 
 找到阻抗 Z，使得预测误差最小：
 
-$$\min_Z \sum |E - ZH|^2 \text{2.9}$$
+$$\min_Z \sum |E - ZH|^2$$
+
+*(2.9)*
 
 解为：
 
-$$\mathbf{Z} = [\mathbf{E}\mathbf{H}^*][\mathbf{H}\mathbf{H}^*]^{-1} \text{2.10}$$
+$$\mathbf{Z} = [\mathbf{E}\mathbf{H}^*][\mathbf{H}\mathbf{H}^*]^{-1}$$
+
+*(2.10)*
 
 #### 为什么不推荐？
 
@@ -579,7 +599,9 @@ $$\mathbf{Z} = [\mathbf{E}\mathbf{H}^*][\mathbf{H}\mathbf{H}^*]^{-1} \text{2.10}
 
 使用远参考站的磁场 R 替代本地磁场 H：
 
-$$\mathbf{Z} = [\mathbf{E}\mathbf{R}^*][\mathbf{H}\mathbf{R}^*]^{-1} \text{2.11}$$
+$$\mathbf{Z} = [\mathbf{E}\mathbf{R}^*][\mathbf{H}\mathbf{R}^*]^{-1}$$
+
+*(2.11)*
 
 #### 为什么有效？
 
@@ -609,7 +631,9 @@ graph TB
 
 **核心思想**：给异常数据**降低权重**
 
-$$w_i = \begin{cases} 1, & |r_i| \leq r_0 \\ \frac{r_0}{|r_i|}, & |r_i| > r_0 \end{cases} \text{2.12}$$
+$$w_i = \begin{cases} 1, & |r_i| \leq r_0 \\ \frac{r_0}{|r_i|}, & |r_i| > r_0 \end{cases}$$
+
+*(2.12)*
 
 **形象理解**：
 - 正常数据：权重 = 1.0（完全参与）
@@ -698,7 +722,9 @@ graph TB
 
 **定义**：描述两个信号之间的直接相关性（0-1）
 
-$$Coh^2(XY) = \frac{|[XY^*]|^2}{[XX^*][YY^*]} \text{2.13}$$
+$$Coh^2(XY) = \frac{|[XY^*]|^2}{[XX^*][YY^*]}$$
+
+*(2.13)*
 
 | 常相干度值 | 数据质量 | 建议 |
 |:----------:|:--------:|:----:|
@@ -711,7 +737,9 @@ $$Coh^2(XY) = \frac{|[XY^*]|^2}{[XX^*][YY^*]} \text{2.13}$$
 
 **定义**：输出信号与所有输入信号的综合相关性
 
-$$Coh_m^2(E_x) = \frac{Z_{xy}[H_yE_x^*] + Z_{xx}[H_xE_x^*]}{[E_xE_x^*]} \text{2.14}$$
+$$Coh_m^2(E_x) = \frac{Z_{xy}[H_yE_x^*] + Z_{xx}[H_xE_x^*]}{[E_xE_x^*]}$$
+
+*(2.14)*
 
 **物理意义**：衡量两个水平磁场对电场的**综合解释能力**
 
@@ -723,7 +751,9 @@ $$Coh_m^2(E_x) = \frac{Z_{xy}[H_yE_x^*] + Z_{xx}[H_xE_x^*]}{[E_xE_x^*]} \text{2.
 
 **定义**：排除其他输入影响后，某输入对输出的**独立贡献**
 
-$$Coh_p^2(E_xH_y) = \frac{Coh_m^2(E_x) - Coh^2(E_xH_x)}{1 - Coh^2(E_xH_x)} \text{2.15}$$
+$$Coh_p^2(E_xH_y) = \frac{Coh_m^2(E_x) - Coh^2(E_xH_x)}{1 - Coh^2(E_xH_x)}$$
+
+*(2.15)*
 
 **应用场景**：
 - 判断哪个磁场分量贡献更大
@@ -742,7 +772,9 @@ $$Coh_p^2(E_xH_y) = \frac{Coh_m^2(E_x) - Coh^2(E_xH_x)}{1 - Coh^2(E_xH_x)} \text
 
 **识别噪声**：功率谱密度异常高的时段可能包含噪声
 
-$$PSD = \frac{\sqrt{[AA^*]^2}}{\Delta T} \text{2.16}$$
+$$PSD = \frac{\sqrt{[AA^*]^2}}{\Delta T}$$
+
+*(2.16)*
 
 **判断标准**：
 - 正常天然场：PSD随频率缓慢变化
@@ -752,7 +784,9 @@ $$PSD = \frac{\sqrt{[AA^*]^2}}{\Delta T} \text{2.16}$$
 
 **Gamble方差估计**：
 
-$$(\Delta Z_{ij})^2 = \frac{[|\eta_i|^2][|R_j|^2]}{N|D^R|^2} \text{2.17}$$
+$$(\Delta Z_{ij})^2 = \frac{[|\eta_i|^2][|R_j|^2]}{N|D^R|^2}$$
+
+*(2.17)*
 
 **误差棒的意义**：
 - 误差小 → 数据可信度高
@@ -775,7 +809,9 @@ $$(\Delta Z_{ij})^2 = \frac{[|\eta_i|^2][|R_j|^2]}{N|D^R|^2} \text{2.17}$$
 
 **为什么用马氏距离**：综合考虑多个参数的相关性
 
-$$D_M = \sqrt{(\mathbf{x} - \boldsymbol{\mu})^T \mathbf{\Sigma}^{-1} (\mathbf{x} - \boldsymbol{\mu})} \text{2.18}$$
+$$D_M = \sqrt{(\mathbf{x} - \boldsymbol{\mu})^T \mathbf{\Sigma}^{-1} (\mathbf{x} - \boldsymbol{\mu})}$$
+
+*(2.18)*
 
 **类比**：
 - 欧氏距离：只看"价格"一个维度
@@ -920,7 +956,9 @@ graph TB
 
 相位张量：
 
-$$\mathbf{\Phi} = \mathbf{X}^{-1}\mathbf{Y} \text{2.19}$$
+$$\mathbf{\Phi} = \mathbf{X}^{-1}\mathbf{Y}$$
+
+*(2.19)*
 
 #### 椭圆表示
 
@@ -951,7 +989,9 @@ Rhoplus寻找与观测数据相容的**最少层数**一维模型。
 
 #### 目标函数
 
-$$\min \sum_{i=1}^{N} \left[\frac{\rho_a^{obs}(\omega_i) - \rho_a^{cal}(\omega_i)}{\delta\rho_a(\omega_i)}\right]^2 \text{2.20}$$
+$$\min \sum_{i=1}^{N} \left[\frac{\rho_a^{obs}(\omega_i) - \rho_a^{cal}(\omega_i)}{\delta\rho_a(\omega_i)}\right]^2$$
+
+*(2.20)*
 
 #### 应用场景
 

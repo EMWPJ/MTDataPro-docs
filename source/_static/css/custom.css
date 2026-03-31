@@ -116,6 +116,12 @@ pre.mermaid > svg {
     max-width: 100% !important;
 }
 
+/* Mermaid SVG text font size to match body text (16px) */
+pre.mermaid svg text,
+pre.mermaid svg tspan {
+    font-size: 16px !important;
+}
+
 /* 首页网格卡片样式 */
 .sd-card {
     border: 1px solid #e1e4e5;
@@ -141,4 +147,26 @@ pre.mermaid > svg {
 /* 面包屑导航 */
 .wy-breadcrumbs {
     margin-bottom: 1em;
+}
+
+/* Equation blocks - ensure proper display */
+div.math.notranslate {
+    display: block;
+    width: 100%;
+    overflow: visible;
+}
+
+/* Style for equation number paragraphs that immediately follow math blocks */
+div.math + p {
+    text-align: right;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 0.2em;
+    margin-bottom: 1.2em;
+    font-family: "Times New Roman", serif;
+}
+
+/* Make emphasis (italic) in equation number match the paragraph styling */
+div.math + p em {
+    font-style: normal;
 }

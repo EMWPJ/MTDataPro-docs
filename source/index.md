@@ -2,7 +2,7 @@
 
 ```{toctree}
 :hidden:
-:caption: MTDataPro 入门
+:caption: 1 软件简介
 :maxdepth: 2
 
 intro/index
@@ -12,33 +12,32 @@ intro/quickstart
 
 ```{toctree}
 :hidden:
-:caption: MTDataPro 进阶
+:caption: 2 RMT原理
 :maxdepth: 2
 
-chapters/chapter1
 chapters/chapter2
+```
+
+```{toctree}
+:hidden:
+:caption: 3 数据处理
+:maxdepth: 2
+
 chapters/chapter3
-chapters/chapter4
 chapters/chapter5
-chapters/chapter6
 chapters/chapter7
+```
+
+```{toctree}
+:hidden:
+:caption: 4 附录
+
+chapters/chapter4
+chapters/chapter6
 chapters/chapter8
 chapters/chapter9
-```
-
-```{toctree}
-:hidden:
-:caption: MTDataPro 实例
-:maxdepth: 2
-
 gallery/index
 tutorial/plotting
-```
-
-```{toctree}
-:hidden:
-:caption: 附录
-
 appendices/appendixA
 appendices/appendixB
 appendices/appendixC
