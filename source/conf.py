@@ -19,9 +19,10 @@ extensions = [
 
 myst_enable_extensions = [
     "amsmath",
-    "dollarmath",
+    "attrs_inline",
     "colon_fence",
     "deflist",
+    "dollarmath",
     "html_admonition",
     "html_image",
     "linkify",

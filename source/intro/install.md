@@ -30,7 +30,6 @@ MTDataPro/
 ├── tmp/               # 临时文件目录
 ├── Manual/            # 说明文档（HTML和PDF格式）
 ├── protected/         # 保护目录（存储便携版备份副本）
-├── MTDP0001V-MTDP0050V.vbpsln  # 批量启动解决方案文件
 ├── license.lic        # 公共许可文件
 └── ReleaseInfo.txt    # 发布信息
 ```
@@ -41,7 +40,6 @@ MTDataPro/
 |----------|------|
 | `MTDP0001V.exe ~ MTDP0050V.exe` | V版本（便携版），即插即用，无需注册，共50个 |
 | `MTDP0001.exe, MTDP0003.exe, MTDP0103.exe, MTDP1046.exe` | 注册版本，需绑定电脑硬件 |
-| `MTDP0001V-MTDP0050V.vbpsln` | 批量启动解决方案文件 |
 | `CalibrationFiles/` | 仪器标定文件 |
 | `Configurations/` | 用户配置文件 |
 | `tmp/` | 临时工作目录 |
