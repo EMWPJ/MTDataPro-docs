@@ -35,7 +35,6 @@ chapters/chapter7
 chapters/chapter4
 chapters/chapter6
 chapters/chapter8
-chapters/chapter9
 gallery/index
 tutorial/plotting
 appendices/appendixA

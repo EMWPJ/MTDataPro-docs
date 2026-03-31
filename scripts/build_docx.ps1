@@ -45,8 +45,7 @@ $mdFiles = @(
     "chapters\chapter5.md",
     "chapters\chapter6.md",
     "chapters\chapter7.md",
-    "chapters\chapter8.md",
-    "chapters\chapter9.md"
+    "chapters\chapter8.md"
 )
 
 # Change to temp source directory so pandoc can find images with relative paths

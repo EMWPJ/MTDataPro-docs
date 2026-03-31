@@ -15,13 +15,12 @@ OUTPUT = os.path.join(BASE_DIR, "..", "_build", "docx", "mtdatapro.docx")
 CHAPTER_FILES = [
     ("chapters/chapter1.html", "第1章 软件简介"),
     ("chapters/chapter2.html", "第2章 MT原理"),
-    ("chapters/chapter3.html", "第3章 数据导入"),
-    ("chapters/chapter4.html", "第4章 RMT数据处理"),
-    ("chapters/chapter5.html", "第5章 FFT频谱分析"),
+    ("chapters/chapter3.html", "第3章 数据处理"),
+    ("chapters/chapter4.html", "第4章 附录"),
+    ("chapters/chapter5.html", "第5章 RMT数据处理"),
     ("chapters/chapter6.html", "第6章 数据导出"),
     ("chapters/chapter7.html", "第7章 数据处理流程"),
-    ("chapters/chapter8.html", "第8章 附录"),
-    ("chapters/chapter9.html", "第9章 其他"),
+    ("chapters/chapter8.html", "第8章 视图功能"),
 ]
 
 
