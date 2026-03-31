@@ -1216,9 +1216,12 @@ graph LR
 | 筛选类型 | 推荐参数 | 筛选标准 |
 |----------|----------|----------|
 | 相干度筛选 | CohExHy, CohEyHx | > 0.7 (优秀), > 0.5 (合格) |
+| 扩展相干度 | CohExRx, CohExRy, CohEyRx, CohEyRy, CohHxRx, CohHxRy, CohHyRx, CohHyRy | > 0.7 (优秀), > 0.5 (合格) |
 | 信噪比筛选 | exsnr, eysnr, hxsnr, hysnr | > 3 (推荐) |
-| 误差筛选 | rxyvar, ryxvar, pxyvar, pyxvar | 越小越好 |
-| 三维性筛选 | beta, ptskew2d | < 3° (近2D), < 6° (可接受) |
+| 扩展信噪比 | rxsnr, rysnr | > 3 (推荐) |
+| 阻抗误差筛选 | rxxvar, rxyvar, ryxvar, ryyvar | 越小越好 |
+| 相位误差筛选 | pxxvar, pxyvar, pyxvar, pyyvar | 越小越好 |
+| 三维性筛选 | beta, ptskew1d, ptskew2d, theta, cczskew1d, cczskew2d | < 3° (近2D), < 6° (可接受) |
 
 #### 参数使用建议
 
@@ -1247,3 +1250,27 @@ MTDataPro支持标准EDI格式导出，用于与其他MT软件进行数据交换
 - EDI（Electrical Data Interchange）是MT数据的标准交换格式
 - 支持导出完整的阻抗张量和倾子向量
 - 可选择导出阻抗和/或倾子部分
+
+#### 其他导出格式
+
+MTDataPro支持多种数据导出格式：
+
+| 格式 | 说明 | 用途 |
+|------|------|------|
+| **EDI** | 标准MT数据交换格式 | 与其他MT软件交换数据 |
+| **SpeEDI** | 仅频谱段 | 频谱分析软件 |
+| **ZTEDI** | 阻抗+倾子 | 包含完整传输函数 |
+| **MTpyEDI** | MTpy兼容格式 | Python MTpy库兼容 |
+| **PLTEDI** | 含视电阻率相位 | 直接查看ρa和φ |
+| **参数文件(.dat)** | 导出所有筛选参数 | 批量数据筛选 |
+| **CSV** | 逗号分隔值 | Excel/统计分析 |
+| **XML** | 标记语言格式 | 数据备份/迁移 |
+| **JSON** | JavaScript对象格式 | Web应用/API |
+| **GMT** | 时间序列格式 | Generic Mapping Tools |
+| **KML/KMZ** | 地理标记语言 | Google Earth可视化 |
+
+**导出方式：**
+
+- 站点级导出：工程树中选择测点 → 右键 → 相应导出选项
+- 分组级导出：工程树中选择测段 → 右键 → 批量导出
+- 工区级导出：工程树中选择工区 → 右键 → 导出KML/KMZ

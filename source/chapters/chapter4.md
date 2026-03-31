@@ -469,38 +469,57 @@ SBF（Station Binary Format）是一种紧凑的二进制格式：
 
 | 段类型 | 说明 |
 |:------:|:-----|
+| EmptySection | 空数据段 |
+| CheckSumSection | 校验和数据段 |
 | TextSection | 文本信息头 |
 | IniSection | 配置参数 |
-| TrassSection | 时间序列数据（原始） |
+| EncapsulatedSection | 封装数据段 |
+| TrassSection | 时间序列数据（原始ADC值） |
+| CutTrassSection | 截断时间序列数据 |
 | SpectrumSection | 频谱数据 |
 | SpectraFrequencySection | 频率点定义 |
 | DeviceParameterSection | 设备参数 |
 | RegistrarParameterSection | 注册参数 |
 
-#### CASRMT格式 (.json/.rmtjson)
+#### CASRMT格式 (.json)
 
 JSON格式便于解析和共享：
 
 ```text
 {
-  "station_id": "CAS001",
-  "frequencies": [10000, 8000, 6000, ...],
-  "impedance": {
-    "Zxx": [{"r": 0.123, "i": -0.045}, ...],
-    "Zxy": [{"r": 1.234, "i": -0.567}, ...],
-    "Zyx": [{"r": -1.456, "i": 0.789}, ...],
-    "Zyy": [{"r": 0.098, "i": -0.032}, ...]
+  "site_name": "CAS001",
+  "version": "1.0",
+  "box_id": "BOX12345",
+  "hx_sensor_id": "HX-Sensor-001",
+  "hy_sensor_id": "HY-Sensor-001",
+  "hz_sensor_id": "HZ-Sensor-001",
+  "arrangement": {
+    "ex_length": 100.0,
+    "ey_length": 100.0,
+    "hx_coil": "HC-100",
+    "hy_coil": "HC-100",
+    "hz_coil": "HC-100"
   },
-  "apparent_resistivity": {
-    "rho_xy": [15.2, 18.4, 22.1, ...],
-    "rho_yx": [18.5, 21.2, 25.6, ...]
+  "site_info": {
+    "region": "TestArea",
+    "line": "Line01",
+    "site": 1,
+    "latitude": 30.1234,
+    "longitude": 120.5678,
+    "altitude": 50.0
   },
-  "phase": {
-    "phi_xy": [42.5, 45.2, 48.1, ...],
-    "phi_yx": [47.3, 50.1, 52.8, ...]
-  }
+  "schedules": [
+    {
+      "schedule_name": "Schedule1",
+      "sample_rate": 128,
+      "duration": 3600,
+      "gain": 1.0
+    }
+  ]
 }
 ```
+
+**说明：** CASRMT JSON主要存储站点元数据（位置、仪器配置、采集参数等），实际阻抗数据通过SBF格式的SpectrumSection提供。
 
 ### 系统响应校准
 
