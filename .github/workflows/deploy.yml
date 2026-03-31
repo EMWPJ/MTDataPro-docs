@@ -43,22 +43,14 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Install TeX Live
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends \
-            texlive-latex-recommended \
-            texlive-latex-extra \
-            latexmk \
-            fonts-noto-cjk
-        timeout-minutes: 25
-      - name: Build LaTeX
-        run: sphinx-build -b latex source _buildlatex
       - name: Build PDF
-        run: |
-          cd _buildlatex
-          latexmk -pdf -interaction=nonstopmode mtdatapro.tex
-        timeout-minutes: 15
+        uses: xu-cheng/texlive-action@v3
+        with:
+          texlive_version: '2024'
+          run: |
+            sphinx-build -b latex source _buildlatex
+            cd _buildlatex
+            latexmk -pdf -file-line-error -interaction=nonstopmode mtdatapro.tex
       - name: Upload PDF
         uses: actions/upload-artifact@v4
         with:
