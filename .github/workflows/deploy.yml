@@ -50,10 +50,13 @@ jobs:
             texlive-xetex \
             texlive-lang-cjk \
             texlive-lang-chinese \
+            texlive-fonts-extra \
             latexmk \
             fonts-noto-cjk \
-            fonts-freefont-ttf
-        timeout-minutes: 25
+            fonts-freefont-ttf \
+            fontconfig
+          sudo fc-cache -fv
+        timeout-minutes: 30
       - name: Build PDF
         run: |
           xelatex -version
