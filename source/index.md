@@ -12,7 +12,7 @@ intro/quickstart
 
 ```{toctree}
 :hidden:
-:caption: 2 RMT原理
+:caption: 2 MT原理
 :maxdepth: 2
 
 chapters/chapter2
