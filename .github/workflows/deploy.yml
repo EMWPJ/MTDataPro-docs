@@ -46,12 +46,10 @@ jobs:
         with:
           texlive_version: '2025'
           scheme: 'full'
-        env:
-          CI: 'true'
-        run: |
-          sphinx-build -b latex source _buildlatex
-          cd _buildlatex
-          latexmk -pdf -f -file-line-error -interaction=nonstopmode mtdatapro.tex
+          run: |
+            sphinx-build -b latex source _buildlatex
+            cd _buildlatex
+            latexmk -pdf -f -file-line-error -interaction=nonstopmode mtdatapro.tex
         timeout-minutes: 30
       - name: Upload PDF
         uses: actions/upload-artifact@v4
