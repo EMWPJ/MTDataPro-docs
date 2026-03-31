@@ -39,7 +39,8 @@ jobs:
             texlive-lang-cjk \
             texlive-lang-chinese \
             latexmk \
-            fonts-noto-cjk
+            fonts-noto-cjk \
+            fonts-freefont-ttf
         timeout-minutes: 25
 
       - name: Build PDF
