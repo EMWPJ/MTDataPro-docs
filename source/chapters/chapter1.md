@@ -344,10 +344,10 @@ graph TB
 | 功能 | 说明 | 使用场景 | 输出文件 | 注意事项 |
 |:----:|:-----|:--------|:---------|:---------|
 | **📊 导出绘图数据** | 导出参数/相位张量/坐标供第三方软件绘图 | 当需要使用Golden绘图、Surfer等软件成图时 | - {组名}-Paint.dat<br>- {频率}-PhaseTensor.dat<br>- 各测点参数文件 | 推荐用于批量绘图需求 |
-| 导出SpeEDI | 批量导出SpeEDI格式 | 当需要与支持SpeEDI的软件交换数据时 | .edi文件（SpeEDI格式） | 标准EDI格式，广泛兼容 |
-| 导出ZTEDI | 批量导出ZTEDI格式 | 当需要包含完整张量信息的EDI时 | .edi文件（ZTEDI格式） | 包含阻抗和倾子张量 |
-| 导出MTpyEDI | 批量导出MTpyEDI格式 | 当需要使用Python MTpy库处理时 | .edi文件（MTpyEDI格式） | Python兼容格式 |
-| 导出PLT | 批量导出PLT格式 | 当需要绘图软件直接使用时 | .plt文件 | 包含视电阻率和相位曲线数据 |
+| 导出SpeEDI | 批量导出EDI（Spectra数据段） | 当需要与支持SpeEDI的软件交换数据时 | .edi文件（仅含Spectra数据段） | 仅包含频谱数据 |
+| 导出ZTEDI | 批量导出EDI（阻抗+倾子数据段） | 当需要包含完整张量信息的EDI时 | .edi文件（含阻抗和倾子） | 标准EDI，含完整张量信息 |
+| 导出MTpyEDI | 批量导出EDI（MTpy兼容格式） | 当需要使用Python MTpy库处理时 | .edi文件（MTpy兼容节） | Python MTpy库专用格式 |
+| 导出PLT | 批量导出EDI（含视电阻率相位） | 当需要绘图软件直接使用时 | .edi文件（含RhoPhase数据段） | 含视电阻率和相位曲线 |
 | 导出数据质量 | 导出测点质量评级 | 当需要汇总数据质量信息时 | .dat文件 | 包含每个测点的质量等级 |
 | 导出测点信息 | 导出测点详细信息 | 当需要完整的测点元数据时 | .dat文件 | 包含坐标、时间、仪器等信息 |
 | 导出KMZ | 导出Google Earth KMZ | 当需要在Google Earth中查看测点分布时 | .kmz文件 | 压缩格式，包含图标和样式 |
@@ -424,10 +424,10 @@ graph TB
 |:----:|:-----|:--------|:---------|:---------|
 | **📊 导出绘图数据** | 导出测点参数数据供第三方软件绘图 | 当需要使用Golden绘图、Surfer等软件成图时 | - {测点名}-{参数名}.dat<br>- {测点名}-lgRP.dat | 推荐用于单点详细绘图 |
 | 导出EDI | 导出标准EDI文件 | 当需要将处理结果提供给反演软件时 | .edi文件 | 建议先检查数据质量 |
-| 导出SpeEDI | 导出SpeEDI格式 | 当需要与支持SpeEDI的软件交换数据时 | .edi文件（SpeEDI格式） | 标准格式 |
-| 导出ZTEDI | 导出ZTEDI格式 | 当需要完整张量信息时 | .edi文件（ZTEDI格式） | 含阻抗和倾子 |
-| 导出MTpyEDI | 导出MTpyEDI格式 | 当使用Python处理时 | .edi文件（MTpyEDI格式） | Python兼容 |
-| 导出PLTEDI | 导出PLT格式 | 当绘图软件需要时 | .plt文件 | 含视电阻率/相位 |
+| 导出SpeEDI | 导出EDI（Spectra数据段） | 当需要与支持SpeEDI的软件交换数据时 | .edi文件（仅含Spectra数据段） | 仅包含频谱数据 |
+| 导出ZTEDI | 导出EDI（阻抗+倾子数据段） | 当需要完整张量信息时 | .edi文件（含阻抗和倾子） | 标准EDI，含完整张量信息 |
+| 导出MTpyEDI | 导出EDI（MTpy兼容格式） | 当使用Python处理时 | .edi文件（MTpy兼容节） | Python MTpy库专用格式 |
+| 导出PLTEDI | 导出EDI（含视电阻率相位） | 当绘图软件需要时 | .edi文件（含RhoPhase数据段） | 含视电阻率和相位曲线 |
 | 导出RhoPlus预测 | 导出RhoPlus预测数据 | 当需要验证数据一致性时 | - {测点名}-RhoPlus.dat<br>- {测点名}-Predict.dat | 用于1D模型验证 |
 | 导出GMT时序 | 导出GMT格式时间序列 | 当需要使用GMT绘图时 | .dat文件（GMT格式） | 时间序列数据 |
 | 导出HTML设置 | 导出HTML配置报告 | 当需要生成测点配置的网页报告时 | .html文件 | 可在浏览器中查看 |

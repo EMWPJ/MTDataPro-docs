@@ -1353,7 +1353,7 @@ graph LR
 | **椭圆率** | $\lambda = \frac{\Phi_{max} - \Phi_{min}}{\Phi_{max} + \Phi_{min}}$ | (2.23) |
 | **一维偏离度** | $\kappa = \sqrt{\frac{(\Phi_{xx}-\Phi_{yy})^2 + 4\Phi_{xy}^2}{(\Phi_{xx}+\Phi_{yy})^2}}$ | (2.24) |
 
-> ⚠️ **公式正确性说明**：公式 (2.24) 符合 Caldwell et al. (2004) 给出的标准定义。注意：源代码 `MTFunctions.pas` 第 477 行的 `PhaseTensorSkew1D` 函数实现存在 bug（分母多了一个平方根），如需使用该函数请以本公式为准或联系开发者修复。
+> ⚠️ **公式正确性说明**：公式 (2.24) 符合 Caldwell et al. (2004) 给出的标准定义。`MTFunctions.pas` 第 477 行 `PhaseTensorSkew1D` 函数实现与本公式一致。
 
 ### 其他公式
 
