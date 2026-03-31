@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -29,10 +32,13 @@ jobs:
           sphinx-build -b html source _build/html
 
       - name: Build PDF
-        env:
-          CI: 'true'
-        run: |
-          sphinx-build -b pdf source _build/pdf 2>&1 || true
+        uses: xu-cheng/texlive-action@v3
+        with:
+          texlive_version: '2024'
+          run: |
+            sphinx-build -b latex source _buildlatex
+            cd _buildlatex
+            latexmk -pdf -file-line-error -interaction=nonstopmode mtdatapro.tex
 
       - name: Build DOCX
         env:
@@ -41,26 +47,16 @@ jobs:
           sphinx-build -b html source _build/html
           python scripts/html_to_docx.py
 
-      - name: Generate Release Notes
-        run: |
-          git log --oneline -10 --format='- %s' > release_notes.md
-          echo "tag=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
-
-      - name: Collect artifacts
-        run: |
-          echo "Collecting artifacts..."
-          ARTIFACTS="_build/docx/mtdatapro.docx"
-          if [ -f "_build/pdf/mtdatapro.pdf" ]; then
-            ARTIFACTS="$ARTIFACTS _build/pdf/mtdatapro.pdf"
-          fi
-          echo "artifacts=$ARTIFACTS" >> $GITHUB_ENV
-
       - name: Create Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v1
         with:
-          tag: ${{ env.tag }}
-          name: MTDataPro 中文手册 ${{ env.tag }}
-          body_path: release_notes.md
-          files: ${{ env.artifacts }}
+          tag: ${{ github.ref_name }}
+          name: MTDataPro 中文手册 ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+          files: |
+            _build/docx/mtdatapro.docx
+            _buildlatex/mtdatapro.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
