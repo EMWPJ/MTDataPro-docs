@@ -1,0 +1,66 @@
+name: Release Documentation
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install python-docx
+
+      - name: Build HTML
+        env:
+          CI: 'true'
+        run: |
+          sphinx-build -b html source _build/html
+
+      - name: Build PDF
+        env:
+          CI: 'true'
+        run: |
+          sphinx-build -b pdf source _build/pdf 2>&1 || true
+
+      - name: Build DOCX
+        env:
+          CI: 'true'
+        run: |
+          sphinx-build -b html source _build/html
+          python scripts/html_to_docx.py
+
+      - name: Generate Release Notes
+        run: |
+          git log --oneline -10 --format='- %s' > release_notes.md
+          echo "tag=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+
+      - name: Collect artifacts
+        run: |
+          echo "Collecting artifacts..."
+          ARTIFACTS="_build/docx/mtdatapro.docx"
+          if [ -f "_build/pdf/mtdatapro.pdf" ]; then
+            ARTIFACTS="$ARTIFACTS _build/pdf/mtdatapro.pdf"
+          fi
+          echo "artifacts=$ARTIFACTS" >> $GITHUB_ENV
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag: ${{ env.tag }}
+          name: MTDataPro 中文手册 ${{ env.tag }}
+          body_path: release_notes.md
+          files: ${{ env.artifacts }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
