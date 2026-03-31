@@ -95,10 +95,11 @@ footer {
     margin-top: 2em;
 }
 
-/* Mermaid 流程图样式 */
+/* Mermaid 流程图样式 - 自适应容器宽度 */
 pre.mermaid {
     display: block;
     width: 100%;
+    max-width: 100%;
     overflow-x: auto;
     overflow-y: visible;
     background-color: #f8f9fa;
@@ -111,15 +112,20 @@ pre.mermaid {
 pre.mermaid > svg {
     height: auto !important;
     max-height: none !important;
-    width: auto !important;
-    min-width: 100%;
+    width: 100% !important;
     max-width: 100% !important;
 }
 
-/* Mermaid SVG text font size to match body text (16px) */
+/* Mermaid SVG text - 匹配正文 16px 字号，避免尺寸计算不匹配 */
 pre.mermaid svg text,
 pre.mermaid svg tspan {
     font-size: 16px !important;
+}
+
+/* 限制 Mermaid 容器最大宽度不超过正文区域 */
+body .wy-nav-content pre.mermaid,
+.rst-content pre.mermaid {
+    max-width: 100%;
 }
 
 /* 首页网格卡片样式 */

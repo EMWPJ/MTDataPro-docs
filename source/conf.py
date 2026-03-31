@@ -30,9 +30,7 @@ myst_enable_extensions = [
 ]
 
 mermaid_version = "10.6.1"
-mermaid_init_js = (
-    'mermaid.initialize({startOnLoad:true,theme:"neutral",fontFactor:1.15});'
-)
+mermaid_init_js = 'mermaid.initialize({startOnLoad:true,theme:"neutral"});'
 
 templates_path = ["_templates"]
 
