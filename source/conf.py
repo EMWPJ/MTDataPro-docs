@@ -108,6 +108,7 @@ latex_documents = [
 latex_toplevel_sectioning = "chapter"
 latex_show_urls = "inline"
 latex_engine = "xelatex"
+# XeLaTeX engine is used for PDF generation with CJK support
 latex_elements = {
     "papersize": "a4",
     "pointsize": "10pt",
