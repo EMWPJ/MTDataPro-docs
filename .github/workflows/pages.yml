@@ -6,110 +6,81 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
-  contents: write
 
 concurrency:
   group: "docs-build"
   cancel-in-progress: false
 
 jobs:
-  # ------------------------------------------------------------------
-  # Job 1: Build HTML for GitHub Pages
-  # ------------------------------------------------------------------
   build-html:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
       - name: Build HTML
         run: sphinx-build -b html source _build/html
-
       - name: Upload HTML artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _build/html
 
-  # ------------------------------------------------------------------
-  # Job 2: Build PDF using XeLaTeX
-  # ------------------------------------------------------------------
   build-pdf:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
       - name: Build LaTeX
         run: sphinx-build -b latex source _build/latexpdf
-
       - name: Build PDF with XeLaTeX
         uses: xu-cheng/texlive-action@v3
         with:
           texlive_version: '2025'
           scheme: 'full'
           run: |
-            # Install Chinese fonts (Alpine Linux)
             apk add font-noto-cjk || true
-            # Find the Chinese font path
-            fc-list :lang=zh 2>/dev/null || echo "No Chinese fonts found"
-            # Build PDF (use -f to force despite errors)
             cd _build/latexpdf
             latexmk -pdf -f -file-line-error -interaction=nonstopmode *.tex
         timeout-minutes: 30
-
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
           name: MTDataPro-PDF
           path: _build/latexpdf/*.pdf
 
-  # ------------------------------------------------------------------
-  # Job 3: Build DOCX using Pandoc
-  # ------------------------------------------------------------------
   build-docx:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install pandoc
         run: |
-          # Download pandoc from GitHub releases
           curl -sL https://github.com/jgm/pandoc/releases/download/3.1.13/pandoc-3.1.13-linux-amd64.tar.gz | tar xz
           sudo mv pandoc-3.1.13/bin/pandoc /usr/local/bin/
           sudo chmod +x /usr/local/bin/pandoc
           pandoc --version
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
       - name: Build HTML
         run: sphinx-build -b html source _build/html
-
       - name: Build DOCX
         run: |
           pandoc _build/html/index.html \
@@ -118,16 +89,12 @@ jobs:
             --toc --toc-depth=3 \
             --resource-path=_build/html \
             --output=_build/MTDataPro文档.docx
-
       - name: Upload DOCX artifact
         uses: actions/upload-artifact@v4
         with:
           name: MTDataPro-DOCX
           path: _build/MTDataPro文档.docx
 
-  # ------------------------------------------------------------------
-  # Job 4: Deploy HTML to GitHub Pages
-  # ------------------------------------------------------------------
   deploy-pages:
     environment:
       name: github-pages
@@ -139,9 +106,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  # ------------------------------------------------------------------
-  # Job 5: Create GitHub Release with PDF and DOCX
-  # ------------------------------------------------------------------
   create-release:
     needs: [build-pdf, build-docx]
     runs-on: ubuntu-latest
@@ -153,13 +117,11 @@ jobs:
         with:
           name: MTDataPro-PDF
           path: artifacts
-
       - name: Download DOCX artifact
         uses: actions/download-artifact@v4
         with:
           name: MTDataPro-DOCX
           path: artifacts
-
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
