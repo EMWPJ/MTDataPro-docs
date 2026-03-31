@@ -111,10 +111,25 @@ latex_elements = {
     "papersize": "a4",
     "pointsize": "10pt",
     "preamble": """
-\\usepackage{xeCJK}
-\\setCJKmainfont{FandolSong}
-\\setCJKsansfont{FandolHei}
-\\setCJKmonofont{FandolFang}
+\\usepackage{iftex}
+\\ifXeTeX
+  \\usepackage{fontspec}
+  \\usepackage{xeCJK}
+  \\xeCJKsetup{
+      CJKspace=true,
+      xCJKecglue={}
+  }
+  \\setCJKmainfont{Noto Sans CJK SC}
+  \\setCJKsansfont{Noto Sans CJK SC}
+  \\setCJKmonofont{Noto Sans CJK SC}
+\\else
+  \\usepackage{xeCJK}
+  \\xeCJKsetup{
+      CJKspace=true,
+      xCJKecglue={}
+  }
+  \\setCJKmainfont{Noto Sans CJK SC}
+\\fi
 """,
 }
 

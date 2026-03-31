@@ -48,24 +48,17 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
             texlive-xetex \
-            texlive-lang-cjk \
-            texlive-lang-chinese \
-            texlive-fonts-extra \
             latexmk \
             fonts-noto-cjk \
-            fonts-freefont-ttf \
-            fonts-freefont-otf \
             fontconfig
           sudo fc-cache -fv
-          sudo mktexlsr
-          sudo updmap-sys
         timeout-minutes: 30
       - name: Build PDF
         run: |
           xelatex -version
           sphinx-build -b latex source _buildlatex
           cd _buildlatex
-          latexmk -pdf -file-line-error -interaction=nonstopmode mtdatapro.tex
+          latexmk -pdf -f -file-line-error -interaction=nonstopmode mtdatapro.tex
         timeout-minutes: 20
       - name: Upload PDF
         uses: actions/upload-artifact@v4
