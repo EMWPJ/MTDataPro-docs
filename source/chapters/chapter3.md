@@ -27,7 +27,6 @@ MTDP支持多种测点类型：
 | MTUSite | Phoenix MTU-5C/8A | JSON格式数据 |
 | MetronixSite | Metronix仪器 | ATM格式数据 |
 | LEMISite | LEMI长周期 | LEMI长周期格式 (.bin/.msr文件) |
-| UltraEMSite | 国科 UltraEM Z5/Z5L/Z5-8C | Z5L: 5通道(MT/LMT); Z5-8C: 8通道(MT+LMT) |
 
 | RMTSite | RMT格式 | 无线电MT |
 | SBFSite | SBF格式 | RMT数据 |

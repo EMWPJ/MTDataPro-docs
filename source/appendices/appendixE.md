@@ -12,6 +12,9 @@
 - Phoenix MTU-5/5A TBL格式
 - Phoenix MTU-5C/8A JSON格式
 - Metronix ADU-06/ADU-07/MMS系列
+- 国科 UltraEM Z5/Z5L/Z5-8C系列（[http://www.igeoco.com/](http://www.igeoco.com/)）
+  - Z5L：MT/LMT，5通道
+  - Z5-8C：MT+LMT，8通道
 - LEMI长周期仪器
 - RMT/CASRMT格式
 - Aether (ATTS) 格式
